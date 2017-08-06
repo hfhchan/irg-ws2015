@@ -1,0 +1,128 @@
+# Systematic
+02031 T13-2C78 UNIFY 溥 (U+6EA5) (UCV rule #68)
+
+02532 T13-2E37 UNIFY 甬 (Super common variation; see Hong Kong road signage. FS = 5.)
+
+02989 T13-2F6E UNIFY/IVD 移 (多 ~ 𢑑)
+
+02770 T13-2F33 UNIFY/IVD 瞑 (minor joining of stroke, 𠖇 ~ 冥, 第一批异体字整理表)
+
+02787 T13-2F37 UNIFY/IVD 瞽 (protrusion of stroke 鼔 ~ 鼓)
+
+02789 T13-2F38 UNIFY/IVD 矇 (similar shape 䝉 ~ 蒙 // 𪷟 ~ 濛 // 𬂔 ~ 朦)
+
+02023 T13-2C68 UNIFY/IVD 渃 (common variation of grass radical.  its use as 洛 in the evidence should be regarded as 近音假借)
+
+02027 T13-2C6F UNIFY/IVD 㳽 (common variation, 𢏏 ~ 弥, 尔 ~ 尒 ~ 尓)
+02980 T13-2F6A UNIFY/IVD 称 (common variation, 𢏏 ~ 弥, 尔 ~ 尒 ~ 尓)
+
+02400 T13-2D6B UNIFY/IVD 㹤 (common variation, 去 ~ 厺 // 法 ~ 㳒 // 胠 ~ 𦚁)
+
+02404 T13-2D6E UNIFY/IVD 狭 (common variation, minor difference 㚐 ~ 夹)
+
+03356 T13-3041 UNIFY/IVD 𦏧 (alternative transcription, 丮 ~ 𠃨 // 𠱨 ~ 𠯎 // 	𡖕 ~ 𡖊 // 𢝭 ~ 𢙷 // 𢦻 ~ 𤜾 etc)
+
+03089 T13-302F UNIFY/IVD 笑 (refer to ROK Normalization)
+
+02020 T13-2C6C IVD 溪 (common 省寫, 雞 ~ 鶏. IVD example: u8e4a-ue0101)
+
+02826 T13-2F43 IVD 砥 (common variation popular in Tang dynasty)
+
+02722 T13-2F23 IVD 盲 (misc 亾 ~ 亡, alternative common seal-script transcription)
+
+04924 T13-314F IVD 馳 (也 ~ 𠃟)
+
+04947 T13-3151 IVD 𩣺 (奔 ~ 𢍃)
+
+03039 T13-2F7C IVD 窕 (𡉵 ~ 兆)
+
+
+
+# Non-systematic
+
+03036 T13-2F79 UNIFY U+2E0FB (JMJ-058242).
+
+02723 T13-2F24 IVD 直 (similar abstract shape, IVD)
+02724 T13-2F27 IVD 直 (similar abstract shape, IVD)
+02728 T13-2F26 IVD 直 (similar abstract shape, IVD)
+
+02736 T13-2F2C IVD 真 (similar abstract shape, IVD)
+02743 T13-2F2E IVD 真 (similar abstract shape, IVD)
+
+02726 T13-2F25 IVD 易 (additional single-stroke corruption, IVD. 碑別字新編)
+02731 T13-2F28 IVD 春 (additional single-stroke corruption, IVD. 偏類碑別字)
+
+02735 T13-2F2A IVD 相 (accidential additional of intiating stroke, IVD. 碑別字新編)
+
+02440 T13-2D75 IVD 𤡒 (corrupted form of 𤡒)
+
+02433 T13-2D74 IVD 獄 (corrupted form of 獄)
+02435 T13-2D73 IVD 獄 (corrupted form of 獄)
+
+02431 T13-2D72 IVD 獨 (corrupted form of 獨)
+
+02003 T13-2C65 IVD 游 (alternative transcript form of 㫃 as 方)
+
+02004 T13-2C66 IVD 滿 (corrupted form of 滿)
+
+02005 T13-2C67 IVD 淀 (refer to ROK Normalization)
+
+02011 T13-2C69 IVD 浙 (corrupted form)
+
+02019 T13-2C6A IVD 𣶚 (alternative transcription of seal script, ref: http://www.zdic.net/z/1d/sw/6D8E.htm)
+
+02026 T13-2C6B IVD 涵 (joining of strokes, direction of strokes)
+
+02407 T13-2D6D IVD 奔 (addition of minor dot)
+
+04261 T13-3130 IVD 匹 (calligraphic simplification, 辶 ~ 乚)
+04268 T13-3132 IVD 延 (calligraphic simplification, 乚 ~ 廴)
+04277 T13-3135 IVD 建 (calligraphic simplification, 乚 ~ 廴)
+04304 T13-313E IVD 奩 (calligraphic simplification, 乚 ~ 廴)
+
+03366 T13-3043 IVD 光 (corrupted form, joining of strokes)
+
+03391 T13-304A IVD 有 (alternative transcription of meat)
+03427 T13-304D IVD 䏸 (alternative transcription of meat; 偏類碑別字, context says 別字)
+
+02973 T13-2F6B IVD 稱 (calligraphic simplification, 冄 ~ 冉)
+
+02981 T13-2F67 IVD 祠 (corrupted form, NUCV, 碑別字新編)
+02998 T13-2F72 IVD 祿 (corrupted form, NUCV, 碑別字新編)
+
+03386 T13-3046 IVD 晝 (calligraphic simplification, joining of components)
+03387 T13-3047 IVD 畫 (calligraphic simplification, joining of components)
+03388 T13-3049 IVD 畫 (calligraphic simplification, joining of components)
+03389 T13-3048 IVD 書 (alternative transcription of seal script)
+
+03043 T13-2F7E IVD 寮 (corruption - multiple mix-and-match variation: 寮 (u5bee) / 竂 (u7ac2) / 𡨵 (u21a35) / 𥨤 (u25a24))
+03060 T13-3026 IVD 竂 (corruption - multiple mix-and-match variation: 寮 (u5bee) / 竂 (u7ac2) / 𡨵 (u21a35) / 𥨤 (u25a24))
+
+03062 T13-3027 IVD 竅 (corruption)
+
+03067 T13-3028 IVD 彥 (corruption, seal script)
+
+03073 T13-302B IVD 竭 (corruption)
+
+03075 GHZR52905.02|T13-302A IVD 童
+
+05547 T13-3159 IVD 𪛋 (missing of component)
+
+02497 T13-2E2F IVD 琅 (𥭷 ~ 良, alternative transcription)
+
+03149 T13-3035 IVD 料 (joined strokes, protrusion of strokes)
+03159 T13-3037|USAT04879 IVD 料 (升 ~ 斗) (direction of strokes, protrusion of strokes)
+
+03151 T13-3036 IVD 氣 (missing stroke, initiation direction of strokes, Lishu transcription)
+03156 T13-3038 IVD 氣 (missing stroke, initiation direction of strokes, Lishu transcription)
+03160 T13-3039 IVD 氣 (difference in bent strokes, differences of stroke or dot)
+
+02525 T13-2E35 IVD 物 (additional stroke, not minor)
+
+02531 T13-2E36 IVD 用 (protusion of stroke, 金石文)
+
+05084 T13-3156 UNIFY 曾 / 曽 (additional stroke)
+
+--
+
+05499 T13-3158 IVD to 𪗡 (U+2A5E1)?

@@ -1,0 +1,2182 @@
+# unclear Evidence @ Korea
+05131 KC-05955: unclear evidence: 蘖 or 糵
+00082 KC-00039: unclear evidence: 西 or 覀
+00596 KC-00447: unclear evidence: 承 with three strokes? two strokes?
+00087 KC-00046: unclear evidence: 目力 or 助?
+00091 KC-00053: unclear evidence: 具 with three strokes? two strokes?
+04169 KC-04069: unclear evidence: right hand side
+00394 KC-00299: unclear evidence: ⿲木夕木? 棥? 
+00630 KC-00502: unclear evidence: 恠 or 巾?
+
+# Normalization Problem @ PRC / UTC
+00054 GHZR10035.23: Does not match PRC's conventions, Normalize to ⿰𠂤来; synomyn of 歸 or 𣦨. change radical to 木, SC = 9, FS = 3 TS = 13
+00090 GHZR10064.09: Does not match PRC's conventions, Normalize to ⿰曷乚, SC = 9
+05444 GHZR84908.26: Does not match PRC conventions: 差 should be one stroke.
+
+04505 UTC-02827: Does not match PRC Conventions: First stroke should be 橫 for 吞. Revert glyph change.
+05355 UTC-02853: Does not match PRC Conventions: Last stroke of left component should be a 點.
+05325 UTC-02441: Does not match PRC Conventions: Left hand component should be left of 即, SC = 5.
+05388 UTC-02498: Does not match PRC Conventions: The tenth stroke should be 點, not 捺.
+05468 UTC-02579: Does not match PRC Conventions: The fifth stroke should be 點, not 豎彎.
+04615 UTC-02191: Does not match PRC Conventions: The second stroke of 人 should be 點, not 捺.
+00193 UTC-02805: Does not match PRC Conventions: The middle part of 亟 is 了, not right of 巧.
+00756 UTC-01701: Does not match PRC Conventions: The last stroke of the middle component is 提.
+05164 UTC-02715: does not match PRC conventions: top right should be one stroke; SC = 7 is correct.
+05197 UTC-02557: does not match PRC conventions: right hand side should be normalized to 恒; unify to 05198.
+
+
+02444 UTC-01773: Need confirmation: Right side should be 蕲 (grass span the top), corrupted form of 𣄨. Withdraw.
+
+
+05207 UTC-02565: Need confirmation, the right hand side should be 专 (𫚋). 專 should be progressively simplified to 专.
+05215 UTC-02573: Need confirmation, the right hand side should be 尝 (鲿). 嘗 should be progressively simplified to 尝.
+
+04616 G_Z2971101: Should confirm; normalize according to PRC conventions.
+
+# IRG Error
+02343 UTC-02856: need not be withdrawn; should be unified to U+2459B instead of U+2C312.
+
+04849 GHZR84783.08: SC = 11 (敖 - 11: 傲/嗷/嫯...)
+04845 GHZR84779.08: SC = 8 (夌)
+05437 GHZR84907.04: SC = 8 (备)
+05447 GHZR84908.24: SC = 10 (俻)
+04740 GHZR74337.09: SC = 9 (𢓤)
+05462 GHZR85064.13: SC = 7 (夆)
+05534 GHZR85122.02: SC = 6 (幵), ref: U+2A69C
+00707 G_Z1311203: SC = 5 (冬)
+03227 G_Z1382201: SC = 8 (图)
+03137 G_Z3282401: SC = 15 (模)
+05473 G_Z1402101: SC = 5 (冬)
+00811 G_Z2301204: SC = 11 (冬 = 5)
+00890 G_Z1882101: SC = 11 (巨 = 5)
+00847 G_Z2621401: SC = 10 (𡘤)
+04921 G_Z1632401: SC = 11 (逢)
+00836 G_Z3832101: SC = 8 (及 = 4)
+00667 G_Z1771102: SC = 16 (鋼)
+03081 G_Z4252202: SC = 11 (逢)
+01606 G_Z0822104: SC = 12 (着)
+00676 G_Z4292102: SC = 19 (⿱龍下)
+00214 G_Z4692409: SC = 10 (祖); IRGN954AR; End of IRG47: SC assigned by Chief Editor irrespective of locale's conventions.
+04700 G_Z4271404: SC = 13 (路)
+02714 G_Z2311402: SC = 17 (都) (都 - 12:都/嘟/𧬥/𧷿/𦡄/𣛭/𢵋...)
+02011 T13-2C69: SC = 7 (扸)
+03429 KC-03468: SC = 8 (具)
+04126 KC-04024: SC = 13 (黽)
+00806 KC-04946: SC = 23
+03016 KC-03092: SC = 12 (肅 - 12:肅/嘯/彇/橚/歗/潚/熽/璛/簫/繡/蕭/蟰/鏽/驌/鱐/鷫...); End of IRG47: SC assigned by Chief Editor irrespective of locale's conventions.
+01678 USAT90070: SC = 4 (牙 - 4: 伢/冴/呀/岈...)
+00756 UTC-01701: SC = 11 (渐)
+02683 UTC-02860: SC = 10 (骨)
+04827 UTC-02287: SC = 10 (骨)
+05376 UTC-02487: SC = 12 (渠)
+05530 UTC-02610: SC = 10 (差)
+00899 UTC-01431: SC = 19 (黽 = 13)
+00864 UTC-01674: SC = 7
+05167 UTC-02533: SC = 7 (𦣞)
+05545 UTC-02615: SC = 12 (敝)
+04538 UTC-02246: SC = 11 (敖)
+05377 UTC-02488|01013 G_Z1391302: SC = 12 (屠 - 12:屠/廜/潳/鷵/䠧/䣝...)
+
+05232 GHZR84932.16: SC = 7 (成 - 7:娍/峸/宬/晟/晠/珹/窚/筬/絾/膥/臹/荿...; 6:成/城/盛/誠)
+00701 G_Z4611701: SC = 7 (成 - 7:娍/峸/宬/晟/晠/珹/窚/筬/絾/膥/臹/荿...; 6:成/城/盛/誠)
+03263 UTC-01990: SC = 7 (成 - 7:娍/峸/宬/晟/晠/珹/窚/筬/絾/膥/臹/荿...; 6:成/城/盛/誠)
+
+00527 UTC-01446: SC = 10.
+
+02294 G_Z3312401: FS = 1; SC = 16 (⿰灰蒙)
+04924 T13-314F: FS = 2; SC = 5 (艺)
+04931 T13-3150: FS = 2; SC = 7 (𦬊)
+01180 USAT06432: FS = 2; SC = 11 (莫)
+04764 USAT08542: FS = 2; SC = 9 (苟)
+
+02746 UTC-01877: SC = 7? SC = 8? (丽)
+04094 UTC-02120: SC = 7? SC = 8? (丽)
+00376 UTC-01690: SC = 7? SC = 8? (丽)
+
+01153 USAT06491: SC of 止 is 3 or 4?
+
+03432 G_Z2791502: SC = 7; FS = 1? (𫇦)
+02846 UTC-01862: SC = 5; FS = 1? (𫇦)
+03179 UTC-02846: SC = 7, FS = 1? (𫇦)
+00868 UTC-01737: SC = 5; FS = 1? (𫇦)
+
+# Change IDS
+05064 GHZR84889.06: IDS ⿱⿲弓⿰天天弓鬲
+05067 GHZR84889.19: IDS ⿱⿲弓⿰失失弓鬲
+00075 GHZR10061.12: IDS should be ⿱龸乙 - don't use PUA characters
+00264 G_Z4291302: IDS should be ⿰光尨
+04135 G_Z2171101: IDS - ⿰𧾷𡚖
+00073 KC-00016: IDS should use 不 U+4E0D instead of U+F967
+00635 KC-00531: IDS should be ⿰口歃
+04768 KC-04468: IDS should be ⿰革⿱艹戌 -- CHECK for CORRUPTION (missing 罒)
+03025 KC-03112: IDS should be ⿰禾瞿
+03121 KC-03189: IDS should be ⿱竹音
+03181 KC-03264: IDS should be ⿰米背
+00247 KC-00226: IDS should be ⿰亻熹.
+00401 KC-00308: IDS should be ⿰⿱免⿰免免刂
+00676 G_Z4292102: IDS should be ⿰口⿱龍下
+00762 KC-00720: IDS should be ⿰土𦰩.
+
+
+# Unorthodox Simplified Forms
+04771 UTC-02738: Simp form is 兰? 𬞕?
+04778 UTC-02330: Correct form is 末, not 未. Withdraw.
+04792 UTC-02329: Correct form is 韵. Withdraw. << Don't withdraw, EISO says there are names using this character.
+04476 UTC-02214: Correct form is 钩.
+04570 UTC-02263: Correct form is 镌 or 𫔔.
+04571 UTC-02264: Correct form is 钻.
+
+# Authority of Evidence?
+01868 GHZR42324.02: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+01871 GHZR42325.09: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+00431 GHZR10098.04: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+00406 GHZR10403.01: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+
+# Should not postpone:
+04597 G_Z4322205: Confirm: the phonetic is 彔(=六); normalize to 录 for PRC.
+
+
+# Others
+00020 UTC-02779: characters of ⿱不X should use X as radical?
+
+00125 UTC-01633: Radical 止?
+
+03497 USAT06448: change radical to 皮 107, SC: 6, FS: 1
+
+01595 KC-01630: old glyph ⿰日留 should be unifable with current glyph. Either revert glyph change or change IDS.
+03146 KC-03245: old glyph ⿱竹釋 is more etymologically correct. Either revert glyph change or change IDS & SC.
+
+02713 UTC-01593: Phonetic is 采? 釆? POSTPONE OR WITHDRAW
+
+01646 USAT09486: Variant of meat; semantic variant of 腒 from context; a type of small poultry
+
+00221 GHZR10258.02: Right hand side should be normalized to 𣥿
+00249 KC-00229: Consider normalizing to ⿰亻頴. SC = 16
+03190 KC-03272: Consider normalize right hand side to 舂 or change IDS to 𣇃. // UNIFY TO U+2E1FA
+
+05258 GHZR84970.03 IVD 鶚 (㖾 ~ 咢, 隸定)
+03876 USAT06656 IVD 諤 (㖾 ~ 咢, 隸定).
+01069 USAT08571 IVD 崿 (㖾 ~ 咢, 隸定)
+03645 USAT09183 IVD 萼 (㖾 ~ 咢, 隸定)
+01070 USAT08983 IVD 㟧 (㖾 ~ 咢, 隸定)
+00641 USAT07095 IVD 㗁 (㖾 ~ 咢, 隸定)
+
+03450 USAT07093: Right Hand side may be normalized to 㖾 or 咢; UNIFY to 𦠍 (IVD meat ~ 2ebc)
+01659 USAT07094: Right Hand side may be normalized to 㖾 or 咢; UNIFY to 𦠍
+
+01685 UTC-02755: Radical 厂 27, SC = 8 OR adjust the glyph shape.
+
+05241 G_Z3092101: POSTPONED; normalize to 冒 or 冐 for PRC Convention.
+
+05264 KC-04718: Keep original glyph, they should be unifiable, or change SC to 12, IDS = ⿰鳥嵗.
+
+02776 GHZR52684.18 UNIFY WITH 02778 T13-2F35
+
+01020 GHZR10435.13 = 𡴝 (夲 ~ 𠦍) (http://www.zdic.net/z/17/sw/594F.htm)
+
+01145 KC-01124: Glyph does not match IDS nor evidence; should be 失 instead of 矢.
+
+04798 USAT90221: Wrong character, correct character should be 頓. NOT SYNONYM to 𩒊. Suggest Pending/Withdraw.
+
+02443 G_Z3021104: Don't change R/S to 200.8, keep at 94.15.  Phonetic = 麻; Semantic = 狗. Change RS = 16.
+
+01789 GHZR31409.11: Radical 36, SC = 16 (variant of 無)
+01793 GHZR31417.05: Radical 30, SC = 18 (variant of 無)
+
+00307 GHZR10117.09: severe corruption of 晶
+
+
+03371 USAT09980: font-design, bottom left should be larger, reference USAT09981.
+
+03408 T13-304B: Top part should be normalized to 亓, classical form of 其
+
+03022 KC-03110: unclear evidence; 憲 with dot or without dot?
+
+00005 USAT05803: Is Geometric decomposition of character elligible for encoding?
+
+00544 USAT05033: single case calligraphic simplification of 咎, IVD.
+
+00666 KC-00569: IDS / character structure is ⿰口薄? ⿰口⿰氵蒪?
+
+00682 UTC-01451 UNIFY TO 圉 (幸 ~ 㚔)
+
+00698 UTC-01204 UNIFY TO 坺
+
+00761 KC-00729: right hand side is 喜?
+
+
+00741 KC-00688: evidence shows ⿰氵垕?
+
+05192 UTC-02553: the evidence supplied is for a different character.
+
+05250 GHZR84958.01 UNIFY U+2A122.
+
+00766 KC-00723: normalize glyph to 卨 & IDS should be ⿰土卨? (original glyph) or normalize to 𥜽?
+
+00765 UTC-01217 UNIFY WITH 00777 UTC-01219 (keep 00777).
+
+00801 GHZR10534.11 alternative transcription of 𡓙.
+
+00817 UTC-02921 UNIFY TO 𠣸.
+
+00941 KC-00905: bottom part is 爯?
+
+01034 USAT08754 IVD 前
+
+05120 KC-05947: ⿰魚襄 is not yet encoded.  Would Korea consider normalization to 襄?
+00539 KC-00392: Glyph Design: two dots at the top can be closer.
+
+01648 USAT06769 = 胯 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+05026 USAT09817 = 骻 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+00375 USAT09219 = 刳 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+
+03045 USAT04472 UNIFY U+41A9 (具 ~ ⿱目大)
+
+00481 USAT05639 = 厀 (𣷚 ~ 桼: 𣾰~漆 // 𦡀~膝 // 𨞢~䣛, extra dot)
+
+01139 USAT05879 = 唐 (庚 ~ 唐 top)
+01179 USAT08918 = 弶 (亰 ~ 京)
+01184 USAT08484 = 彗 (alternate transcription of seal script. 隸定)
+
+00717 USAT06688 consider normalize right hand component to 乕.
+
+00208 USAT09305 IVD 偄 (耎 ~ 䎡)
+
+00209 USAT10245 IVD 僫 (惡 ~ 𢙣)
+
+04063 USAT09122 IVD 趄 (走 ~ 𧺆)
+04072 USAT07049 IVD 𧽍 (走 ~ 𧺆)
+04075 USAT09807 IVD 趫 (走 ~ 𧺆)
+00839 USAT09815 IVD U+479A (走 ~ 𡗱; context right hand side should be 支 not 攴)
+00848 USAT09573 IVD U+27F32 (走 ~ 𡗱)
+
+
+00511 USAT09010 = 支 (alternate transcription of seal script (隸定), according to 說文, 支 is composed by ⿱个又)
+
+00684 USAT08864 = 嗇 (𠻮 ~ 嗇, from context, the dictionary intend to mean 嗇)
+
+03640 USAT08414 = 蓿 (㝛 ~ 宿)
+
+01777 USAT09255 IVD 橑 (𤊽 ~ 尞)
+
+00558 USAT09874 = 𠴏 (亾 ~ 亡)
+
+00606 USAT09534 IVD 唬 (虎 ~ 𧆞)
+
+00144 USAT08529 UNIFY 矢 (Similar shape)
+
+00132 USAT06168 = 亢 (Frequent Variation)
+
+00706 USAT06991 = 𪢽 (alternative transcription)
+
+00165 USAT06442 = 㐭 (隸定)
+
+01600 USAT10178 = 暪 (Obvious from context, 瞞 is used below)
+
+00301 USAT06181 IVD 㡀 (extra two strokes, very common)
+
+00195 USAT09927 = 倖 (Extra stroke with 羍, should be 㚔 according to context. 幸 ~ 羍 ~ 㚔).
+00882 USAT09928 = 婞 (Extra stroke with 羍, should be 㚔 according to context. 幸 ~ 羍 ~ 㚔).
+
+01633 USAT09518 = 臾 / 㬰 (𥒏 ~ 𥑷 ~ 𥔢 // http://dict2.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QjAxNDkwLTAwMg "凡同此偏旁，文獻多見類似變化，可視為異體演變之例。")
+
+03474 USAT10234 IVD 臏 (賔 ~ 賓)
+
+01642 USAT05873 = 卵 (obvious from context, typographical variation, http://dict2.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwNDUzLTAwMg)
+01869 USAT10202 = 𣫘 (obvious from context, typographical variation)
+
+00474 USAT09908 UNIFY 印 (addition of minor dot)
+
+00262 USAT09421 = 尰 (difference in stroke initiation direction)
+
+05266 USAT09827 = 𪇑 (𡼡 ~ 熏)
+
+00010 USAT05822 = 甹 (𦕊/𨉂 ~ 聘 // http://www.guoxuedashi.com/zidian/ytz_2939p.html, http://www.guoxuedashi.com/zidian/ytz_4745z.html)
+
+02783 USAT10106 = 𥈃 (𡨼 ~ 叜: 𢠡 ~ 𢜶 // 𢻟 ~ 𢾐 // 𤡗 ~ 𤟫 // 𪷅 ~ 𣸈)
+
+00991 USAT10469 = corruption of 尗. Apparent from context.
+
+00994 USAT06451 = alternate transcription of 𡯪/𡯭/尫.
+
+01011 USAT10585 = 㞚 (𠚏 ~ 臿)
+
+00438 USAT08779 = 匱 (貴 ~ 䝿 // 𡃪 ~ 嘳 // 𡓤 ~ 墤 // 𢤳 ~ 憒 // 𣟨 ~ 樻 etc.)
+
+03096 USAT05469 = 笑 (refer to ROK Normalization)
+
+00392 USAT09308 = 𠞮 (𠁊 ~ 爽 // 𥡠 ~ 𥢡 // 塽 ~ 𡑽) (Refer to 04963 GHZR84874.02)
+
+00861 USAT90292 unify to 妭
+
+00889 USAT07214 corrupted form of 媲 (U+5AB2). unify to 𡠴 (U+21834).  according to context, pronounce as pi4, cannot possibly be 恖 (cong1)
+
+00897 USAT05213 UNIFY 嫯; 𢾕 is alternate transcription of 敖 (𢶗=摮 // 𣿗=滶 // 𨗯=遨 etc.)
+
+00949 USAT08922 normalize/UNIFY TO 弿, handwriting transcription
+
+00196 USAT10443 IVD 俞 (月 ~ 舟)
+00579 USAT09301 IVD 唈 (Different structure of components; Consider IVD)
+
+00746 USAT08504 = 𡍩; 𡱞 is common error form of 㡿.
+
+00136 USAT07028 = 伊 (ommitted stroke, taboo?)
+
+01195 USAT06632 = 保 (corrupted character, "誤謬之甚" in quoted text, glyph image does not match evidence (口丶不))
+
+00447 USAT10599 = 𠦒 (protrusion of strokes)
+
+00995 USAT08396 = 㞂 (corrupted character, the 反切 indicates it should be 妥 phonetic. Ref:http://web.archive.org/web/20170204210233/http://pic.guoxuedashi.com/dzd1/554.png)
+
+01003 USAT09017 = 屐 (corrupted character, shoe is related to ㄔ walk, not 扌)
+
+01014 USAT07065 = 𡱤/𣭼 (corrupted character, from context, very clear it should be 水)
+
+02295 USAT90366 = 譙 (component rearranged. (ref: 蘸))
+
+00440 USAT09040 = 午 (IVD), inaccurate transcription of http://www.zdic.net/z/16/sw/5348.htm
+
+04109 USAT08867 = 踏 (IVD), corrupted character, according to context, phonetic is 沓 (ta1) instead of 畓 (duo1). 畓 is korean in origin.
+
+03223 USAT08401 IVD to 綱 (𡶩 ~ 岡, top/bottom vs wrap around)
+
+# There are a large number of characters where the U+2EBC has been replaced with the full 肉 radical.  IRG should consider to allow encoding these characters as IVD as there are 500+ characters with U+2EBC; variants using 肉 are sufficiently rare in modern usage.
+00282 USAT08988 IVD 䏌: 肉 vs U+2EBC
+03390 USAT06462 IVD 肊: text indicates 乙 as phonetic; 肉 vs U+2EBC
+03392 USAT09914 IVD 肋: 肉 vs U+2EBC
+03393 USAT06266 IVD 肙: 肉 vs U+2EBC
+03395 USAT08303 IVD 𦘺: 肉 vs U+2EBC
+03397 USAT10232 IVD 肧: 肉 vs U+2EBC
+03403 USAT05646 IVD 肴: 肉 vs U+2EBC, top 爻 (ref: 希~𢁫 // 04335)
+03405 USAT90295 IVD 股/肢: 肉 vs U+2EBC
+03407 USAT08919 IVD 育: 肉 vs U+2EBC
+03411 USAT06030 IVD 背: 肉 vs U+2EBC
+03414 USAT08746 IVD 䏣: 肉 vs U+2EBC
+03416 USAT90297 IVD 胜: 肉 vs U+2EBC
+03419 USAT06375 IVD 肺: 肉 vs U+2EBC; IDS: ⿰肉巿
+03420 USAT10231 IVD 胎: 肉 vs U+2EBC
+03422 USAT06361 IVD 胷: 肉 vs U+2EBC
+03423 USAT08968 IVD 脃: 肉 vs U+2EBC
+03426 USAT06768 IVD 胯: 肉 vs U+2EBC; (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+03437 USAT07202 IVD 腴: 肉 vs U+2EBC; SC = 9
+
+# WRONG CHARACTERS; Possibly Withdraw:
+03142 USAT04512 - ERROR FORM OF 籀; can unify/ivd to 籕/籀 (?)
+03206 USAT06879 - ERROR FORM OF 紓; see context
+01857 USAT06080 - text says it is a wrong character.
+04114 USAT09253 - dubious - text says "字書無此字"
+03370 USAT06512 - dubious - text says "不成字古文", seems like 屬 with the second component joined to become 土, and the bottom-most component corrupted into 而.
+03378 USAT06426 - dubious, corrupted form of 眄. According to context, should be 目.
+03385 USAT08305 - dubious, corrupted form of 𥋃.  According to context, must be 目.
+03014 USAT08751 - character is designed wrongly by the evidence, according to the context, it should be 鐫. UCV or withdraw.
+03138 USAT07241 - dubious - text says 從草從勝 which should be 蕂 (sheng4) but the pronunciation given in context is teng2 (籐).
+02745 USAT04667 - horrible corruption of 映.  Incorrect transcription of Seal Script character - not Regular Script. Withdraw. Ref: http://www.zdic.net/z/1b/sw/6620.htm
+00310 USAT03880 - evidence on left shows it being used as 伞, evidence on right is an obvious design error of 夲 according to context. Withdraw.
+00578 USAT05586: Error of 㖾. Other modern texts use 噩, which is synomous with 㖾/咢
+00127 USAT10021: Obvious printing error. In context it should be 眔, i.e. 眔 + 衣 --> 褱.
+00057 USAT06522: Error form of 丿. The original text in 說文 is one stroke only (丿).
+00644 USAT09596: Error.  In context it is explaining the pronunciation of the previous "噍", but the second character has been printed as ⿰口𤊙 instead of 噍.
+00294 USAT05839: According to context, the geometric decomposition should be 宀.
+00655 USAT04678: Error form of 𪔓; missing component.
+02761 USAT06596: corrupted form of 聡. 目 is similar to 耳 in ancient texts.
+04840 USAT10047: corrupted form of 𩘌. 秋 is qiu1 (qiou1), 𩘌 is sou1, 狄 is di2.  There is no possibilty of 狄 being the phonetic.
+00126 USAT90058: Error form of 朚 (corruption of bottom component from 明 to 朋)
+00257 USAT06965: 及 from context, no such 「古文」 attests such source.  More Evidence?
+
+# Really SYNONOMOUS?
+03095 USAT05025 REALLY SYNONYMOUS TO 筩 U+7B69?
+03431 USAT08709 Normalize top to 𣏟; NOT SYNONOMOUS WITH U+2C0D5
+03158 USAT04879 NOT SYNONOMOUS WITH 䉼 U+427C but 料 U+6599.
+00448 USAT10620 REALLy SYNONYMOUS TO 𢆎? Should have 㪅.
+01025 USAT02486 really synonymous to 岲 (U+5CB2)/𡵚 (U+21D5A)/㟋 (U+37CB)/𡷋 (U+21DCB)?
+
+
+# TCA:
+02031 T13-2C78 UNIFY 溥 (U+6EA5) (UCV rule #68)
+
+02532 T13-2E37 UNIFY 甬 (Super common variation; see Hong Kong road signage. FS = 5.)
+
+02989 T13-2F6E UNIFY/IVD 移 (多 ~ 𢑑)
+
+02770 T13-2F33 UNIFY/IVD 瞑 (minor joining of stroke, 𠖇 ~ 冥, 第一批异体字整理表)
+
+02787 T13-2F37 UNIFY/IVD 瞽 (protrusion of stroke 鼔 ~ 鼓)
+
+02789 T13-2F38 UNIFY/IVD 矇 (similar shape 䝉 ~ 蒙 // 𪷟 ~ 濛 // 𬂔 ~ 朦)
+
+02023 T13-2C68 UNIFY/IVD 渃 (common variation of grass radical.  its use as 洛 in the evidence should be regarded as 近音假借)
+
+02027 T13-2C6F UNIFY/IVD 㳽 (common variation, 𢏏 ~ 弥, 尔 ~ 尒 ~ 尓)
+02980 T13-2F6A UNIFY/IVD 称 (common variation, 𢏏 ~ 弥, 尔 ~ 尒 ~ 尓)
+
+02400 T13-2D6B UNIFY/IVD 㹤 (common variation, 去 ~ 厺 // 法 ~ 㳒 // 胠 ~ 𦚁)
+
+02404 T13-2D6E UNIFY/IVD 狭 (common variation, minor difference 㚐 ~ 夹)
+
+03356 T13-3041 UNIFY/IVD 𦏧 (alternative transcription, 丮 ~ 𠃨 // 𠱨 ~ 𠯎 // 	𡖕 ~ 𡖊 // 𢝭 ~ 𢙷 // 𢦻 ~ 𤜾 etc)
+
+03089 T13-302F UNIFY/IVD 笑 (refer to ROK Normalization)
+
+02020 T13-2C6C IVD 溪 (common 省寫, 雞 ~ 鶏. IVD example: u8e4a-ue0101)
+
+02826 T13-2F43 IVD 砥 (common variation popular in Tang dynasty)
+
+02722 T13-2F23 IVD 盲 (misc 亾 ~ 亡, alternative common seal-script transcription)
+
+04924 T13-314F IVD 馳 (也 ~ 𠃟)
+
+04947 T13-3151 IVD 𩣺 (奔 ~ 𢍃)
+
+03039 T13-2F7C IVD 窕 (𡉵 ~ 兆)
+
+03036 T13-2F79 UNIFY U+2E0FB (JMJ-058242).
+
+02723 T13-2F24 IVD 直 (similar abstract shape, IVD)
+02724 T13-2F27 IVD 直 (similar abstract shape, IVD)
+02728 T13-2F26 IVD 直 (similar abstract shape, IVD)
+
+02736 T13-2F2C IVD 真 (similar abstract shape, IVD)
+02743 T13-2F2E IVD 真 (similar abstract shape, IVD)
+
+02726 T13-2F25 IVD 易 (additional single-stroke corruption, IVD. 碑別字新編)
+02731 T13-2F28 IVD 春 (additional single-stroke corruption, IVD. 偏類碑別字)
+
+02735 T13-2F2A IVD 相 (accidential additional of intiating stroke, IVD. 碑別字新編)
+
+02440 T13-2D75 IVD 𤡒 (corrupted form of 𤡒)
+
+02433 T13-2D74 IVD 獄 (corrupted form of 獄)
+02435 T13-2D73 IVD 獄 (corrupted form of 獄)
+
+02431 T13-2D72 IVD 獨 (corrupted form of 獨)
+
+02003 T13-2C65 IVD 游 (alternative transcript form of 㫃 as 方)
+
+02004 T13-2C66 IVD 滿 (corrupted form of 滿)
+
+02005 T13-2C67 IVD 淀 (refer to ROK Normalization)
+
+02011 T13-2C69 IVD 浙 (corrupted form)
+
+02019 T13-2C6A IVD 𣶚 (alternative transcription of seal script, ref: http://www.zdic.net/z/1d/sw/6D8E.htm)
+
+02026 T13-2C6B IVD 涵 (joining of strokes, direction of strokes)
+
+02407 T13-2D6D IVD 奔 (addition of minor dot)
+
+04261 T13-3130 IVD 匹 (calligraphic simplification, 辶 ~ 乚)
+04268 T13-3132 IVD 延 (calligraphic simplification, 乚 ~ 廴)
+04277 T13-3135 IVD 建 (calligraphic simplification, 乚 ~ 廴)
+04304 T13-313E IVD 奩 (calligraphic simplification, 乚 ~ 廴)
+
+03366 T13-3043 IVD 光 (corrupted form, joining of strokes)
+
+03391 T13-304A IVD 有 (alternative transcription of meat)
+03427 T13-304D IVD 䏸 (alternative transcription of meat; 偏類碑別字, context says 別字)
+
+02973 T13-2F6B IVD 稱 (calligraphic simplification, 冄 ~ 冉)
+
+02981 T13-2F67 IVD 祠 (corrupted form, NUCV, 碑別字新編)
+02998 T13-2F72 IVD 祿 (corrupted form, NUCV, 碑別字新編)
+
+03386 T13-3046 IVD 晝 (calligraphic simplification, joining of components)
+03387 T13-3047 IVD 畫 (calligraphic simplification, joining of components)
+03388 T13-3049 IVD 畫 (calligraphic simplification, joining of components)
+03389 T13-3048 IVD 書 (alternative transcription of seal script)
+
+03043 T13-2F7E IVD 寮 (corruption - multiple mix-and-match variation: 寮 (u5bee) / 竂 (u7ac2) / 𡨵 (u21a35) / 𥨤 (u25a24))
+03060 T13-3026 IVD 竂 (corruption - multiple mix-and-match variation: 寮 (u5bee) / 竂 (u7ac2) / 𡨵 (u21a35) / 𥨤 (u25a24))
+
+03062 T13-3027 IVD 竅 (corruption)
+
+03067 T13-3028 IVD 彥 (corruption, seal script)
+
+03073 T13-302B IVD 竭 (corruption)
+
+03075 GHZR52905.02|T13-302A IVD 童
+
+05547 T13-3159 IVD 𪛋 (missing of component)
+
+02497 T13-2E2F IVD 琅 (𥭷 ~ 良, alternative transcription)
+
+03149 T13-3035 IVD 料 (joined strokes, protrusion of strokes)
+03159 T13-3037|USAT04879 IVD 料 (升 ~ 斗) (direction of strokes, protrusion of strokes)
+
+03151 T13-3036 IVD 氣 (missing stroke, initiation direction of strokes, Lishu transcription)
+03156 T13-3038 IVD 氣 (missing stroke, initiation direction of strokes, Lishu transcription)
+03160 T13-3039 IVD 氣 (difference in bent strokes, differences of stroke or dot)
+
+02525 T13-2E35 IVD 物 (additional stroke, not minor)
+
+02531 T13-2E36 IVD 用 (protusion of stroke, 金石文)
+
+05084 T13-3156 UNIFY 曾 / 曽 (additional stroke)
+
+# UK:
+01872 UTC-02847 = 㲀 (error form.  phonetic element clearly 辰)
+
+02836 UTC-02656 = 𥒎 (UCV)
+
+00056 UTC-01557: alternative transcription 隸定 of 幵?
+
+00069 UTC-02765 = 𠘧 (variant, protrousion of strokes.)
+
+00147 UTC-01678 = 𠈙 (UCV)
+
+00183 UTC-01681: need more evidence? The proper form in China is likely 閑(闲), (or  間(间)). (e.g. 癇 --> 痫)
+02752 UTC-01879: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+05045 UTC-02339: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+05046 UTC-02340: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+
+00198 UTC-01573 = 𠈇/𠉦, corrupted form of 𠈇/𠉦
+
+04830 UTC-02289 unifyable to UTC-02286? (恖 ~ 思)
+
+04871 UTC-02328: need more evidence? The proper form in China should be 飙?
+
+04914 UTC-02316: need more evidence? The proper form on right should be 急?
+
+01822 UTC-02647 = 𣥒, alternative 隸定.
+
+00002 UTC-01671: IVD unify to 串
+
+04934 UTC-01646: WITHDRAW, IRGN2155CommentsToIRGN2107
+01832 UTC-01315: WITHDRAW, IRGN2155CommentsToIRGN2107
+00063 UTC-01316: WITHDRAW, IRGN2155CommentsToIRGN2107 OR unify to U+2B85C
+00989 UTC-01439: WITHDRAW, IRGN2155CommentsToIRGN2107
+01110 UTC-01458: WITHDRAW, IRGN2155CommentsToIRGN2107
+00288 UTC-01320: Unify to U+2B92E, IRGN2155CommentsToIRGN2107
+00892 UTC-01470: Unify to U+21827, IRGN2155CommentsToIRGN2107
+01824 UTC-01538: Change lower part to U+2123C or WITHDRAW, IRGN2155CommentsToIRGN2107
+02393 UTC-01584: Unify to U+80B0 肰
+00569 UTC-01651: WITHDRAW, IRGN2155CommentsToIRGN2107
+00852 UTC-01652: WITHDRAW, IRGN2155CommentsToIRGN2107
+00552 UTC-01658: WITHDRAW, IRGN2155CommentsToIRGN2107; or IVD to 𠱾. (Reference: http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%F0%A0%B1%BE)
+01202 UTC-01657: 𨒥 is the more popular transcription used; consider withdrawal or IVD. (similar case with 復 --> 04295) (Reference: http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%BE%8C)
+
+00553 UTC-02957: Evidence supplied is swapped with 02837 UTC-02956
+02837 UTC-02956: Evidence supplied is swapped with 00553 UTC-02957
+04503 UTC-02228: Evidence supplied is swapped with 04504 UTC-02761
+04504 UTC-02761: Evidence supplied is partly swapped with 04503 UTC-02228
+
+
+03023 UTC-02913: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+01450 UTC-02916: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+03136 UTC-02942: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+
+
+04052 UTC-02105: Withdraw? A Simplified form of 䞉, which is error form for 賸.
+
+02016 UTC-01516: (overly) literal transcription of the Chu-script character 㳏. (⿳⺊日又 ~ 史)
+
+03399 UTC-02930: duplicate of U+2668D.
+
+03424 UTC-01490: unify to 朕.
+
+03444 UTC-01164: 膍 (IVD).
+
+05541 UTC-02614: IVD to U+2B733 (冉 ~ 冄)? PRC Conventions prefer 冉 > 冄.
+
+03123 UTC-01161: IVD to 築 (恐 = 𢙢 // 𠌖 = 𠋸 // 䅃 = 𥞣)
+
+00083 UTC-01506: 迺 is a more common transcription. IVD?
+
+
+# withdraw the following comment from part1:
+01874 G_Z1582401: Phonetic is 比, semantic is 弗, Radical should be 弓 #57, SC = 6, FS = 1
+
+# Response
+02359 G_Z2511302 Keep radical 牙 #92, 好 is phonetic 牙 is semantic.
+01947 G_Z3981102 DO NOT UNIFY with U+6CB7(沷). Phonetic is 友 (you), not 犮 (ba).
+02029 G_Z2631501 KEEP Radical 85.9; Phonetic is 頁.
+01739 G_Z4462201 Keep Radical wood; Phonetic is 色.
+01940 G_Z0851403 keep radical water; 寸 is phonetic.
+01798 GHZR52737.15 = ERROR FORM OF 𣡺, OBJECT RS Change RS from 75.27 to 102.26: ref 𣡺, 𪉀, 𦉩
+02096 G_Z3341203, keep radical 85; semantic 涕 phonetic 目.
+02098 G_Z0442501 keep radical water; semantic 沸 phonetic 孚
+02132 GHZR42275.10 keep radical water, refer to U+24037
+02314 GHZR31305.04|USAT10441 Keep Radical 爪 87, compare U+244FD
+02317 GHZR42000.03 keep radical 87, ref: 𤔔
+
+# file name / evidence error
+03461 GHZR42262.04 evidence and glyph image missing.
+03476 GHZR42276.20 evidence is for a different character (GHZR42276.14).
+01403 GHZR41993.18 glyph image and evidence not found.
+03932 UTC-02730 corresponding evidence is be Fig. 885 not Fig. 886
+03935 UTC-02172 corresponding evidence is be Fig. 886 not Fig. 885
+03959 GHZR74160.16 evidence is for a different character (GHZR74160.16).
+03991 GHZR63859.13 evidence and glyph image is incorrectly named as "GHZR63859.14"
+04032 GHZR73900.09 evidence and glyph image is incorrectly named as "GHZR73900.08"
+02585 GHZR52733.12 evidence and glyph image is incorrectly named as "GHZR52733.11"
+04458 UTC-02203 the evidence is for a different character.
+02895 GHZR52628.11 evidence and glyph image is incorrectly named as "GHZR52628.10"
+
+
+# glyph does not match evidence
+03847 UTC-01454 Glyph does not match evidence: left hand side should be 㐁.
+
+# glyph design
+02125 UTC-01804 doesn't match PRC conventions, last stroke of middle component should be 提.
+04305 UTC-01524 doesn't match PRC conventions, 畢 has one big stroke down the middle, not two.
+02850 G_Z0632304 does not match PRC conventions.  there should be no dot for upper right hand corner.
+
+# evidence unclear
+03647 KC-03655 evidence unclear: 禾? 示?
+01054 KC-00986 evidence unclear: ⿰山敖? = 㠂(U+3802)
+04329 KC-04136 evidence unclear - seems there is a 彳 on the left?
+
+# clerical Ommission
+01096 G_Z0681101: glyph changed, not marked in attributes.
+
+# editorial mistake?
+03995 T13-3126 should be unified with U+4765, irg47. Ref1: UCV #272; Ref2: 02081 unified by U+23F4E (UCV), irg47.
+01416 UTC-02632 unified with U+632C for IVS, irg47. NOT unified with U+2BF4A (GZFY-00688).
+04372 GHZR63834.04 should have comment " not unified by U+250B9, irg47. "
+04373 GHZR63834.07 should not have comment " not unified by U+250B9, irg47. "
+02218 T13-2D44 Unified to U+24251 not U+2426
+
+
+# Radical
+03651 G_Z0601304 SHOULD CONFIRM radical #78 歹 Death.
+
+01175 UTC-01617 radical 邑?
+01207 UTC-01728: Radical 鱼, SC = 11, FS = 3 (Refer to 鰴 (U+9C34)).
+03333 UTC-01163 Radical 目 #109.  Synonomous with U+2510E.
+03632 GHZR31333.11 Radical 木, SC = 9; FS = 1. IDS = ⿱𫇦林. Ref: 檾 (U+6ABE).
+03636 T13-306C - Radical #37, SC = 12, FS = 1.
+01087 G_Z2591303 Phonetic 工 semantic 大, Radical 大 #37, SC = 3, FS = 1.
+01094 G_Z2441402 Semantic is chin, which is related to 齿. Radical 齿 #211.1, SC = 3, FS = 1.
+01206 G_Z3501301 phonetic 得 semantic 果 radical 木, SC = 15, FS = 3.
+01314 G_Z0072303 Semantic 布 Phonetic 憑, Radical 巾, SC = 18, FS = 1.
+01340 G_Z1582101 semantic 果 phonetic 房. Radical = 木, SC = 12, FS = 2.
+01426 G_Z4451301 Radical 巾 #50?
+01516 G_Z1022302 Semantic 灰 Phonetic 斗, Radical 火 #86, SC = 6, FS = 1.
+01517 G_Z1031201 Semantic 斗, Phonetic 來, Radical 人 #9, SC = 10, FS = 1.
+01586 G_Z1091301 Semantic 刹 Phonetic 旦; Radical 刀 #18, SC = 11.
+02043 G_Z4141301 Semantic 乃 Phonetic 浪, Radical 丿 #4, SC = 11
+02425 G_Z2371501 Phonetic 狠 Radical 力 #19, SC = 9, FS = 3.
+03534 G_Z4572301 Phonetic 色 Semantic 勺,  Radical 20, SC = 7, FS = 3.
+03639 G_Z0401401 Phonetic 荅 Semantic 头 - Radical 大 #37, SC = 12, FS = 2
+03667 G_Z3081202 semantic 果 phonetic 莫, radical 木 #75, SC = 15, FS = 2
+03725 G_Z0821101 semantic 虎 phonetic 虫, radical 虍 141, SC = 8, FS = 3
+03778 G_Z2642503 semantic 小 phonetic 衣, Radical 42, SC = 6, FS = 4
+03956 G_Z1981302 Phonetic 谷 Semantic 头, Radical 大 #37, SC = 9.
+03961 G_Z2582201 Phonetic 谷 Semantic 愚, Radical 心 #61, SC = 16
+01761 G_Z0612401 Radical 豕 152, SC = 9
+01795 G_Z0431701 Semantic 翻 Phonetic 本, Radical 羽 #124 SC = 17 FS = 3.
+01876 G_Z0182504 Radical 風, SC = 4, FS = 1
+02568 G_Z1241501 Radical 貝, SC = 5, FS = 2
+02569 G_Z1821101 Radical Mouth; SC = 8, FS = 2
+02571 G_Z4861402 radical wood, SC = 10, FS = 1
+02577 G_Z1432204 Radical Meat, SC = 10 FS = 3.
+02364 G_Z3701201 phonetic is 牜, radical 彡 #59, SC = 4, FS = 3.
+
+# Evidence suggests character is an error:
+01098 USAT08793: text says "錯書之也", consider withdraw?
+01548 USAT08986: text says "書誤也", consider withdraw?
+03537 USAT07228: text says "不成字也", consider withdraw?
+01102 USAT07066: Error, from context, it is apparant the character should have been 艸.
+01104 USAT03723: Error form of 忼.  Sometimes in handwriting, 忄 and 巾 are hard to distinguish.
+01324 USAT08874: Error form of 𢧀 -- the phonetic is 旱, not 早.
+01346 USAT03736: Handwriting error marked as a comment?
+03842 USAT06376: Error form of 䚮 (U+46AE), from context quite apparent that the right hand side should be 乃
+01564 USAT08631: Error form of 昺 (U+663A). from context apparent referring to the old form of head character "昺".
+03846 USAT05214: Error form of 訹 (U+8A39), from context apparent referring to the head character "訹".
+
+# Non-standard simplifications regarding 閑/閒/間
+01252 UTC-01846 - need confirmation -- PRC prefers simplifying 𢡿?
+03589 UTC-01961 - need confirmation -- PRC prefers 𫈉 (U+2B209)?
+
+# There are a large number of characters where the U+2EBC has been replaced with the full 肉 radical.
+# IRG should consider to allow encoding these characters as IVD as there are 500+ characters with U+2EBC.
+# Variants using 肉 on the left are sufficiently rare in modern usage.
+# It is suggested that only IVD if 肉 on left; disunify if 肉 is at the bottom.
+# Zhuang characters in particular should be studied on a case-by-case basis because 肉 may play a phonetic part instead of semantic part.
+# Those with 肉 on the bottom have been included for completeness.
+03470 USAT90298 IVD 臗
+03463 GHZR10093.03 IVD 𦠒
+02670 T13-2E6E IVD 䏢
+02178 USAT08962 IVD 炙
+
+# There are a large number of characters where 阝 has been replaced with the full 阜 radical or 𨸏.
+# IRG should consider to allow encoding these characters as IVD as there are 600+ characters with 阝.
+# It is suggested that only IVD if 阜/𨸏 on left.
+04631 GHZR74427.05 IVD 阡
+04632 GHZR74427.11 IVD 䦻
+04635 GHZR74431.03 IVD 䦼
+04637 GHZR74434.04 IVD 阼
+04638 GHZR74436.01 IVD 䧁
+04647 GHZR74444.03 IVD 陗
+04655 GHZR74451.16 IVD 陮
+04659 GHZR74455.06 IVD 䧐
+04662 GHZR74447.03|T13-3145 IVD 陖
+04664 GHZR74448.01 IVD 陵
+04683 GHZR74470.13 IVD 際
+
+
+# Unifications / IVD / FS / Normalization:
+05427 GHZR84905.15 UNIFY U+2EB87 (F)
+05456 GHZR84898.01 Corrupted form of 黈, IVD?
+05507 GHZR85117.16 Corrupted form of 𪙦, IVD?
+05508 GHZR85118.01 Corrupted form of 𪙤, IVD?
+01053 KC-00990|USAT05157 UNIFY TO 嵆 (U+5D46)
+01055 GHZR20811.13 corrupted form of U+5D24	崤 -- rotated 十 to cross; protrusion of stroke (月 ~ 目)
+01060 GHZR20816.17 The name should be 三崁店. Likely someone mistook 欠 as simplified 贝 then generalized the traditional form. Withdraw.
+
+01062 GHZR20818.03 should be normalized to ⿰山隽 (phonetic is 隽), may IVD to 𡼕.
+
+01061 GHZR20817.07 severe corruption of 崗 (IVD or not?).
+01075 GHZR20830.02 corrupted form of U+2D5F2 𭗲 (IVD) (戱~戲).
+
+01066 KC-01028 - FS = 5 (將)
+01067 KC-01024 - FS = 2 (堂)
+
+01085 UTC-01642 alternative transcription of U+24CA5, IVD
+01205 UTC-01482 this specific transcription seems very peculiar, would other old Hanzi experts have opinion?
+
+01504 GHZR31577.08 UNIFY To 01507 GHZR31581.03.
+01507 GHZR31581.03 IVD 𢿉 (U+22FC9)?
+
+01086 USAT07220 IVD 馘
+
+01508 GHZR31583.12 IVD to 𢿩 U+22FE9. (⿱从土 is an alternative transcription of 羊(𦍌), which is also transcribed as ⿱艹土/𦍋)
+
+01101 G_Z2562401: restore, bottom left 巳, normalized according to PRC conventions.  bottom left last stroke should be 豎提 instead of 豎彎鉤. IDS is incorrect.
+
+01515 GHZR42327.16: sure the bottom part is 文 instead of 攴? as it is synomous with 搦, 攴(攵) is more likely.  Also see 𢾲 (u22fb2) and 𢾼 (u22fbc).
+
+01522 GHZR42171.02 unify to 𣂢 (difference in minor stroke; alternative transcription)
+
+01524 GHZR42172.11 IVD to 𥇴 or Unify to 𣂰 (U+230B0) (minor stroke).  Variant of 鼎.
+
+01526 GHZR42172.20 IVD U+230A2, alternative transcription of the seal script form.  the curved stroke has been mirrored compared to U+230A2.
+
+01528 GHZR42173.02 IVD 斲 (隸定, similar overall contour).
+
+01529 GHZR42174.02 IVD 𣂶 (U+230B6).  Both variants of 誓.
+
+01530 GHZR42174.09 UNIFY 𣂸 (U+230B8). Variants of 斷.
+
+01534 GHZR42174.28 unify 斵 or 斲: similar abstract shape.
+
+01536 USAT06520 IVD 放?  So many 攴/攵 variants with no semantic difference. However, in NUCV.
+
+01103 KC-01086 IDS should be ⿰巾乏.
+
+01105 UTC-01724: FS = 4 (乌)
+
+01107 GHZR20848.13: error form of 卉 / 芔. the bent stroke upwards and bent stroke downwards are often mixed up in error. Unify/IVD to 芔.
+
+01108 UTC-02787 UNIFY 㣇: difference in joining of sequential strokes.
+
+01567 KC-01563 corrupted form of 脊.  protrusion of strokes, 月 --> 日. withdraw or IVD?
+
+01568 USAT09591 error form of 昂. Withdraw or unify.
+
+01569 GHZR31619.02 Error form of 脀 (U+8100).  Refer to 脀 (U+8100) in HYDZD. Same description. Protrusion of strokes, 月 --> 日. withdraw or IVD?
+
+01571 USAT05036 unify to 脰.
+
+01580 G_Z3781104 evidence shows 天 not 夭.
+
+01581 GHZR31624.03 unify to 㫡?
+
+01583 G_Z1081303: FS = 2 (水)? FS of 水 should be 2 to align with PRC & Reference Item #19 of of IRGN1105.
+03928 UTC-02745: FS = 2 (水)? FS of 水 should be 2 to align with PRC & Reference Item #19 of of IRGN1105.
+04517 UTC-02746 FS = 2 (水)? FS of 水 should be 2 to align with PRC & Reference Item #19 of of IRGN1105.
+
+01585 GHZR31633.10 IVD U+231B3 𣆳 (⿱丙攴 === 更)
+
+01585 GHZR31633.10 IDS = ⿰日㪅.
+
+01591 GHZR31638.13: SC - 11 (敖 - 11: 傲/嗷/嫯...)
+01731 GHZR31350.01: SC - 11 (敖 - 11: 傲/嗷/嫯...)
+
+01604 GHZR31645.13 IVD  𣉻 different location of components.
+
+01609 KC-01655 IDS should be ⿰日栽
+
+01610 KC-01695: glyph provided by Korea on the IRG website does not match that in IRGN2179; IRGN2179 is correct.
+
+01117 USAT08402 literal transcription of the shuowen explanation of 并. According to context, it is right hand side of 拼. Unify, IVD or withdraw?
+
+01124 UTC-01500: last stroke of bottom part of middle component should be 點.
+
+01129 USAT09620: UNIFY 庾 (U+5EBE), missing minor dot; joined strokes.  common variation.
+
+01130 USAT10264: 俗字謬也; Unify 㡿 (U+387F). (difference in transcription of seal-script form; bent stroke vs straight stroke)
+
+01168 UTC-01649: peculiar shape.  postpone for more evidence?
+01171 UTC-01650: peculiar shape.  postpone for more evidence?
+
+01170 USAT90322 - really synonomous with 陠(U+9660) / 𣨈(U+23A08) / 𤗃(U+245C3) / 浦(U+6D66)?
+01854 USAT09541 - NOT SYNOMOUS WITH 硂 (U+7842) according to evidence.
+
+01274 GHZR42498.12 normalize to ⿱不惡?
+
+01275 GHZR42502.05 IVD 愞. (䙳 is error form of 䎡; 耎 ~ 䎡. 䙳 is normally = 票)
+
+01277 KC-01263 IVD = ⿰忄𧴪
+
+01290 GHZR42515.07 IVD 慤
+
+01213 UTC-01534: peculiar transcription.  Other experts have any opinions?
+
+01229 GHZR42443.02 IVD 急: refer to case of other ~曾 in WS2015. very similar shape in calligraphy.
+
+01233 USAT08765 IVD 怱
+
+01234 G_Z0771201 SC - 7
+
+01240 GHZR42460.07 UNIFY U+391E 㤞 （侂 = 侘 // 㡯 = 宅）
+
+01256 GHZR42506.03: FS = 5.
+
+01262 GHZR42484.02 Unify 惨
+
+#Systematic Variations
+00182 GHZR10204.03 UNIFY 俊 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04096 GHZR73955.06 UNIFY 踆 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04365 GHZR63822.16 UNIFY 酸 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04651 GHZR74447.02 UNIFY 陖 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04679 GHZR74469.04 UNIFY 𨻅 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04942 GHZR84853.09 UNIFY 駿 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+05401 GHZR85047.13 UNIFY 𪊴 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+05502 GHZR85111.21 UNIFY 𪘑 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04172 GHZR63782.02 UNIFY 𨍈 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04370 GHZR63831.02 UNIFY 酸 (夋 ~ ⿳厶八⿱⺌又 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04946 GHZR84861.11 UNIFY 騣 (⿳凶𡭔又 ~ 㚇)
+
+04369 GHZR31516.06 UNIFY 䤋 calligraphic simplification (𢦙 = 或)
+02321 GHZR42184.13 UNIFY 爴 calligraphic simplification (𢦙 = 或)
+
+04713 GHZR74415.10 UNIFY 𨿫 (奇 ~ 竒)
+02945 GHZR52574.17 UNIFY 䄎 (奇 ~ 竒)
+05079 GHZR84724.12 UNIFY 𩳣 (奇 ~ 竒)
+05505 GHZR85115.01 UNIFY 齮 (奇 ~ 竒)
+04173 GHZR63783.04 UNIFY 輢 (奇 ~ 竒)
+02080 TD-7A45 UNIFY 𣺈 (奇 ~ 竒)
+02382 T13-2D68 Unify 犄 (奇 ~ 竒)
+02052 T13-2C7E UNIFY 渏 (奇 ~ 竒)
+02572 T13-2E4A UNIFY 畸 (奇 ~ 竒)
+
+00213 GHZR10242.05 UNIFY 傂 (虎 ~ ⿸虍人)
+03680 GHZR10084.13 UNIFY 虒 (虎 ~ ⿸虍人)
+04676 GHZR74467.11 UNIFY 𨻆 (虎 ~ ⿸虍人)
+05486 GHZR85092.09 UNIFY 鼶 (虎 ~ ⿸虍人)
+04037 GHZR73903.13 UNIFY 贙 (虎 ~ ⿸虍人)
+05252 GHZR84958.25 UNIFY 鷈 (should confirm 虎 ~ ⿸虍人; see also 00213, 04676, 05486, 04037)
+
+03683 GHZR10086.16 IVD 虒 (𧆞 ~ 虒 // 𡟣 ~ 婋 // 𢲽 ~ 搋 // 𤟝 ~ 猇, etc)
+
+05121 GHZR85035.08 UNIFY 鱣 (⿱面旦 ~ 亶, 𣞀 ~ 檀 // 𨭖 ~ 𨮮)
+05511 GHZR85118.25 UNIFY 𪙵 (⿱面旦 ~ 亶, 𣞀 ~ 檀 // 𨭖 ~ 𨮮)
+
+01295 GHZR42523.08 UNIFY 慊 (兼 ~ 𠔥)
+02900 GHZR52631.03 UNIFY 磏 (兼 ~ 𠔥)
+04691 GHZR74476.01 UNIFY 隒 (兼 ~ 𠔥)
+05487 GHZR85093.15 UNIFY 鼸 (兼 ~ 𠔥)
+04032 GHZR73900.09 UNIFY 賺 (兼 ~ 𠔥)
+04255 GHZR74309.01 UNIFY 𨐩 (兼 ~ 𠔥)
+04036 GHZR73903.08 UNIFY 𧸖 (廉 ~ 㢘)
+03021 GHZR52825.05 UNIFY 䆂 (廉 ~ 㢘)
+04186 GHZR63799.04 UNIFY 𨎷 (廉 ~ 㢘)
+03476 GHZR42276.20 UNIFY 臁 (廉 ~ 㢘)
+02131 T13-2D30 UNIFY 濂 (廉 ~ 㢘)
+
+04725 GHZR74329.01 UNIFY 雿 (𡉵 ~ 兆)
+02931 GHZR52567.09 UNIFY 祧 (𡉵 ~ 兆)
+00173 GHZR10191.14 UNIFY 佻 (𡉵 ~ 兆)
+04938 GHZR84850.09 UNIFY 駣 (𡉵 ~ 兆)
+01647 GHZR42225.08 UNIFY 脁 (U+8101) (𡉵 ~ 兆). Radical = 肉 130.
+02990 GHZR52789.20 UNIFY 䄻 (𡉵 ~ 兆)
+01544 GHZR42340.14 UNIFY 𣃿 (U+230FF) / 旐 U+65D0.  (𡉵 ~ 兆).
+02810 GHZR52766.27 UNIFY 𥎺.  (𡉵 ~ 兆).
+
+04791 GHZR84789.10 UNIFY 韶 (召 = 𠮦)
+05501 GHZR85107.10 UNIFY 齠 (召 = 𠮦)
+04158 GHZR63758.07 UNIFY 軺 (召 = 𠮦)
+03818 GHZR73909.13 UNIFY 䙼 (召 = 𠮦)
+04330 GHZR74012.05 UNIFY 邵 (召 = 𠮦)
+
+04852 GHZR84785.12 UNIFY 飂 (⿱羽尒 ~ 翏, see also http://pic.guoxuedashi.com/longkan/166.jpg)
+04716 GHZR74422.04 UNIFY 雡 (⿱羽尒 ~ 翏)
+05255 GHZR84967.18 UNIFY 鷚 (⿱羽尒 ~ 翏)
+
+02561 GHZR52716.11|T13-2E44 UNIFY 留 (⿱𡖅田 ~ 留) (𥧠 ~ 𥧥)
+02694 T13-2E79 UNIFY U+76CC 盌 (𡖅 ~ 夗)
+02946 GHZR52576.03 UNIFY 𥛅 (㽜 ~ 留, Restricted Case - 𩺜~鰡, 𥰷~𥰣)
+04850 GHZR84784.04 UNIFY 飀 (㽜 ~ 留, Restricted Case - 𩺜~鰡, 𥰷~𥰣)
+04953 GHZR84867.10 UNIFY 騮 (㽜 ~ 留, Restricted Case - 𩺜~鰡, 𥰷~𥰣)
+04073 GHZR63729.10 UNIFY 𧽖 (㽜 ~ 留, Restricted Case - 𩺜~鰡, 𥰷~𥰣)
+05257 GHZR84968.12 UNIFY 𪇄 (𡖉 ~ 卵)
+04929 GHZR84841.14 UNIFY 駠 (夘 ~ 卯 (error form of)) (𩤃 is error form of 駵 which is variant of 駠.  駠 is variant of 騮)
+04837 GHZR84775.15 UNIFY 𩖴 (夘 ~ 卯 (error form of))
+03033 GHZR52917.08|USAT07062 UNIFY 窌 (夘 ~ 卯 (error form of))
+00432 GHZR10098.10 UNIFY 𠥰 (夘 ~ 卯 (error form of))
+04157 GHZR63758.03 UNIFY 𨋖 (夘 ~ 卯 (error form of))
+02553 T13-2E43 UNIFY 留 (夘 ~ 卯 (error form of))
+02551 T13-2E40 UNIFY 留 (𠨍 ~ 卯 (error form of))
+
+02896 T13-2F4C UNIFY TO 磂 (留 ~ 畱)
+04180 GHZR63792.06 UNIFY 𨍸 (留 ~ 畱)
+03976 GHZR63807.04 UNIFY 䝀 (留 ~ 畱)
+
+04927 GHZR84840.02 = 駰 (因 ~ 囙 -- 第一批异体字整理表)
+01801 GHZR42290.16 = 欭 (因 ~ 囙 -- 第一批异体字整理表)
+02179 UTC-02651 = 𤇆 (U+241C6) / 烟 (因 ~ 囙 -- 第一批异体字整理表)
+
+04930 GHZR84842.10 UNIFY 馾 (冘 ~ 宂 ~ 冗)
+05224 GHZR84924.02 UNIFY 鴆 / 𫚲 (冘 ~ 宂 ~ 冗)
+03406 GHZR42201.06 UNIFY 䏙 (冘 ~ 宂 ~ 冗)
+
+05260 GHZR84969.08 UNIFY 𪄭 (𣷚 ~ 桼: 𣾰~漆 // 𦡀~膝 // 𨞢~䣛)
+05117 GHZR85029.13 UNIFY 𩺲 (𣷚 ~ 桼: 𣾰~漆 // 𦡀~膝 // 𨞢~䣛)
+03454 GHZR42259.08 UNIFY 𦡀 (桼 ~ ⿱夾⺗)
+
+04968 GHZR84879.11 = ??? (⿱曰恭~ 暴: 𪹼 (U+2AE7C) ~ 爆) (cannot find the canonical character...)
+04969 GHZR84879.12 UNIFY 𩧋 (黎 ~ 𥠖)
+
+05248 GHZR84957.16 = 𪅴 (𢙣~惡)
+05263 GHZR84968.22 = 𪅴 (𢙣~惡)
+04951 GHZR84865.17 = 04962 GHZR84873.03 (𢙣~惡)
+
+01814 GHZR42302.03 UNIFY 歇 (⿱日𠣏 ~ 曷)
+02879 GHZR52619.14 UNIFY 碣 (⿱日𠣏 ~ 曷)
+02773 GHZR52683.13 UNIFY 𥈎 (⿱日𠣏 ~ 曷)
+03005 GHZR52808.04 UNIFY 䅥 (⿱日𠣏 ~ 曷)
+03019 GHZR52820.02 UNIFY 𥢸 (⿱日𠣏 ~ 曷)
+
+01592 GHZR31640.06 UNIFY 㬉 (耎 ~ 䎡)
+03004 GHZR52807.16 UNIFY 稬 (耎 ~ 䎡)
+03447 GHZR42254.03 UNIFY 腝 (耎 ~ 䎡)
+
+04177 GHZR63788.04 IVD 輮 (corruption; changed to similar shape component; ⿱矛示 ~ 柔)
+03452 GHZR42258.08 IVD 腬 (corruption; changed to similar shape component; ⿱矛示 ~ 柔)
+01911 GHZR42149.16 IVD 𣮪 (corruption; changed to similar shape component; ⿱矛示 ~ 柔)
+02578 GHZR52732.07 IVD 㽥 (corruption; changed to similar shape component; ⿱矛示 ~ 柔)
+
+00220 GHZR10252.06 UNIFY 僧 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+03459 GHZR42261.01 UNIFY 𦠇 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+04028 GHZR73898.18 UNIFY 𧸑 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+04347 GHZR74044.09 UNIFY 鄫 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+04960 GHZR84872.01 UNIFY 驓 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+05463 GHZR85070.14 UNIFY 𪒟 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+02822 GHZR52769.10 UNIFY 矰 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+02891 GHZR52626.06 UNIFY 磳 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+00231 GHZR10269.03 UNIFY 像 (點撇 ~ 撇折, ~ http://web.archive.org/save/_embed/http://pic.guoxuedashi.com/hydzd/278.gif)
+
+04961 GHZR84872.04 UNIFY 騼 (𢉖 ~ 鹿)
+04973 GHZR84880.14 UNIFY 䮽 (𢉖 ~ 鹿)
+02665 GHZR52839.15 UNIFY 皫 (𢉖 ~ 鹿)
+04179 GHZR63791.09 UNIFY 轆 (𢉖 ~ 鹿)
+04379 GHZR63844.07 UNIFY 釃 (𢉖 ~ 鹿)
+
+
+04681 GHZR74469.18 = 𨼋 (虛 ~ 虗)
+04932 GHZR84846.02 = 駈 / 𩢩 (丘 ~ 丠 ~ 㐀)
+04704 GHZR74481.06 = 04703 GHZR74481.05 (虛 ~ 虗)
+
+04717 GHZR74423.03 UNIFY 𩁋 (虍 ~ &cdp-88bc;) [Refer to 01816 unified by U+06B54, irg46.]
+04702 GHZR74481.04 UNIFY 04703 GHZR74481.05 [Refer to 01816 unified by U+06B54, irg46.]
+
+04074 GHZR63731.12 IVD 䟊 (虍 ~ &cdp-88bc;, bottom shape similar, 噱 ~ 𠻔 // 據 ~ 𢴃 // 䆽 ~ 𥧻 // 鐻 ~ 𨬀)
+03456 GHZR42259.12 IVD 臄 (虍 ~ &cdp-88bc;, bottom shape similar, 噱 ~ 𠻔 // 據 ~ 𢴃 // 䆽 ~ 𥧻 // 鐻 ~ 𨬀)
+
+04071 GHZR63728.14 IVD 趫 (𠳮 = 喬: 槗~橋 // 𢱪~撟 // 𤠬~獢// 𦃣~繑)
+04952 GHZR84866.02 IVD 驕 (𠳮 = 喬: 槗~橋 // 𢱪~撟 // 𤠬~獢// 𦃣~繑)
+03003 GHZR52807.15 IVD 穚 (𠳮 = 喬: 槗~橋 // 𢱪~撟 // 𤠬~獢// 𦃣~繑)
+02817 T13-2F41|USAT06482 IVD 矯 (𠳮 = 喬: 槗~橋 // 𢱪~撟 // 𤠬~獢// 𦃣~繑)
+
+05246 GHZR84955.04 UNIFY 鶟 (REFER to ROK Normalization)
+02691 GHZR52741.02 UNIFY 盋 (REFER to ROK Normalization)
+
+01813 GHZR42301.08 UNIFY 㱇 (joined strokes)
+03002 GHZR52806.18 UNIFY 穑 (joined strokes)
+01819 GHZR42307.11 UNIFY 㱇 (split strokes)
+
+04720 GHZR74424.02 IVD 䨈 (賔 ~ 賓)
+05054 GHZR84892.15 IVD 𩰝 (賓 ~ 賔)
+05081 GHZR84728.06 IVD 𩴱 (賓 ~ 賔)
+
+03375 GHZR52968.20 = 𦔥 (幸 = 㚔 // 𥇡 = 睪 // 𤀎 = 澤 // 𤏵 = 燡 // 𥋭 = 䁺)
+03469 GHZR42270.04 = 䐾 (幸 = 㚔 // 𥇡 = 睪 // 𤀎 = 澤 // 𤏵 = 燡 // 𥋭 = 䁺)
+02677 T13-2E70 UNIFY U+24FF9 𤿹 (幸 = 㚔)
+
+04714 GHZR74416.08 UNIFY 𩀨 (從 ~ 従)
+03990 GHZR63857.04 UNIFY 豵 (從 ~ 従 // 龰 ~ 之 // 𨪯 = 	鏦)
+
+04945 GHZR84860.17 UNIFY 騬 (乘 ~ 乗)
+04171 GHZR63780.10 UNIFY 𨍱 (乘 ~ 乗)
+
+02882 G_Z0882401 UNIFY to 硾 (埀 = 垂 // 涶 =𣺡 // 錘 = 𨪰 // 𩸫 = 𩺖)
+
+00118 GHZR10027.13 IVD 坻 (zihai-010025 ~ 氐; zihai-007406 ~ 低)
+00171 GHZR10189.05 IVD 低 (zihai-010025 ~ 氐; zihai-007406 ~ 低)
+
+05256 GHZR84968.04 UNIFY to 𪅽 (IRGN2176#14)
+04687 GHZR74472.09 UNIFY to 𨼐 (IRGN2176#14)
+02894 GHZR52628.04 UNIFY to 䃡 (IRGN2176#14)
+02903 GHZR52635.13 UNIFY to 礸 (IRGN2176#15)
+
+04715 GHZR74417.02 UNIFY 雛 (𠣧 ~ 芻 // 𤛃~犓)
+03006 GHZR52810.05 UNIFY 䅳 (𠣧 ~ 芻 // 𤛃~犓)
+
+01696 GHZR31301.09 IVD 㮲 / 𣔖 (⿱口丑 ~ 芻)
+04936 GHZR84850.03 IVD 𩣿 / 騶 (⿱又丑 ~ 芻)
+04333 KC-04141 IVD 鄒 (⿱工丑 ~ 芻)
+
+04719 GHZR74423.21 UNIFY 𪈍 (含 ~ ⿱人否 ~ ⿳亼⺍口) (China may normalize their glyph for 	𪈍 (U+2A20D) to ⿰⿱含酉鳥)
+04795 GHZR84790.21 UNIFY 𩐧 (含 ~ ⿱人否 ~ ⿳亼⺍口)
+
+04957 GHZR84871.12 = 𩦧 (⿳曰罒力 ~ 㬅 ~ 曼, 澷 ~ 漫, 𩮺 ~ 鬘)
+04181 GHZR63793.06 = 䡬 (⿳曰罒力 ~ 㬅 ~ 曼, 澷 ~ 漫, 𩮺 ~ 鬘)
+
+04168 GHZR63776.08: 𨌨 (⿹勹㱏 ~ 匋)
+04944 GHZR84857.10: 騊 (⿹勹㱏 ~ 匋)
+
+02993 GHZR52793.08 = 稲 (common variant ⿱⺈旧 ~ ⿱爫旧)
+04095 GHZR73954.06 = 𨂻 (U+280BB) (common variant ⿱⺈旧 ~ ⿱爫旧)
+
+04963 GHZR84874.02 = 騻 (𠁊 ~ 爽 // 𥡠 ~ 𥢡 // 塽 ~ 𡑽) (Refer to 00392 USAT09308)
+
+04753 GHZR74314.01 = 靛 (定 ~ 㝎: reference ROK Normalization)
+04650 GHZR74441.06 = 䧑 (定 ~ 㝎: reference ROK Normalization)
+
+04793 GHZR84790.10 = 䪫 (巠 ~ ⿱爫工)
+
+05072 GHZR84720.02 = 𩲪 (very common variation, 尒 ~ 尔)
+
+05096 GHZR84996.07|USAT10123 = 鮮 (芉 ~ 羊. Error in HYD's analysis. Should be =鮮. 𩺵 is not even in the original source quoted by HYD.) See also original source for 05093.
+
+05105 GHZR85013.18 = 䱮 (契 ~ 𢍆)
+
+02769 GHZR52680.10|T13-2F32 = 瞎 (𡧱 ~ 害)
+03960 GHZR74161.02 = 豁 (𡧱 ~ 害)
+
+02780 GHZR52686.14 = 䁆 (𦌌 ~ 𦌌 // 𦹕 ~ 菴 // 𩈯 ~ 𩈿 // 𤲅 ~ 菴) -- Not unifyable or IVD?
+
+01805 GHZR42297.03 = 𣣧/𣣸 (𠧪 ~ u2ff1-u2e8a-u76ee)
+
+02792 GHZR52697.09 = 𥌆 (UCV)
+
+04728 GHZR74330.04 = 虜 (雨 ~ 虍)
+
+00106 GHZR10067.08 = 亂 (𤔬 ~ 𤔔)
+
+05225 GHZR84924.04 = 𩿦 (Joined strokes, possibly a normalization error.)
+
+04160 GHZR63765.05: 𨌁 (𣅀 ~ 旨)
+
+00261 GHZR52835.08 = 𤾇 (兒 ~ 児)
+
+00028 GHZR10029.06 = 丽 (麗 ~ 𪋘)
+
+03457 GHZR42253.04 = 䐑 (𨅈 ~ 蹀)
+
+04690 GHZR74474.03 = 𨽠/隤 (貴 ~ ⿱央貝 ~ 䝿) (U+22D5F ~ U+648C)
+
+00019 GHZR10115.08 = 𠄗
+
+00458 GHZR10030.11 = 斟 (⿻廾⿱丶丶 ~ 斗)
+
+00048 GHZR10061.08 = 扶 (corruption; writing 扌 similar to 丩 is common in ancient text, it should be normalized to 扌)
+
+00050 GHZR10035.09 = 幻 (horrible corruption of 幻, which is upturned 予 in seal script.)
+
+00058 GHZR10061.01 = 夃 (corruption of 夃, used as 省寫 for 盈)
+
+00080 GHZR10061.21 = 乨
+
+00089 GHZR10064.01 IVD 𤭀 (severe corruption)
+
+00116 GHZR10015.03 = 亓 (corruption, additional stroke)
+
+00117 GHZR10019.13 IVD 𠧛 (上 ~ 𠄞)
+
+04705 GHZR74481.10 = 隬 (𤕨 ~ 爾)
+00120 GHZR10030.05 = 爾
+
+00163 GHZR10184.01 = 佸 / 𠈲 (省筆字 of 𠈲 or corruption of 佸. withdraw or unify to 佸/𠈲)
+
+00169 GHZR10188.08 = 低 - ERROR Normalization - http://pic.guoxuedashi.com/longkan/18.jpg - http://en.glyphwiki.org/glyph/hkcs_ws2015-00169-src.svg ~ http://en.glyphwiki.org/glyph/hkcs_ws2015-00169-src2.svg; http://pic.guoxuedashi.com/longkan/96.jpg;
+
+00181 GHZR10202.09 = 侈 - ERROR Normalization - http://pic.guoxuedashi.com/longkan/22.jpg, also refer to T13-2F6E
+
+00190 GHZR10205.17 is it an error form of 脊?
+
+01804 GHZR42297.02 = 欵
+
+00256 GHZR10290.05 = 兆 (corruption)
+
+00276 GHZR10176.08 = 夹 (alternative transcription)
+
+01668 GHZR42274.03 = horrible corruption of 饒
+
+04956 GHZR84871.08 = 𩥉 (⿱止豆 ~ 豈: 𦪍 ~ 𦩴)
+
+01841 GHZR31547.01 = 越
+
+01809 GHZR42299.08 IVD 款 (Single Case)
+
+01810 GHZR42300.08 IVD 𣣽 (Single Case)
+
+01811 GHZR42300.12 IVD 歌 (Single Case)
+
+05122 GHZR85036.09 IVD 𩽞 (corrupted form, 氺 ~ 土 joined strokes; Single Case)
+
+05392 GHZR84911.07 IVD 鹶 (corrupted form, 仐 ~ 今 Single Case)
+
+05394 GHZR84912.13 IVD 鹶 (Corrupted form, ⿱八今 ~ 今 Single Case)
+
+04933 GHZR84846.05 IVD 𩢷 (Single Case?)
+
+04684 GHZR74471.01 IVD 隈 (shape similar; 畏 ~ 𠂽 ~ ⿱亠畏)
+
+00176 GHZR10198.04 IVD 侜 (Single Case) http://pic.guoxuedashi.com/longkan/18.jpg
+
+00568 GHZR10116.03 IVD 商 (already 8 variants of 商 encoded, IVD)
+
+04923 GHZR84834.08 = ERROR FORM OF 䭼 (IVD); Phonetic is 亓.
+
+05032 GHZR84895.03 = 商 (already 8 variants of 商 encoded, IVD?)
+
+04967 GHZR84878.04 = 𩧊 (⿱⺈𧠓 ~ 敻 single case?)
+
+05238 GHZR84942.14 = 鶉 (single case)
+
+05037 GHZR84895.20 = 毃 (single case, right hand side corrupted of 殳)
+
+05270 GHZR52738.02 = 𤴒, Corrected form of 𪉀
+
+01199 GHZR20893.09 = 𢔦 (corruption)
+
+01870 GHZR42324.20 = 𣫞 (similar shape.  obvious from context. joined strokes for 臼, split strokes for 干)
+
+02785 GHZR52690.08 = 瞽 (horrible corruption)
+
+05115 GHZR85025.15 = 鱡 (corrupted form of 鱡 -- the phonetic is 賊. 戝 is corrupted form of 賊)
+
+05116 GHZR85026.05 = 鰥 (corrupted form on right bottom)
+
+01154 GHZR10441.07 = 01155 GHZR10441.09 (corrupted form of 臿 on the left)
+
+01167 GHZR10606.03 = ERROR FORM of 𢨈, sematic component is hit (攴), not 弋, IVD?
+
+01164 GHZR10605.17 = ERROR FORM of 㦷, IVD?
+
+02751 GHZR52668.02 = 𥅪 (stroke intiation difference, minor)
+
+02760 GHZR52674.01 = 睺 (top right hand corner: different interpretation of same stroke.  bottom component, 夫 ~ 矢)
+
+05070 GHZR84717.06 = 魁 (corruption, similar shape)
+05082 GHZR84728.20 = 䰱 (single case corruption of ⿰大王 ~ 巫)
+
+05088 GHZR84990.11 = 𩵸 / 魧 (single case corruption)
+
+05042 GHZR84896.13 = 𩫧 (Incorrect form.  the etymology of 垣 is 𩫏 and cannot be 𦎫(享). withdraw)
+
+01148 GHZR20967.02 = corrupted form of 廧
+
+05265 GHZR84976.08 = 𪅢 / 鸋 (???? Single case?)
+
+05269 GHZR84980.09 = 𪈫/鸔 (㬥 ~= 暴, in between shape)
+
+04740 GHZR74337.09 = 𩄦 (corrupted form: 丰 ~ 㐄 [夅 <--> 夆] // 𨦟 = 鋒: http://pic.guoxuedashi.com/longkan/9.jpg // 蜂 = 𧊵 // 烽 = 𤇺)
+04434 USAT08427 = 鏠 (corrupted form: 丰 ~ 㐄 [夅 <--> 夆] // 𨦟 = 鋒: http://pic.guoxuedashi.com/longkan/9.jpg // 蜂 = 𧊵 // 烽 = 𤇺)
+
+04733 GHZR74332.02 = 𩂻 (corruption, similar form)
+04734 GHZR74332.03 = 𩂻 (corruption, similar form)
+
+00422 GHZR10045.10 = 曶 U+66F6 (corruption, similar shape)
+
+00427 GHZR10301.03 = 卮 (similar shape)
+
+00430 GHZR10097.10 = 亘 (extra stroke)
+
+00428 GHZR10301.09 = 光 (heavy corruption, inaccurate transcription of grass script)
+
+00439 GHZR10068.08 = 孕 (corruption)
+
+00441 GHZR10069.03 UNIFY 𠥾 (乆 = 久)
+02560 GHZR52718.01 UNIFY 畝 (U+755D) (乆 = 久)
+02595 T13-2E4E UNIFY 疚 (乆 = 久)
+02159 T13-2D33 UNIFY 灸 (乆 = 久)
+
+00443 GHZR10069.13 = 卋 (addition of minor stroke; alternative transcript of 世)
+
+00272 GHZR10148.03 = 矢 (alternative transcription of 矢)
+
+04806 GHZR84685.02 = 䫵 (alternative transcription of 邊 // 邉 ~ 邊)
+
+05461 GHZR85064.05 = 𪑝 (𢦙 = 或)
+
+05462 GHZR85064.13 = 𪐿 (corruption, similar stroke)
+
+05466 GHZR85085.04 = 𪓟, horrible corruption, extra two strokes, the phonetic is 句.
+05467 GHZR85085.17 = 𪚶, horrible corruption, extra two strokes, the phonetic is 句.
+
+04062 GHZR63713.07 = 𧺢 (⿱口又 ~ 殳)
+
+04085 GHZR73944.08 = 跨 (于 ~ 亏)
+04104 GHZR73966.12 = 𨃖 (joining of components. both are used as variants of 跨)
+
+00350 GHZR10065.04 = 歰 (IVD, corruption, should be four 止)
+
+05482 GHZR10540.10 = 鼘 (IVD, corruption, bottom part is ~ 𣶒 (u23d92-07-itaiji-002), top part = 鼓)
+
+04693 GHZR74472.02|T13-3148 = 隫 (IVD, 𨸏 on left is always transcripted as 阝)
+
+05512 GHZR85119.08 = 𪚄 (聮 = 聯)
+
+04276 G_Z0942302 = 逓 (omission of minor stroke)
+
+04117 GHZR73972.11: corrupted form of 𨀧
+04118 GHZR73973.10: corrupted form of 蹀; IDS should use 龷 (U+9FB7) instead of U+E82C
+04156 GHZR63756.03: corrupted form of 軜
+
+03376 G_Z3392501: Need confirmation: Does not match PRC conventions. Phonetic 幺 (yiu1). Unify to 𦔷.
+04021 G_Z4412301: Need confirmation: Does not match PRC conventions. 喪 instead of 䘮.
+
+03402 GHZR42200.02 IVD 胷 (phonetic is 匈)
+
+04336 GHZR74029.06 UNIFY 郩 (ref: 希~𢁫 // 03403)
+
+04341 GHZR74032.10 UNIFY 𨝇 -- 04341 is the etymologically-correct form instead of U+28747
+
+03425 GHZR42225.03 = 䏼 corrupted form
+
+03433 GHZR42238.11 = 脞 similar shape
+
+03013 GHZR52817.01 = 䅾 (潛 ~ 潜)
+
+03445 GHZR42251.13 IVD 膄
+
+03000 GHZR52804.04 IVD 穆 (corruption)
+
+05108 GHZR85018.04 IVD 鰟 (corruption)
+03455 GHZR42259.11 IVD 𦡕 (ommission of component)
+
+02498 GHZR21220.10 IVD 𤫅 (joining of strokes)
+
+02499 GHZR21225.14 IVD 𤩰 (corruption, should be 𠧪, not 鹵)
+
+03091 GHZR53147.03 IVD 𥬕 (冉 ~ 冄).
+
+03200 GHZR42279.08 IVD 䊨 (common corruption ⿱亡罒 ~ 吂)
+
+04576 GHZR74317.14 IVD 䦇 U+4987 (common deformity)
+04580 GHZR74319.18 IVD 髻 U+9AFB (relative position of components; joined strokes)
+
+04581 GHZR74320.09 = U+28CA2, see HYDZD 64054.220
+
+00008 GHZR10014.09 IVD 巜 (see context; seal-script transcription variation)
+
+00013 GHZR10021.05 IVD 天 (split strokes)
+
+00042 GHZR10036.03 IVD 贔 (see context.)
+
+00101 GHZR10066.07 IVD 䰲 (left side is fish.)
+
+00200 GHZR10223.08 IVD 傘 (corruption, similar contour)
+
+00275 GHZR10175.05 IVD 食 (corruption)
+
+00285 GHZR10053.13 IVD 羞 (additional stroke, protrusion of strokes)
+
+00295 GHZR10111.05 IVD 冊 (missing stroke, taboo?)
+
+00300 GHZR10115.06 IVD 罔 (匕 ~ 亡) // according to pronunciation it should be 岡; however 岡 通假 罔.
+00303 GHZR10116.12 IVD 岡 (additional dot at top; 止 ~ 山)
+
+00446 GHZR10070.03 UNIFY / IVD 𠦒 (protrusion of strokes)
+
+00459 GHZR10077.04 IVD 棗 (corruption)
+
+00463 GHZR10109.02 IVD 西. A bunch of variants of 西 are already encoded.
+00485 GHZR10080.14 IVD 所. A bunch of variants of 所 are already encoded.
+
+00490 GHZR10084.15 IVD 厚. (similar shape)
+00492 GHZR10085.03 IVD 𠩫. (similar shape)
+
+00498 GHZR10087.24 IVD, corrupted form of 廏
+
+00502 GHZR10089.06 UNIFY / IVD U+200C3 (𠂬 = 卮)
+
+00503 GHZR10089.13 UNIFY 𠪜, addition of minor stroke, both variants of 庶.
+
+00526 GHZR10433.02 IVD 𥬖, many variants of 皮 already encoded.
+
+00530 GHZR10435.03 IVD 曼 (?)
+
+00556 GHZR10074.03 IVD 𠅔 (protrusion of stroke)
+
+05416 GHZR84903.22 IVD 𪍑 (ommission of component)
+
+05425 GHZR84904.27 UNIFY TO 𫜓 (䏍 = 肙)
+
+00649 GHZR10117.10 IVD 矯 (rearragement of component, contour of component)
+
+05114 GHZR85024.20 UNIFY 𩺴, turning of strokes
+
+04925 GHZR84835.13: ERROR FORM OF 䭷 (IVD)
+00026 GHZR10029.02: ERROR FORM OF 軌 (IVD)
+
+05411 GHZR84902.05 UNIFY U+2EB84 (Ext-F) (exact duplicate).
+
+
+01952 T13-2C52 IVD 承
+01954 T13-2C56: two dots, refer to 冭 as variant of 泰.  also see content, using 冭 instead of 夳.
+01955 T13-2C5B = 洗 (alternative transcription, missing stroke)
+01961 T13-2C55 = 𠧹; also variant of 克
+01963 T13-2C59 = 泉 direction of strokes
+
+01670 USAT08948 IVD 末? Can USAT provide more evidence that the two characters are synonomous?
+
+01677 USAT10587 = 來, extra stroke
+
+01707 USAT08990 error form of 樐.
+
+01709 GHZR52921.21 UNIFY 梥
+
+01968 T13-2C57 IVD 泥
+01969 T13-2C58 IVD 治
+01973 T13-2C60 UNIFY 涇 or 泾.
+01981 T13-2C5F IVD 法
+
+01982 T13-2C62 IVD 滄 (仺 = 倉 // 𠖸 = 滄 // 𠛛 = 創 // 𦭠 = 𦭫 = 蒼)
+
+01985 T13-2C5D = 彥 direction of strokes
+
+01991 T13-2C64 = 洪 minor stroke
+
+01995 G_Z3902605: PRC convention is to use 吞 instead of 呑.
+03825 G_Z4071301: PRC convention is to use 吞 instead of 呑.
+
+01998 T13-2C63 IVD 姿
+02030 T13-2C77 IVD 渤
+
+01725 UTC-01757 FS = 1
+
+03507 GHZR53140.13 error form of U+8211 舑
+
+03292 UTC-02013 simplification of non-standard character.
+
+03514 GHZR53142.19 corruption of 𦧫 (U+269EB), both variants of 𦧓 (舐)
+
+03520 UTC-01632 half-hearted strict transcription of 朕 (U+6715) / 𦩎 (U+26A4E); strict transcription should be ⿰舟⿱火𠬞
+
+
+03300 UTC-02018 FS - 1
+03301 UTC-02019 FS - 1
+
+03528 T13-3056 unify to 朖 as missing strokes / taboo character
+
+03308 UTC-02025 FS = 9. ref 緻.
+
+03531 T13-3057 IVD to 包 and 色 at the same time.
+
+03533 GHZR10082.04|T13-3058 UNIFY/IVD  巵 (minor stroke difference)
+
+03541 USAT09033 Inaccurate transcription of seal form of 𠁬 / 𦫳. IVD to 𠁬?
+
+03542 T13-305A Unify 艾? Compare with 03546 T13-3059 unified by 𦫿 (U+26AFF), IRG #47.
+03543 T13-305B IVD 艾?
+03544 T13-305C IVD 方; is it too strict transcription of Li-shu Script form?
+03337 T13-303D IVD 睪; is it too strict transcription of Li-shu Script form?
+
+03550 T13-305D bottom part may be normalized to 𠬞.
+
+03551 T13-305E IVD 弟
+03553 T13-305F IVD 步
+03554 T13-3060 IVD 苽 (bottom is a corruption of 瓜)
+
+03555 UTC-01950: Disunified in IRG#47? Keep G-source of U+82B2; U+82B2 is used in 第一批异体字整理表 to mean 花; 03555 should be separately encoded.
+
+03561 KC-03547 synonym with U+829F 芟?
+
+03330 GHZR53135.11 IVD 罐? (Existing Synonomous but disunified: 觀 = U+2E5DA // 𩦘 = 驩 // 𫞐 = 權 // U+2D13F = 勸 // U+2D7B9 = 懽 // U+2DB55 = 歡)
+
+03334 T13-303C IVD 冤 bent stroke; protrusion of stroke; missing minor dot.
+
+03341 USAT07219 IVD 罭 (U+7F6D)
+03348 USAT09663 IVD 𦋽 (U+262FD)
+
+03342 T13-3040 IVD 䆩 (⿱目大 ~ 具)
+
+03344 T13-303F|USAT08448 IVD 冕
+
+03591 UTC-02800 SC = 8 (KangXi SC = 8)
+03824 UTC-02112 SC = 8 (KangXi SC = 8)
+03793 UTC-01940 SC = 8 (KangXi SC = 8)
+01398 UTC-01809 SC = 8 (KangXi SC = 8)
+
+03598 T13-3066 IVD 葉 (U+8449) removal of one stroke, 業通葉
+
+03607 T13-3067 IVD U+8425
+
+
+03464 GHZR42266.08 IVD 𦝝 (⿳⺈罒犮 ~ 奐 // 𤁊 = 渙 // 𤩆 = 瑍)
+02083 GHZR31853.02 IVD 渙 (⿳丷罒支 ~ 奐 // 𤹹 = 瘓)
+
+03466 GHZR42268.01 IVD U+2680E? (焱 ~ 猋) ** Note to Suzuki-san and Henry: need more IVD research**
+
+01299 GHZR42306.14 corrupted form of 㦤 (U+39A4) missing enclosing component. IVD?
+
+01305 GHZR42530.08 UNIFY TO / IVD TO 01300 GHZR42524.09. 殸 is corrupted form of 𣪊 (one extra minor vertical stroke).
+
+03471 GHZR42262.07 T/S Flag = 1? non-standard progressive simplification of 𦢪.
+
+03475 GHZR42276.10 IVD 𦢨
+
+01313 GHZR42536.04 synonymous to U+2D7E7?
+
+01316 USAT06660 corrupted form of 懱. NUCV.
+
+03622 KC-03604 FS - 5
+
+01321 GHZR31508.07 alternate transcription of 戒, IVD.
+
+03601 UTC-01176 is designed in error? The evidence shows ⿱艹秔 which is 03624 UTC-01177.
+
+01325 GHZR31509.04: the left side should be 各, not 名 according to pronunciation. withdraw, or change the third stroke (dot) to protude the second stroke (hzp). Refer to 㦴 (U+39B4).
+
+01329 GHZR31512.07 UNIFY TO 𣨦 (U+23A26), protrusion of stroke.  Both are variants of 殲.
+
+01338 USAT09356 Really Synonomous with 䪳(U+4AB3) and 頧(U+9827)? Modern shuowen script uses "傾".
+03106 USAT90202 really synonymous with 筠(U+7B60) and 䈮(U+422E)?
+
+03480 G_Z2931101 SC = 20
+
+03482 GHZR42281.13|USAT90011 FS = 1; China may wish to normalize to ⿰月蹙 (refer to 𡄱 U+21131 GKX-0214.17).
+
+03627 USAT06928 corrupted form of 䔠, IVD?
+
+03629 KC-03622 FS = 4
+
+03633 UTC-01539 UNIFY 蓑, protrusions of strokes. (phonetic 衰)
+
+01353 GHZR41940.01 corrupted form of 柩. Phonetic 匛 not 匹. IVD?
+
+01354 USAT08664 UNIFY / IVD 抵 (U+22A94) (𢆰 ~ 互 ~ 氐). 𢆰 is a historically common variation of 互 and 氐. 互 (hu4) and 氐 (di3) are often interchanged as components in historical text, but in modern text they are distinct characters. According to the text, this character is pronounced as di3 (丁禮切). Therefore, normalization to 抵 (U+62B5) is preferred over normalization to 𢪔 (U+22A94). DO NOT UNIFY to U+2AB5E, according to CNS11643 website, pronunciation is xi4 which is likely a variant of 繫 (to tie up).
+
+01360 UTC-01806 FS = 3
+
+03655 T13-306D corrupt form of 奮, 偏類碑別字, IVD?
+
+01362 G_Z0222703 FS = 2
+
+03672 T13-306F corrupted form of  孽, IVD, 金石文字辨異
+
+03673 UTC-01976 - may not match PRC conventions: bottom left should be 犬 or 大?
+
+03675 USAT06065 IVD to 藤 (月 ~ 舟, half-strict transcription of seal script, most strict should be ⿱艹⿸𦩎氺)
+
+03677 UTC-01430 Glyph doesn't match evidence; correct glyph should UNIFY TO U+2C7CF
+
+03678 KC-03739 variant of 𧅱? bottom should be normalized to 䪣.
+
+01383 GHZR41979.10 UNIFY 𢫽 (U+22AFD) (single case).
+
+01403 GHZR41993.18 consider normalize right hand component to 乕.
+
+01404 GHZR41995.04 IVD 掏
+
+01406 GHZR41996.09 IVD 掓 (𠦑 ~ 叔 // 𣒏 = 𣓙 = 椒 // 𡨜 = 寂 // 𥆳 = 督 // 𧚛 = 裻 // 𨁕 = 踧)
+
+01408 G_Z1922401 SC = 9
+
+01410 KC-01398 IDS ⿰扌卧
+
+03727 UTC-01915 FS = 5
+
+03736 G_Z4692501 SC = 10
+
+03738 UTC-02864 SC = 10
+
+03742 GHZR31549.01 Error form of ⿱亾䖵, variant of 蝱. IVD to 蝱.
+
+01415 USAT06126 IVD to 掆 U+6386 (𡶩 ~ 岡, top/bottom vs wrap around) # also see 03223 USAT08401
+
+01418 GHZR42011.01 UNIFY TO 01403 GHZR41993.18 (protrusion of strokes, separation of joined strokes)
+
+03751 G_Z3202401 UNIFY TO 蠓, the phonetic component is 蒙 (mbong).
+
+01427 GHZR42023.03 IVD 𭢲 (joining of strokes, joining of strokes 回 --> 皿. phonetic component is 嗇)
+
+03761 G_Z3932304 SC = 15
+
+03763 T13-3070 UNIFY 盇, direction of minor dot
+03764 T13-3071 UNIFY 盇, addition of minor stroke
+
+01429 USAT08547 IVD 𢱂 (U+22C42)
+
+01443 USAT06427 sure synonym to 撀 (U+6480) / 𤚼 (U+246BC)?
+
+01448 UTC-02823 normalize right hand side to 冤 due to the phonetic, SC = 10.
+
+01452 UTC-02633 - Could TCA confirm the claim by Zhonghua Zihai?
+
+01460 GHZR42061.01 SC = 11 (略)
+
+01463 GHZR42078.08 corrupted form of 𭢲, IVD? also refer to 01427 GHZR42023.03.
+
+01464 USAT04476 corruption of  𢲘 (U+22C98), IVD?
+
+01467 USAT06477 IVD 撩 (𤊽 ~ 尞) (refer to 01777 USAT09255)
+02276 T13-2D54 IVD 燎 (𤋯 ~ 尞) (refer to 01467 USAT06477)
+
+01471 GHZR42088.08 corruption of 𢹰. IVD?
+
+01473 GHZR42089.01 SC = 14
+
+03784 UTC-01936 FS = 2
+
+01476 G_Z4061101 SC = 15
+
+01483 GHZR42102.04 UNIFY to 𢹕 (UCV)
+01484 GHZR42103.10 corrupted form of 𢺃, IVD?
+
+01485 GHZR42104.04 normalize right hand side to 𦄐?
+
+01492 USAT09808 IVD 攷 (U+6537)?
+01499 USAT06694 IVD 敞 (U+655E)?
+01500 UTC-01376 IVD to 𢽝 (U+22F5D)?
+01503 UTC-02824 IVD to 𫿂 (U+2BFC2) ?
+
+01497 UTC-01505 IDS should be ⿰医攴
+
+01498 GHZR31567.05 IVD 敢?
+
+03792 USAT06913 SC = 8, FS = 2 (芺)
+
+02044 T13-2C76 IVD 渤 (㔜 = 勃)
+
+01502 UTC-01434 IVD U+2ABCD	𪯍?
+
+03798 UTC-01941 UNIFY to 褝 (U+891D)
+
+03801 KC-03032 IDS = ⿰示建
+
+01738 GHZR31354.14 UNIFY 𣖴, alternate transcription.
+
+01752 UTC-02922 UNIFY TO U+2363B
+
+
+04175 GHZR63785.12 IVD 輜 U+8F1C (⿱𠀐田 ~ 𣆊 ~ 甾; common variation, 𥀖 = 𥀒 ~ 㿳 // 𦃠 ~ 緇 // 𦵰 ~ 葘 // 𩺅 ~ 鯔 // 𫁁 ~ 䅔)
+03620 USAT09488 IVD to 菑 / 葘 / 𦵰 U+26D70 / 𦸜 U+26E1C (⿱𠀐田 ~ 𣆊 ~ 甾; common variation, 輜 = 𨍟 // ⿰米甾 = 𥻍 // 𣻲 = 淄 // 𥀖 = 𥀒 = 㿳 etc)
+02037 T13-2C75 IVD to 淄 U+6DC4 (⿱𠀐田 ~ 𣆊 ~ 甾; common variation, 輜 = 𨍟 // ⿰米甾 = 𥻍 // 𣻲 = 淄 // 𥀖 = 𥀒 = 㿳 etc)
+
+03816 USAT09182 UNIFY 䂓 (U+4093) 規 (U+898F) (protrusion of stroke). Character read as 規 (gui), which is a semantic character of 夫 + 見.
+
+02038 T13-2C79 IVD 温 - different position. (漢隸字源)
+02039 T13-2C7A IVD 溫 - protrusion of stroke (隸辨)
+
+02042 UTC-01244 UNIFY 𣶏 U+23D8F
+
+03819 GHZR74330.01 IDS 覼 (U+89BC)
+
+03821 GHZR73918.13 IVD U+2E5DA.  This variation of top part of 雚 is very common in historical text.
+
+03833 USAT08338 IVD 𧢲 (U+278B2)
+
+03848 T13-3078 IVD U+23A0C 𣨌
+
+03851 UTC-02147 SC = 5; FS = 1? (𫇦)
+02581 G_Z2782104 SC = 11? (𫇦 SC = 5; FS = 1?)
+02093 UTC-01797 SC = 11? (𫇦 SC - 5 FS - 1?)
+04367 UTC-02850 SC = 7 FS = 1? (𫇦 SC - 5 FS - 1?)
+04389 G_Z4161401 FS = 12? (𫇦 SC - 5 FS - 1?)
+02878 G_Z5122101 SC = 9, FS = 1? (𫇦 SC - 5 FS - 1?)
+
+03859 KC-03894 IDS should be ⿰言厖
+
+03863 T13-307B UNIFY 𧧿 (U+279FF) (𡥉 is alternative transcription of 𡥈)
+
+03869 UTC-01455 IVD 03847 UTC-01454, strict transcription of 㐁.
+
+
+03879 USAT05081 SC = 14, FS = 2 (夢)
+
+03881 KC-03934 SC = 12 (雋)
+
+02045 T13-2C7B IVD 準 -- stroke omitted version of 準 -- taboo character?
+02046 T13-2C7C IVD 準 -- relative position of components; does not completely match the evidence.
+
+02049 T13-2C72 IVD 深. (穼 === 罙)
+02050 T13-2C73 IVD 深 (U+6DF1).
+02051 T13-2C74 IVD 㴱 (corrupted component).
+
+02055 T13-2C7D IVD 𣶟 -- corrupted form of 𣶟. (亡 -> &CDP-89E3; -> 王)
+
+03940 UTC-02175 SC = 12, FS = 1.
+
+03950 UTC-02734 SC = 15 (bottom part is 攵 by etymology; refer to 讂 (U+8B82))
+
+03954 T13-307E IVD 容 (U+5BB9), the top part is an overly strict transcript of 宀.
+
+03959 GHZR74160.16: IVD to 𧯁.
+
+03965 T13-3123 IVD 短 (alternative transcription of bent stroke in seal script)
+
+03966 T13-3122 IVD 登 (U+767B). Corrupted form of 登. The etymology of this character is two 止, not two hands (𠬞). Similar shape.
+03972 T13-3125 IVD 登 (U+767B). Corrupted form of 登. The etymology of this character is two 止, not 非. Similar shape. (金石文字辨異)
+
+03971 GHZR63804.11 IVD 𧯧 (additional stroke)
+
+03982 UTC-01166 UNIFY/IVD 豙, alternative transcription.
+
+03983 GHZR63853.12 IVD 蒙
+
+03991 GHZR63859.13 UNIFY 䝒
+04966 GHZR84879.02 UNIFY 驟 (should confirm IRG 46, see 03991 GHZR63859.13)
+
+05383 UTC-02494 SC = 14
+
+05395 GHZR84912.19 IVD 𪉦 (U+2A266)
+
+05402 GHZR85051.04 IVD 𪋝 (U+2A2DD)
+
+05406 GHZR84901.03 IVD U+2EB84 𮮄
+
+03992 GHZR63859.23 UNIFY 𧲔 (U+27C94), UCV #332.
+
+03996 T13-3127 IVD 真
+
+03997 UTC-01654 SC = 4 (之)
+
+04006 T13-312A SC = 4
+
+02543 UTC-01520 wrong transcription of U+753E?
+
+02389 T13-2D69 severe corrupted form of 狀, IVD?
+
+02391 T13-2D6A UNIFY to U+80B0 肰, reference 然 in KangXi.
+02391 T13-2D6A UNIFY 02393 UTC-01584.
+
+02427 G_Z0211401|T13-2D71|USAT07088 IVD 猿 (袁 = 𡊮 -> 表)
+
+02417 T13-2D6F corruption of 猛, IVD?
+02426 T13-2D70 corruption of 猶, IVD?
+
+02457 T13-2D7B IVD 玨
+
+02460 T13-2D7C UNIFY U+73CA
+
+02461 T13-2D7E IVD U+73E1
+
+02463 T13-2E22 IVD 皇
+
+02465 UTC-01741 don't unify 02462. Non-cognate.
+
+02466 KC-02498 FS = 3 (乃)
+
+02467 T13-2D7D UNIFY/NORMALIZE TO 班; common for seal script form of 刂 be written with small hook rightwards.
+
+02469 USAT05012 - More evidence? seems to be corrupted form of 駐.
+
+02471 T13-2E24 IVD 珮 extra dots
+
+02058 T13-2D22 UNIFY 湛, the Songti transliteration is not completely accurate.  Refer to TCA's evidence.  02058 and 湛 are both as similar to the evidence.
+
+04012 GHZR10245.15 IVD 貪?
+
+04015 GHZR73882.14 IVD 𧵫 / 貽?
+
+04026 GHZR73898.08 IVD 䞃
+
+04031 GHZR73900.03 UNIFY 贍 with reference to other character containing 詹 unified in IRG#47.
+
+01767 GHZR31384.02 IVD U+6A64 橤?
+
+04038 GHZR73904.08 corruption of 贍 proper and its variant 贍, IVD?
+
+04039 GHZR73904.11 IVD ⿰章㣊 -> 𥪴, IVD 𥫔 U+25AD4 (difference placement of component)?
+
+01770 KC-01851 FS = 4, IRGN954AR#76
+
+04066 GHZR63718.02 IVD U+27F1B 𧼛?
+
+04081 USAT07168 UNIFY 跂, protrusion of stroke.
+
+01786 KC-01888 IVD ⿰木曅
+
+04100 GHZR73962.01 caligraphic simplification  U+8DDA 跚
+
+04135 G_Z2171101 consider normalizing right hand side to 歸
+02904 G_Z2162601 consider normalizing right hand side to 歸
+
+01823 UTC-01158 IVD 㞷 (U+37B7) (alternative transcription)
+01824 UTC-01538 unify 01823 UTC-01158?
+
+04136 KC-04037 FS = 2
+
+01828 USAT08763 left hand side should be corruption of 亾, IVD 氓 (U+6C13)
+
+01833 USAT10215 UNIFY 𡷇 (U+21DC7)
+
+04139 USAT06023 UNIFY 䠶 (U+4836) (𠂕=矢)
+
+04150 USAT09354 corrupted form, IVD 甹 (U+7539)
+
+04170 GHZR63778.03 UNIFY 𣤖 (U+23916) (minor variation in component)
+
+01862 GHZR42319.04 UNIFY 𣪸 (U+23AB8)
+01863 GHZR42320.04 UNIFY 𣪸 (U+23AB8)
+
+02500 GHZR21225.16 IVD U+24A6D 𤩭
+
+02501 KC-02657 IDS ⿰王曅
+
+02502 T13-2E30 FS = 4
+
+02505 T13-2E31 IVD 瓜.
+
+02508 GHZR52843.02 IVD 㼏?
+
+02511 GHZR52844.13 IVD 𤬢 (U+24B22) different relative position of components
+
+02513 GHZR31526.14 UNIFY 𤭀 (U+24B40)
+
+02516 GHZR31530.01 corruption of 㼲; IVD?
+
+02519 T13-2E33 UNIFY/IVD 甚. (joining of strokes, similar shape)
+02521 T13-2E32 UNIFY 甚 (U+751A) (joining of strokes)
+
+02537 GHZR10066.04 UNIFY/IVD 㼧 (U+3F27) (corruption)
+
+02540 T13-2E3B UNIFY/IVD 画 (U+753B)
+
+02542 T13-2E3C IVD U+7537?
+04250 T13-312E IVD U+57F7?
+04251 T13-312F IVD U+5831?
+02548 T13-2E3D IVD 男?
+02549 T13-2E3E IVD 畏?
+
+02544 GHZR52710.09 UNIFY 畊 (U+754A). (protrusion of strokes, normalization)
+
+02546 GHZR52714.01 IVD 畏
+
+01921 T13-2C48 UNIFY 𣱅
+
+04256 GHZR74310.01 IVD 辭
+
+02550 T13-2E3F IVD 畒 (U+7552) different relative positions
+
+02552 T13-2E41 IVD 昔
+
+
+01937 T13-2C50 IVD 永
+
+02554 T13-2E45 IVD 略
+02558 T13-2E47 IVD 畧
+
+02555 T13-2E46 IVD 略
+
+04262 USAT08635 UNIFY 迊
+
+
+02566 GHZR52722.14 IVD 嗇 / 𤲝
+
+01938 TB-5B30 IVD 永. This variation is not found in other sources. 永 is sometimes written as u6c38-itaiji-001, and seems the author has mixed up the two forms.
+01939 T13-2C51 IVD 永 / 𣱵.
+
+
+01956 T13-2C5C IVD 桼
+
+02573 TB-6244 UNIFY/IVD 當 (additional stroke)
+
+02575 GHZR52731.11 IVD U+24C96 𤲖? (severe corruption)
+
+02582 USAT09141 IVD 𩱂 [corruption: 畐 -> 鬲]
+02591 USAT06604 IVD 䰝 (U+4C1D) [corruption: 畐 -> 鬲]
+
+04265 T13-3131 IVD 延 (漢隸字源)
+
+02069 G_Z3121201 SC = 11, FS = 2.
+
+02071 GHZR31835.03 UNIFY/IVD 濇  / 𬈧 (u2c227) (joined strokes)
+
+02590 GHZR10441.10 = 01155 GHZR10441.09 (corrupted form of 臿 on the left) 
+
+02078 KC-02079 FS = 4
+
+02592 T13-2E4C UNIFY 疊, minor stroke.
+
+02593 T13-2E4D IVD 夏 (U+590F).
+02594 GHZR52943.03 IVD 夏 (U+590F).
+
+02596 T13-2E4F UNIFY 疾 (U+75BE) (alternative transcription of bent stroke in seal script).
+02597 T13-2E50 UNIFY 疾 (U+75BE) (alternative transcription of bent stroke in seal script, protrusion of stroke).
+
+02082 T13-2D28 IVD 激
+
+04298 T13-313D IVD 断, calligraphic variation (⻍ ~ 𠃊), extended enclosing shape
+
+02087 T13-2D26 IVD 滿
+
+02095 T13-2D29 UNIFY/IVD 涶 (similar shape) (𡍮 = 垂 // 𠍮 = 倕 // 𠾊 = 唾 // 𡑊 = 埵)
+
+
+02099 G_Z0752301 normalize to U+6F6F 潯
+
+
+02100 T13-2D2C IVD 潤 碑別字新編
+
+02614 T13-2E54 IVD 瘠 碑別字新編
+
+02615 T13-2E53 UNIFY TO 痱, 𤕫 is seal script form of 疒.
+02632 T13-2E5B UNIFY TO 癘, 𤕫 is seal script form of 疒.
+02640 T13-2E5E UNIFY TO 癬, 𤕫 is seal script form of 疒.
+
+02617 T13-2E52 IVD 痛 碑別字新編
+
+04308 KC-04116 old glyph should be unifiable with current glyph, or treat as normalization.
+
+02629 T13-2E56 IVD 瘤 (㽞 = 留) (㽞 = 留 // 𩥺 = 騮 // 𩅑 = 霤 // 𦄛 = 𦃓)
+
+02113 T13-2D2D UNIFY 潤 "minor" dot.
+
+02115 GHZR31895.01 IVD 𣻭
+
+02116 USAT09466 IVD 㶚 (U+3D9A) (calligraphic simplification)
+
+02117 T13-2D2E IVD 壍 relative place of components
+
+02633 T13-2E58 IVD 癄
+
+02634 T13-2E59 IVD 瘠
+
+02635 T13-2E5A IVD 癖 (length of strokes)
+
+02636 T13-2E5D IVD 癅/瘤 (𤲢 = 留//𤩾 = 瑠)
+
+02638 G_Z3882101 should confirm 嫩 (束) according to phonetic
+
+04326 T13-313F IVD 卬
+
+04332 GHZR74021.01 IVD 郗
+
+04343 GHZR74038.02 IVD 鄙
+
+04344 GHZR74039.05 IVD/UNIFY 鄳 (⿱罒电 = 黽  // 𦃰 = 繩 // 𪒎 = 䵴)
+
+04348 GHZR74046.05 UNIFY/IVD 𨜛 (U+2871B) (𡨼 = 叜 // 𢠡 = 𢜶 // 𤡗 = 𤟫 // 𪷅 = 𣸈)
+04847 GHZR84782.22 UNIFY/IVD 䬒 (叜 = ⿱穴㕛)
+
+04350 GHZR74047.05 UNIFY/IVD U+28775 𨝵 (protrusion of strokes)
+
+04351 GHZR74053.04 IVD 鄘
+04352 GHZR74054.07 IVD U+9133 鄳
+
+04354 GHZR74056.01 UNIFY 䣟 (U+48DF)
+
+02129 KC-02157 IDS ⿰氵翦
+
+02646 T13-2E62 IVD 奄
+
+02647 T13-2E63 IVD 登, 豆 and 亜 are similar shapes for "Hu (vessel)".
+
+02648 T13-2E64 IVD 𤼲. similar shape, alternative transcription of kaishu form. d <-> hz // p+hg <-> szzg.  Refer to IRGN954AR #22.
+
+01546 GHZR42341.06 UNIFY U+23086 𣂆. protrusion of strokes.  Common historical variation (升 / 斗).  Refer to seal script in shuowen, right hand side is 斗 not 升.
+04358 T13-3142 IVD U+9159 酙. protrusion of strokes. Common historical variation (升 / 斗).
+
+02652 T13-2E66 IVD 皇 漢隸字源
+
+02142 GHZR31920.01 IVD 灞 calligraphic simplification
+
+04360 GHZR63816.02 unify U+48EE, UCV research IRGN2176#13, ROK Normalization.
+
+04363 GHZR63822.13 IVD 𨡻 (U+2887B), corruption, omission of component...
+
+02655 T13-2E67 IVD 皇/𦤍
+
+02660 T13-2E69 UNIFY 替 "minor" stroke
+02661 T13-2E68 UNIFY 智 "minor" stroke
+
+02663 GHZR52838.08 UNIFY 𤾧 (common variation; 業 (U+696D) = U+2DA99); IDS should use 龷 (U+9FB7) instead of U+E82C
+
+02664 GHZR52839.05 UNIFY 㿧 UCV
+
+02667 T13-2E6C IVD 皺.
+02680 T13-2E71 IVD 皺.
+02673 T13-2E6D IVD U+2DF72.
+
+02685 T13-2E72 IVD 孟
+02687 T13-2E74 IVD 孟
+02689 T13-2E76 IVD 孟
+02690 T13-2E75 IVD 孟
+
+04373 GHZR63834.07 IVD U+490F
+
+02686 T13-2E73 IVD 76C1 漢隸字源
+
+02169 T13-2D36 IVD 炕
+
+02185 T13-2D3D IVD 热
+02186 T13-2D3E IVD 热
+
+02188 USAT07218|UTC-02652 IVD 炮
+
+02191 T13-2D38 IVD 𤇚
+
+02192 T13-2D3B IVD 為
+
+02697 T13-2E77 calligraphic simplification of 盡 (U+76E1)
+
+04375 GHZR63836.06 calligraphic simplification of 䤐 (U+4910)
+
+02195 T13-2D39 IVD 煼
+
+02698 T13-2E7A IVD 盛, taboo for 丁
+
+02702 T13-2E7C IVD 盟 protrusion of strokes.
+02704 T13-2E7D IVD 盟
+02707 T13-2E7E IVD 盟
+
+02196 T13-2D3A IVD 𤌽
+
+04377 GHZR63841.01 IVD  釂 calligraphic simplification
+
+02203 T13-2D43 UNIFY 烟 (joined strokes)
+
+02210 T13-2D40 IVD 勞
+
+04380 USAT09737 IVD 耕
+
+04384 GHZR73927.06 IVD 釐 (U+91D0)
+04385 GHZR73927.07 IVD 釐 (U+91D0)
+
+04386 USAT04695 IVD  黯
+
+02712 GHZR52755.05 IVD 盥
+
+04387 G_Z3421101 Radical heart, meaning think.
+
+02718 T13-2F21 IVD 具
+
+
+
+02757 T13-2F31 IVD 睤
+
+02781 T13-2F36 IVD 督
+
+02801 T13-2F3C UNIFY/IVD 𢦧, extra "minor" stroke.
+
+02244 T13-2D49 IVD 煎
+
+02809 T13-2F3E Unify 矩 minor stroke
+
+
+02813 T13-2F40 IVD 族 俗書刊誤
+
+02819 KC-02882 FS - 2
+
+04408 KC-04212 UNIFY 𫒡 (U+2B4A1)? Evidence seems to match 𫒡 (U+2B4A1) too.
+
+02250 TD-7A36 IVD 𤎸
+
+
+
+02252 USAT06944 calligraphic simplification of  蔫
+
+02264 USAT06872 IVD 燅
+
+02824 USAT05119 IVD 𥐗
+
+02825 KC-02883 FS = 3
+
+02828 T13-2F44 IVD 砭
+
+02831 GHZR52591.17 UNIFY 䂚 U+409A
+
+
+04418 USAT60366 IVD 錍
+
+02275 GHZR42082.08 IVD U+71C5 燅 (U+2EA90 = 𩣱?) ** Note to Suzuki-san and Henry: need more IVD research**
+
+02849 T13-2F46 UNIFY 破, left hand side is not 后 but 𥐖 (U+25416), ~ 䂖 (U+4096) === 	石 (U+77F3)
+
+02856 GHZR52605.04 UNIFY 𥓾 (UCV)
+
+02861 GHZR52602.09 IVD U+7890 碐 joined strokes, protruded strokes. Phonetic is 夌.
+
+02864 GHZR52609.01 UNIFY TO 䂳
+
+02305 T13-2D57 IVD 爪
+
+02309 T13-2D59 IVD 神 / 𥙍 (First stroke make horizontal)
+
+02310 GHZR42180.06 UNIFY 𤓶 / 𤓷
+
+02314 GHZR31305.04|USAT10441 IVD to 𤓽? (𡥀 === 呆)
+
+04425 G_Z1382402 SC = 8
+
+02319 GHZR42181.08|T13-2D5C FS = 2
+
+04430 G_Z2051602 FS = 1
+
+04431 UTC-01302 SC = 11
+
+03007 T13-2F75 IVD 𥡻
+
+02323 GHZR42184.09 IVD 𤔔
+
+02324 GHZR42184.29 IVD 斁
+
+02325 GHZR10077.11 IVD 𠧏
+02326 GHZR10077.12 IVD 𤕍
+
+02328 G_Z1602601 right hand side not 戊? any other sources?
+
+02330 USAT10180 UNIFY TO 樊
+
+02332 T13-2D5D IVD 物. 偏類碑別字 (爿 --> 牛. refer 02334, 02342)
+02334 T13-2D5E IVD 牲. 碑別字新編 (爿 --> 牛. refer 02332, 02342)
+02342 T13-2D62 IVD 犒. 偏類碑別字 (爿 --> 牛. refer 02332, 02334)
+02362 T13-2D64 IVD 収 (丩 and 牛 are very similar in historical handwriting)
+02373 T13-2D66 IVD 狀 (牛 --> 爿; 犮 ~ 犬, refer to ROK Normalization)
+02379 GHZR42127.10 IVD 將 (牛 --> 爿; 匇 ~ 月)
+
+03052 T13-3022 IVD 宴 (偏類碑別字)
+
+03078 GHZR52905.14 IVD 𣫊
+
+03082 T13-302C IVD 競
+
+03084 T13-302E IVD 竺 金石文字辨異
+
+03097 T13-3030 IVD 𥬖
+
+03104 T13-3031 IVD 㗛 difference in relative position of components, 犬 --> 夭 (refer to ROK Normalization)
+
+02338 T13-2D60 UNIFY 疾, seal script form of 疾, extra 豎.
+02339 GHZR42545.08 corrupted form of seal form of 疾. IVD to 疾.
+02344 USAT07209 seal form of 癅 / 瘤, UNIFY.
+
+02340 T13-2D61 IVD 遊? 方 (丬) moved outside enclosure
+02943 T13-2F5C IVD 遊? 方 (礻) moved outside enclosure
+
+03240 T13-303B IVD 孿
+
+04447 UTC-01305 SC = 15 (etymology is 敻 - 攴)
+
+04519 UTC-01472 SC = 10
+
+02356 USAT06626 UNIFY 秩 (U+79E9) (common variation)
+
+02375 T13-2D65 IVD 牲, 漢隸字源
+
+04633 T13-3143 IVD 師 calligraphic simplification
+
+02381 T13-2D67 IVD 犂 minor stroke
+
+04641 GHZR74438.04 IVD 陓
+
+04642 GHZR74438.06 IVD 阪
+
+04643 T13-3144 IVD 阷
+
+04648 GHZR74445.08 IVD 陟 (𡵯 = 步)
+
+04654 T13-3146 IVD 𨻱; 𡶤 = 	崩// 𧚸 = 䙖
+
+04660 GHZR74455.08 IVD 陞, direction of stroke, extra stroke.
+
+02384 GHZR42132.05 IVD 𤚶, different relative position of components.
+
+02472 T13-2E23 IVD 班
+02475 T13-2E26 IVD 班 (偏類碑別字)
+02473 T13-2E27 IVD 碧 金石文字辨異
+
+02474 GHZR21201.05 IVD 珊
+
+02480 T13-2E28 IVD 琴
+02481 T13-2E29 IVD 琴
+02487 T13-2E2C IVD 琴
+
+04667 GHZR74458.04 UNIFY 隄 (昰 ~ 是 // 𨕒 = 遈)
+
+04669 GHZR74461.15 normalize right hand side to 哀
+
+04672 KC-04362 IVD corruption of 降
+
+04673 GHZR74464.01 calligraphic simplification of 隣 (two feet --> two hands), IVD.
+
+03446 GHZR42252.05 IVD 𦜆 (凾 = 函 // 㴠 = 涵)
+04674 USAT90336 IVD 𨺂 (凾 = 函 // 㴠 = 涵)
+
+04677 GHZR74467.14 IVD 隂
+
+04686 G_Z1141302 right hand side should be normalized to 達, phonetic is 達 (ta:t8)
+
+04688 GHZR74473.05 IVD 𨽐
+
+04694 GHZR74476.12 IVD to 𨻲 (虍 often written as 雨)
+
+04708 GHZR74482.01 UNIFY TO 𨽎 (U+28F4E)
+
+04711 T13-3149 IVD 售
+
+02491 T13-2E2E IVD 璣
+
+04729 T13-314B IVD 寅
+
+04759 USAT09740 IVD 𩉳
+
+02538 T13-2E39 IVD 留 (calligraphic simplification)
+
+02869 T13-2F49 IVD 碎 (䘚 = 卒 // 𠵒 = 啐 // 𡸝 = 崪 // 𩣰 = 𩤏 // 𢜙 = 悴)
+
+02870 UTC-02657 SC = 9, FS = 1, refer to Kangxi.
+
+02872 T13-2F4B IVD 磬 (difference in minor stroke, difference in relative position of components) 碑別字新編
+
+02887 GHZR52626.02 IVD 磝
+
+02898 GHZR52630.09 UNIFY TO 碏 (㫺 = 昔 // 錯 = 䥘 // 借 = 𠎥 // 剒 = 𠟏 // 惜 = 𢡽)
+
+02901 GHZR52627.12 IVD 磉
+
+02908 GHZR52555.02|T13-2F4D corrupted form of 𥘕. UNIFY 𥘕. Phonetic is 亓, old hanzi version of 其, not be 丌.
+
+04805 T13-314E IVD 顦 (𤊙 ~ 焦) [Refer to 00644 also].
+
+02916 T13-2F52 IVD 祥 (missing major stroke...)
+
+02917 T13-2F51 IVD 祐 (difference in transcription of Lishu character, 𠮢 = 右)
+
+02920 T13-2F54 IVD 栽
+
+02921 T13-2F56 Unify 神, addition of minor stroke.
+
+02922 KC-02967 FS = 5
+
+02925 T13-2F55 IVD 祐 (U+7950)
+
+02929 TC-7E51 IVD 禀
+
+02938 T13-2F59 IVD 棺 碑別字新編
+
+02944 T13-2F5D IVD 稱
+
+02947 T13-2F5F IVD 福
+
+02948 T13-2F5E IVD 福
+
+02949 GHZR52576.17 IVD 𥛅
+
+02950 T13-2F60 UNIFY 禧
+
+02952 KC-03002 normalize right hand side to 鬲
+
+02954 T13-2F61 IVD 穎
+
+02964 T13-2F64 IVD 萬, lishu script, should be transcripted to 艹 instead.
+
+02970 T13-2F66 IVD to 秊
+
+02972 T13-2F68 IVD 科
+

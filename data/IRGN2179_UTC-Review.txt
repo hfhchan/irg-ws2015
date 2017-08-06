@@ -1,0 +1,214 @@
+00111
+UTC-02931
+Stroke Change residual strokes from 0 to -2
+
+00112
+UTC-02932
+Stroke Change residual strokes from 0 to -1
+
+01518
+G_Z3882301
+RS Change RS from 68.8 to 172.4
+
+01554
+G_Z4191104
+RS Change RS from 72.5 to 19.7
+9 / 21
+
+01594
+G_Z3561201
+RS Change RS from 72.10 to 41.11
+
+01655
+G_Z0291301
+RS Change RS from 74.9 to 106.8
+
+01685
+UTC-02755
+RS Change RS from 75.6 to 27.8
+
+01705
+G_Z2281201
+RS Change RS from 75.8 to 51.9
+
+01727
+G_Z2172501
+RS Change RS from 75.9 to 86.9
+
+01734
+G_Z1641305
+RS Change RS from 75.10 to 67.10
+
+01739
+G_Z4462201
+RS Change RS from 75.10 to 139.8
+
+01761
+G_Z0612401
+RS Change RS from 75.12 to 152.9
+
+01798
+GHZR52737.15
+RS Change RS from 75.27 to 102.26
+
+01873
+USAT10592
+RS Change RS from 81.4 to 76.4
+
+01876
+G_Z0182504
+RS Change RS from 81.9 to 182.4
+
+01920
+T13-2C47
+RS Change RS from 83.2 to 32.3
+
+01938
+TB-5B30
+RS Change RS from 85.2 to 5.5
+
+01940
+G_Z0851403
+RS Change RS from 85.3 to 41.4
+
+02029
+G_Z2631501
+RS Change RS from 85.9 to 181.4
+
+02096
+G_Z3341203
+RS Change RS from 85.12 to 109.10
+
+02098
+G_Z0442501
+RS Change RS from 85.12 to 39.12
+
+02119
+UTC-01802
+Stroke
+Change residual strokes from 12 to 14; the upper-right
+component was corrected, from Radical #140 to Radical #118,
+but the residual strokes were not adjusted accordingly
+
+02132
+GHZR42275.10
+RS Change RS from 85.15 to 74.14 or 130.14, depending on the
+etymology
+
+02211
+T13-2D42
+RS Change RS from 86.7 to 37.8
+
+02311
+T13-2D5A
+RS Change RS from 87.6 to 74.6
+
+02314
+USAT10441/GHZR31305.04
+RS Change RS from 87.7 to 75.7
+
+02317
+GHZR42000.03
+RS Change RS from 87.8 to 64.8
+
+02325
+GHZR10077.11
+RS Change RS from 87.20 to 24.22
+
+02326
+GHZR10077.12
+RS Change RS from 87.20 to 24.22
+
+02327
+G_Z2991303
+RS Change RS from 88.5 to 212'.4
+
+02340
+T13-2D61
+RS Change RS from 90.9 to 90'.9
+
+02344
+USAT07209
+RS Change RS from 90.13 to 104.12; compare with 02615 (104.8),
+
+02632 (104.13), and 02640 (104.17)
+
+02359
+G_Z2511302
+RS Change RS from 92.6 to 38.7
+
+02365
+TB-7C4D
+RS Change RS from 93.3 to 44.4
+
+02385
+UTC-01281
+RS Change RS from 93.10 to 167.6
+
+02389
+T13-2D69
+RS Change RS from 94.3 to 39.4
+
+02425
+G_Z2371501
+RS Change RS from 94.8 to 19.9
+
+02443
+G_Z3021104
+RS Change RS from 94.15 to 200.8
+
+02461
+T13-2D7E
+RS Change RS from 96.6 to 10.8
+
+02473
+T13-2E27
+RS Change RS from 96.8 to 37.9
+
+02480
+T13-2E28
+RS Change RS from 96.9 to 42.10
+
+02487
+T13-2E2C
+RS Change RS from 96.11 to 113.10
+
+02488
+KC-02587
+RS Change RS from 96.11 to 200.5
+
+02505
+T13-2E31
+RS Change RS from 97.1 to 87.1
+
+02519
+T13-2E33
+RS Change RS from 99.4 to 61.5
+
+02531
+T13-2E36
+RS Change RS from 101.0 to 32.2
+
+02550
+T13-2E3F
+RS Change RS from 102.4 to 8.7
+
+02562
+UTC-01521
+RS Change RS from 102.5 to 80.5
+
+02568
+G_Z1241501
+RS Change RS from 102.7 to 154.5
+
+02735
+T13-2F2A
+RS Change RS from 109.5 to 115.5
+
+02872
+T13-2F4B
+RS Change RS from 112.9 to 66.10
+
+02954
+T13-2F61
+RS Change RS from 113.13 to 181.9

@@ -1,0 +1,845 @@
+# Clerical Error and omissions:
+03660 UTC-01288: should NOT be unified to U+46E9; restore to WS2015v3.
+03860 UTC-02918: should be unified to U+46E9; migrate to unified&withdrawn.
+
+00048 GHZR10061.08: radical SHOULD NOT BE changed to 107 皮, irg47. Restore to Radical 2, SC 5, FS 5.
+00049 G_Z3841301: radical BE changed to 107 皮, irg47, SC 2, FS 5.
+
+00512 USAT06789: Radical = 10, not SC = 10.
+
+00768 USAT06419: Unify to U+2D3DF, not U+2D2DF
+
+00931 USAT08293: Unify to U+2D4EE, not U+2D4ED
+
+00617 UTC-02917: evidence shows 挑 not 桃, Matthew should be 挑 (tiu), not 桃 (to). Confirmed in IRGN2155_UK_Response but missing in WS2015v3.0; unify to 00599.
+
+02015 T13-2C6E|USAT06349: no such G font, no G font was updated.
+
+05222 UTC-01350: withdrawn in WS2015v2 - IRGN2155 UK Review.
+03384 UTC-01405: withdrawn in WS2015v2 - IRGN2155 UK Review.
+03026 UTC-01398: withdrawn in WS2015v2 - IRGN2155 UK Review; SC - 21.
+00123 UTC-01423: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00130 UTC-01318: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00138 UTC-01391: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00296 UTC-01326: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00345 UTC-01329: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00348 UTC-01330: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00475 UTC-01337: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00524 UTC-01421: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00542 UTC-01338: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00560 UTC-01339: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00561 UTC-01369: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00814 UTC-01345: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00662 UTC-01342: withdrawn in WS2015v2 - IRGN2155 UK Review.
+05061 UTC-01425: withdrawn in WS2015v2 - IRGN2155 UK Review.
+05094 UTC-01408: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00827 UTC-01372: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00857 UTC-01353: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00863 UTC-01355: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00866 UTC-01441: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00871 UTC-01354: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00874 UTC-01356: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00898 UTC-01358: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00933 UTC-01437: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00938 UTC-01362: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00953 UTC-01367: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00966 UTC-01368: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00969 UTC-01363: withdrawn in WS2015v2 - IRGN2155 UK Review.
+00970 UTC-01366: withdrawn in WS2015v2 - IRGN2155 UK Review.
+
+# Font changed but not marked OR glyph supplied on IRG website doesn't match that in attributes file.
+00215 G_Z1511301: Glyph changed but not marked in Attributes file.
+04741 G_Z3411301: Glyph changed but not marked in Attributes file.
+03351 KC-03383: Glyph changed but not marked in Attributes file.
+03380 KC-03430: Glyph changed but not marked in Attributes file.
+00247 KC-00226: Glyph Changed but not marked in Attributes file.
+00605 KC-00458: Glyph Changed but not marked in Attributes file.
+00941 KC-00905: Glyph on IRG website does not match that in Attributes file.
+00651 KC-00547: Glyph Changed but not marked in Attributes file.
+00766 KC-00723: Glyph Changed but not marked in Attributes file.
+00788 KC-00773: Glyph Changed but not marked in Attributes file.
+
+# Evidence and/or glyph image naming issues @ PRC:
+00052 GHZR10116.11 The evidence and glyph image submitted by PRC in IRGN2115R is missing, currently it is that of GHZR10116.12.
+00303 GHZR10116.12 The evidence and glyph image is incorrectly named as GHZR10116.11.
+00072 GHZR10060.11 The evidence and glyph image is incorrectly named as GHZR10060.10.
+00156 GHZR10179.06 The evidence and glyph image is incorrectly named as GHZ10179.05.
+01802 GHZR42293.12 The evidence and glyph image is incorrectly named as GHZ42293.11.
+05236 GHZR84939.15 The evidence and glyph image is incorrectly named as GHZR84939.14.
+02705 GHZR52749.05 The evidence and glyph image is incorrectly named as GHZR52749.02.
+02776 GHZR52684.18 The evidence and glyph image is incorrectly named as GHZR52684.13.
+05448 GHZR84909.13 The evidence and glyph image is incorrectly named as GHZR52684.14.
+05450 GHZR84910.02 The evidence only is incorrectly named as GHZ84910.01.jpg
+00305 GHZR10116.17 The evidence and glyph image is incorrectly named as GHZR52684.16.
+00134 GHZR10136.07 The evidence and glyph image is incorrectly named as GHZR10136.04
+00302 GHZR10116.07 The evidence and glyph image is incorrectly named as GHZR10116.06
+
+# unclear Evidence @ Korea
+05131 KC-05955: unclear evidence: 蘖 or 糵
+00082 KC-00039: unclear evidence: 西 or 覀
+00596 KC-00447: unclear evidence: 承 with three strokes? two strokes?
+00087 KC-00046: unclear evidence: 目力 or 助?
+00091 KC-00053: unclear evidence: 具 with three strokes? two strokes?
+04169 KC-04069: unclear evidence: right hand side
+00394 KC-00299: unclear evidence: ⿲木夕木? 棥? 
+00630 KC-00502: unclear evidence: 恠 or 巾?
+
+# Clerical Error @ UTC
+04470 UTC-02211: the evidence should be Fig. 932 instead of Fig. 931
+04471 UTC-02740: the evidence should be Fig. 931 instead of Fig. 932
+04543 UTC-02842: the evidence is for a different character.
+04548 UTC-02718: the evidence should be Fig. 982 instead of Fig. 983
+04549 UTC-02250: the evidence should be Fig. 983 instead of Fig. 982
+04560 UTC-02258: the evidence should be Fig. 993 instead of Fig. 992
+04561 UTC-02762: the evidence should be Fig. 992 instead of Fig. 993
+
+# Normalization Problem @ PRC / UTC
+00054 GHZR10035.23: Does not match PRC's conventions, Normalize to ⿰𠂤来; synomyn of 歸 or 𣦨. change radical to 木, SC = 9, FS = 3 TS = 13
+00090 GHZR10064.09: Does not match PRC's conventions, Normalize to ⿰曷乚, SC = 9
+05444 GHZR84908.26: Does not match PRC conventions: 差 should be one stroke.
+
+01594 G_Z3561201: left side 星 does not follow PRC conventions - should be a 提 not 橫
+01618 G_Z3551104: left side 星 does not follow PRC conventions - should be a 提 not 橫
+04883 G_Z0721301: Does not match PRC conventions. Compare with 養.
+02445 G_Z1402302: Does not match PRC conventions. Second stroke of 馬 should not be joined with the 6th stroke.
+05239 G_Z0211201: Does not match PRC conventions, last stroke of left component should be 點
+03354 G_Z2231201: Does not match PRC conventions, last stroke of left component should be 點
+00315 G_Z3842301: Does not match PRC Conventions, last stroke of left component should be 點
+04621 G_Z2382304: Does not match PRC Conventions: The third stroke of 犬 should be 點, not 捺.
+00065 G_Z1652501: Does not match PRC Conventions: The last stroke of 及 should be 點, not 捺; or the structure should be changed to enclosure.
+00264 G_Z4291302: Does not match PRC Conventions: Right hand side should be 尨 (⿷尤彡).
+00523 G_Z2042303: Does not match PRC Conventions: last stroke of top left component should be 點.
+00629 G_Z2302202: Does not match PRC Conventions: last stroke of top left component should be 點.
+00534 G_Z1592101: Does not match PRC Conventions: last stroke of left component should be 點.
+00536 G_Z0811201: Does not match PRC Conventions: last stroke of left component should be 提.
+00659 G_Z1831401: Does not match PRC Conventions: last stroke of top left component should be 點.
+
+04505 UTC-02827: Does not match PRC Conventions: First stroke should be 橫 for 吞. Revert glyph change.
+05355 UTC-02853: Does not match PRC Conventions: Last stroke of left component should be a 點.
+05325 UTC-02441: Does not match PRC Conventions: Left hand component should be left of 即, SC = 5.
+05388 UTC-02498: Does not match PRC Conventions: The tenth stroke should be 點, not 捺.
+05468 UTC-02579: Does not match PRC Conventions: The fifth stroke should be 點, not 豎彎.
+04615 UTC-02191: Does not match PRC Conventions: The second stroke of 人 should be 點, not 捺.
+00193 UTC-02805: Does not match PRC Conventions: The middle part of 亟 is 了, not right of 巧.
+00756 UTC-01701: Does not match PRC Conventions: The last stroke of the middle component is 提.
+05164 UTC-02715: does not match PRC conventions: top right should be one stroke; SC = 7 is correct.
+05197 UTC-02557: does not match PRC conventions: right hand side should be normalized to 恒; unify to 05198.
+
+00980 G_Z3951603: Need confirmation: Does not match PRC conventions. Consider normalize to 兒 instead of 𫤘.
+00224 G_Z2281101: Need confirmation: Does not match PRC conventions. Consider normalize to 觉.
+02271 G_Z2302301: Need confirmation: Does not match PRC conventions. Consider normalize to 觉.
+04111 G_Z1231301: Need confirmation: Does not match PRC conventions. Phonetic 忝 (tim1). Consider normalize to 忝.
+03110 G_Z4442201: Need confirmation: Does not match PRC conventions. Consider normalize to 齐.
+05030 G_Z3621104: Need confirmation: Does not match PRC conventions. Consider normalize to 惡.
+03008 G_Z3271501: Need confirmation: Does not match PRC conventions. Consider normalize to 密.
+03140 G_Z4491201: Need confirmation: Does not match PRC conventions. Consider normalize to 撒.
+03187 G_Z0671501: Need confirmation: Does not match PRC conventions. Consider normalize to 垂.
+
+02444 UTC-01773: Need confirmation: Right side should be 蕲 (grass span the top), corrupted form of 𣄨. Withdraw.
+
+00346 G_Z1841301: 几 is the phonetic, not 𠘧. Should use 几 (with hook) - Ref: U+28972
+
+05207 UTC-02565: Need confirmation, the right hand side should be 专 (𫚋). 專 should be progressively simplified to 专.
+05215 UTC-02573: Need confirmation, the right hand side should be 尝 (鲿). 嘗 should be progressively simplified to 尝.
+
+04616 G_Z2971101: Should confirm; normalize according to PRC conventions.
+
+# IRG Error
+02343 UTC-02856: need not be withdrawn; should be unified to U+2459B instead of U+2C312.
+
+# Extension F codepoint Changed:
+01818 GHZR42306.03: Should be Unified with U+2DB55 instead of U+2DB5B.
+03048 GHZR52925.13: Should be Unified with U+2E106 (USAT-05536).
+03054 G_Z3512301: Should be Unified with U+2E110 (GZ-1002303).
+03214 G_Z0382102: Should be Unified with U+2E20A (KC-05557).
+03228 G_Z4431404: Should be Unified with U+2E229 (USAT-01467).
+03225 USAT90318: Should be Unified with U+2E21C (JMJ-060051).
+03133 UTC-01086: Should be Unified with U+2E18F (GXHZ-023).
+04609 UTC-01124: Should be Unified with U+2E932 (GFC-065).
+
+# Radical
+05538 UTC-02698: Phonetic is 龙, semantic is 马. Radical 马 187.1, SC = 5, FS = 1.
+
+01640 G_Z1142101: Radical -> 肉 130.
+01641 G_Z4622401: Radical -> 肉 130.
+01650 G_Z3231101: Radical Meat 130, facial expression
+01651 G_Z0031401: Radical Meat 130, 肚
+01653 G_Z2601103: Radical Meat 130, 腰
+01654 G_Z3842606: Radical Meat 130, meat.
+01656 G_Z2622301: Radical Meat 130, (plant/fruit) flesh.
+01657 G_Z3651101: Radical Meat 130 or 虫 142.
+01663 G_Z1772101: Radical Meat 130, naked.
+01665 G_Z1852101: Radical Meat 130, face; SC - 12; FS - 1
+01666 G_Z0041501: Radical Meat 130, palm, sole of the foot.
+01667 G_Z3081501: Radical Meat 130, Spleen
+01669 G_Z2931504: Radical Meat 130, 脫 (fall)
+03495 G_Z3352401: Radical Nose 209 鼻, SC = 2, FS = 3.
+
+00189 G_Z2241401: Phonetic is 介, semantic is 年, Radical should be 干 #51, SC - 7, FS - 3.
+00194 G_Z1531101: Phonetic is 伏, semantic is 包, Radical should be 勹 #20, SC - 9, FS - 3.
+01874 G_Z1582401: Phonetic is 比, semantic is 弗, Radical should be 弓 #57, SC = 6, FS = 1
+00227 G_Z4231402: Phonetic is 今, semantic is 㒼, Radical should be 冂 #13, SC - 13, FS - 1.
+01621 G_Z4951601: Phonetic is 日, semantic is 蔴, Radical should be 艸 #140, SC - 15, FS - 4.
+01635 G_Z2072304: Phonetic is 曲, Semantic is 虎, Radical should be 虎 #141, SC - 6, FS - 2.
+01637 G_Z4072501: Phonetic is 曾, semantic is 水, Radical should be 水 #85, SC - 12, FS - 4.
+01638 G_Z4511301: Phonetic is 暑, semantic is 負, Radical should be 貝 #154, SC - 14, FS - 2.
+01788 G_Z2982102: Phonetic is 林, semantic is 象, Radical should be 豕 #152, SC - 13, FS - 3.
+00250 G_Z1741401: Phonetic is 介, semantic is 賣, Radical should be 貝 #154, SC - 12, FS - 3.
+02729 G_Z3311204: Phonetic is 目, Semantic is 水, Radical should be 水 #85, SC = 5, FS = 2.
+01191 G_Z0431502: Phonetic is 彭, semantic is 半, Radical should be 十 #24, SC = 14, FS = 4.
+00267 G_Z5062401: Phonetic is 元, Semantic is 弹, Radical should be 弓 #57, SC = 12, FS = 1.
+01655 G_Z0291301: Phonetic is 朋, semantic is 白, Radical should be 白 #106, SC = 8, FS = 3.
+02681 G_Z0262601: Phonetic is 皮, semantic is 肥, radical should be 肉 #130, SC = 9, FS = 5.
+00980 G_Z3951603: Phonetic is 宜, semantic is 兒, radical should be 儿 #10, SC = 14, FS = 4.
+00985 G_Z2092201: Phonetic is 空, semantic is 貧, radical should be 貝 #154, SC = 12, FS = 4.
+00992 G_Z4631201: Phonetic is 小, semantic is 旋, radical should be 方 #70, SC = 10, FS = 3.
+00215 G_Z1511301: Phonetic is 伏, semantic is 豆, Radical should be 豆 #151, SC - 6, FS - 3.
+02441 G_Z1412103: Phonetic is 独, semantic is 条, Radical should be 木 #75, SC - 12, FS - 3.
+02432 G_Z3632301: Phonetic is 独, semantic is 凸, Radical should be 凵 #17, SC - 12, FS - 3.
+03064 G_Z4051401: Phonetic is 立, semantic is 刀, Radical should be 刀 #18, SC - 5, FS - 4.
+03065 G_Z2861402: Phonetic is 立, semantic is 土, Radical should be 土 #32, SC - 5, FS - 4.
+03069 G_Z4211202: Phonetic is 立, semantic is 甲, Radical should be 田 #102, SC - 5, FS - 4.
+00397 G_Z0281302: Phonetic is 剝, semantic is 車, Radical should be 車 #159, SC = 10, FS = 5.  Right hand side normalize to 剥?
+03131 G_Z4682206: Phonetic is 算, semantic is 文, Radical should be 文 #67, SC = 14, FS = 3.
+00415 G_Z2672203: Phonetic is 力, semantic is 深, Radical should be 水 #85, SC = 10, FS = 4.
+03235 G_Z4272303: Phonetic is 累, semantic is 串, Radical should be 丨 #2, SC = 17, FS = 2.
+00012 G_Z0992301: Phonetic is 丁, semantic is 止, Radical should be 止 #77, SC = 2, FS = 1.
+00015 G_Z0981401: Phonetic is 丁, semantic is 平, Radical should be 干 #51, SC = 4, FS = 1.
+00037 G_Z0401301: Phonetic is 百, semantic is 壳, Radical should be 士 #33, SC = 10, FS = 1.
+00061 G_Z3391401: Phonetic is 么, semantic is 果, Radical should be 木 #75, SC = 7, FS = 2.
+00107 G_Z3521401: Phonetic is 乞, semantic is 緊, Radical should be 糸 #120, SC = 11, FS = 1.
+00315 G_Z3842301: Phonetic is 农, semantic is 長, Radical should be 長 #168, SC = 6, FS = 4.
+00357 G_Z1141501: Phonetic is 刀, semantic is 巾, Radical should be 巾 #50, SC = 2, FS = 5.
+00419 G_Z4052201: Phonetic is 勒, semantic is 灭, Radical should be 火 #86, SC = 12, FS = 1.
+00593 G_Z1491101: Phonetic is 叫, semantic is 争, Radical should be 亅 #6, SC = 10, FS = 2.
+00396 G_Z4042301: Phonetic is 利, radical should be 韋 #178.
+00669 G_Z4582501: Phonetic is 善, semantic is 尾, Radical should be 尸 #44, SC = 16, FS = 4.
+00683 G_Z2551103: Phonetic is 回, semantic is 灰, Radical should be 火 #86, SC = 8, FS = 2.
+00947 G_Z0811503: Phonetic is 宗, semantic is 毛, Radical should be 毛 #82, SC = 8, FS = 4.
+00623 G_Z2902401: Semantic is 舌, radical 舌 #135.
+00128 UTC-01202: Radical water?
+
+00060 G_Z4451101: Radical should be 一, refer to 丢 U+4E22.
+
+01151 G_Z4292303: Should Confirm Radical #47.
+00022 G_Z2542101: Should Confirm Radical #7.
+00031 G_Z1252504: Should confirm Radical #30.
+00055 G_Z3742301: Should confirm Radical 心.
+
+00030 G_Z4921301: Phonetic is 勿, semantic is 丢, Radical should remain 一.
+00038 G_Z2161301: Phonetic is 狂, semantic is 丢, Radical should remain 一.
+00064 G_Z3472102: Phonetic is 难, semantic is 久, Radical should remain #4.
+00245 G_Z2992501: Phonetic is 勒, semantic is 余, Radical should remain 人.
+00059 G_Z4832302: Phonetic is 王, Radical should remain #4.
+00065 G_Z1652501: Phonetic is 及, semantic is 窄, Radical should be changed back to 穴 #116, SC = 9, FS = 3.
+
+00529 UTC-01692: Radical 貝, refer to U+3562, SC = 7, FS = 1.
+
+00754 KC-00704: Radical 心? but based on the evidence, original glyph of ⿰土恁 seems more likely; naming is usually a five element radical + a phonetic.
+
+
+# Inconsistent Stroke Count
+04964 GHZR84875.05: FS = 3 (𠗲).
+04878 G_Z2052601: FS = 2 (光).
+00271 G_Z3391201: FS = 2 (光).
+03139 G_Z2321301: FS = 1 (閧).
+05464 G_Z3892501: FS = 3 (等).
+03241 G_Z4721402: FS = 5 (縮).
+04613 G_Z0391202: FS = 3 (朋).
+04119 G_Z1221102: FS = 3 (逃).
+00516 G_Z3171104: FS = 2 (門).
+00776 G_Z4921103: FS = 2 (門).
+00643 G_Z1641101: FS = 11 (逢).
+00226 KC-00193: FS = 2 (掌).
+04922 KC-05913: FS = 5 (厶).
+03182 KC-03266: FS = 4 (軍).
+00592 UTC-01615: FS = 1 (㚔).
+05385 UTC-02495: FS = 3 (敫).
+00477 UTC-01335: FS = 5 (𠬝).
+01800 UTC-01831: FS = 3 (乌).
+04990 UTC-02358: FS = 1 (戍).
+03202 UTC-01946: FS = 2 (𬞕).
+04338 UTC-02127: FS = 3 (枭).
+05075 UTC-02716: FS = 1 (寿).
+05543 UTC-02702: FS = 4 (灬).
+04508 UTC-02828: FS = 3 (囱).
+03267 UTC-01993: FS = 3 (朱).
+04556 UTC-02689: FS = 13 (鼎).
+00289 UTC-01321: FS = 3 (八).
+00414 KC-00323: FS = 5 (貫).
+04797 T13-314C|USAT90300: FS = 3 (九).
+05033 KC-04654: FS = 3 (入); refer to IRGN954AR#8.
+05055 UTC-01426: FS = 1; refer to IRGN954AR#30.
+03359 KC-05591: FS = 3 (及); refer to IRGN954AR#15.
+04130 KC-04031: FS = 2 (蒦); refer to IRGN954AR.
+03436 KC-03469: FS = 3 (房); refer to IRGN954AR#76.
+03505 USAT08265: FS = 4 (必); refer to IRGN954AR#53.
+04985 UTC-01133: FS = 4 (必); refer to IRGN954AR#53.
+04913 UTC-02315: FS = 2 (蒙); refer to IRGN954AR.
+04699 UTC-01481: FS = 2 (蒦); refer to IRGN954AR.
+
+
+04773 G_Z4061301: FS = 5? FS = 2? (水); SHOULD CHANGE IRGN954AR to follow PRC?
+00721 G_Z2522601: FS = 5? FS = 2? (水); SHOULD CHANGE IRGN954AR to follow PRC?
+04824 UTC-02285: FS = 1? FS = 5? (函); FS = 1: refer to HYDZD v1; KangXi.
+04899 UTC-01132: FS = 1? FS = 3? (舌).
+05105 GHZR85013.18: FS = 1? FS = 3? (𢍆).
+
+
+04849 GHZR84783.08: SC = 11 (敖 - 11: 傲/嗷/嫯...)
+04845 GHZR84779.08: SC = 8 (夌)
+05437 GHZR84907.04: SC = 8 (备)
+05447 GHZR84908.24: SC = 10 (俻)
+04740 GHZR74337.09: SC = 9 (𢓤)
+05462 GHZR85064.13: SC = 7 (夆)
+05534 GHZR85122.02: SC = 6 (幵), ref: U+2A69C
+00707 G_Z1311203: SC = 5 (冬)
+03227 G_Z1382201: SC = 8 (图)
+03137 G_Z3282401: SC = 15 (模)
+05473 G_Z1402101: SC = 5 (冬)
+00811 G_Z2301204: SC = 11 (冬 = 5)
+00890 G_Z1882101: SC = 11 (巨 = 5)
+00847 G_Z2621401: SC = 10 (𡘤)
+04921 G_Z1632401: SC = 11 (逢)
+00836 G_Z3832101: SC = 8 (及 = 4)
+00667 G_Z1771102: SC = 16 (鋼)
+03081 G_Z4252202: SC = 11 (逢)
+01606 G_Z0822104: SC = 12 (着)
+00676 G_Z4292102: SC = 19 (⿱龍下)
+00214 G_Z4692409: SC = 10 (祖); IRGN954AR; End of IRG47: SC assigned by Chief Editor irrespective of locale's conventions.
+04700 G_Z4271404: SC = 13 (路)
+02714 G_Z2311402: SC = 17 (都) (都 - 12:都/嘟/𧬥/𧷿/𦡄/𣛭/𢵋...)
+02011 T13-2C69: SC = 7 (扸)
+03429 KC-03468: SC = 8 (具)
+04126 KC-04024: SC = 13 (黽)
+00806 KC-04946: SC = 23
+03016 KC-03092: SC = 12 (肅 - 12:肅/嘯/彇/橚/歗/潚/熽/璛/簫/繡/蕭/蟰/鏽/驌/鱐/鷫...); End of IRG47: SC assigned by Chief Editor irrespective of locale's conventions.
+01678 USAT90070: SC = 4 (牙 - 4: 伢/冴/呀/岈...)
+00756 UTC-01701: SC = 11 (渐)
+02683 UTC-02860: SC = 10 (骨)
+04827 UTC-02287: SC = 10 (骨)
+05376 UTC-02487: SC = 12 (渠)
+05530 UTC-02610: SC = 10 (差)
+00899 UTC-01431: SC = 19 (黽 = 13)
+00864 UTC-01674: SC = 7
+05167 UTC-02533: SC = 7 (𦣞)
+05545 UTC-02615: SC = 12 (敝)
+04538 UTC-02246: SC = 11 (敖)
+05377 UTC-02488|01013 G_Z1391302: SC = 12 (屠 - 12:屠/廜/潳/鷵/䠧/䣝...)
+00193 UTC-02805: SC = 9 (亟 - 9:極/殛/㥛/䩯; 8:䓧)
+
+04943 GHZR84856.14: SC = 9 (臾 - 9:庾/斔/斞/楰/瘐/腴/萸/諛/㔱/㥚...; 8:臾/惥)
+
+05232 GHZR84932.16: SC = 7 (成 - 7:娍/峸/宬/晟/晠/珹/窚/筬/絾/膥/臹/荿...; 6:成/城/盛/誠)
+00701 G_Z4611701: SC = 7 (成 - 7:娍/峸/宬/晟/晠/珹/窚/筬/絾/膥/臹/荿...; 6:成/城/盛/誠)
+03263 UTC-01990: SC = 7 (成 - 7:娍/峸/宬/晟/晠/珹/窚/筬/絾/膥/臹/荿...; 6:成/城/盛/誠)
+
+05243 G_Z4441301: SC = 10 (叟 - 10:叟/傁/嗖/嫂/廋/搜/溲...; 9: IRGN954AR#16)
+
+00616 USAT01240: SC = 9 (致 - 9:致/緻/㴛/䞃/䦯/𠊷/𤋖/𤸓/𦟔/𦥐/𦳙/𧛢/𧩼/𨂤/𩋩/𩹈; 10:㨖/㮹/𡟹/𥠽/𧤡)
+
+05478 UTC-02588: SC = 12 (敝 - 12:敝/嫳/幣/弊/彆/徶/憋; 11:撇)
+
+01597 UTC-01780: SC = 11 (离 - 11:離/摛/樆/璃/瞝/篱/縭/螭/褵/謧/醨/魑/麶; 10:漓/蓠/黐)
+
+00527 UTC-01446: SC = 10.
+
+02294 G_Z3312401: FS = 1; SC = 16 (⿰灰蒙)
+04924 T13-314F: FS = 2; SC = 5 (艺)
+04931 T13-3150: FS = 2; SC = 7 (𦬊)
+01180 USAT06432: FS = 2; SC = 11 (莫)
+04764 USAT08542: FS = 2; SC = 9 (苟)
+
+02746 UTC-01877: SC = 7? SC = 8? (丽)
+04094 UTC-02120: SC = 7? SC = 8? (丽)
+00376 UTC-01690: SC = 7? SC = 8? (丽)
+
+01153 USAT06491: SC of 止 is 3 or 4?
+
+03432 G_Z2791502: SC = 7; FS = 1? (𫇦)
+02846 UTC-01862: SC = 5; FS = 1? (𫇦)
+03179 UTC-02846: SC = 7, FS = 1? (𫇦)
+00868 UTC-01737: SC = 5; FS = 1? (𫇦)
+
+# Change IDS
+05064 GHZR84889.06: IDS ⿱⿲弓⿰天天弓鬲
+05067 GHZR84889.19: IDS ⿱⿲弓⿰失失弓鬲
+00075 GHZR10061.12: IDS should be ⿱龸乙 - don't use PUA characters
+00264 G_Z4291302: IDS should be ⿰光尨
+04135 G_Z2171101: IDS - ⿰𧾷𡚖
+00073 KC-00016: IDS should use 不 U+4E0D instead of U+F967
+00635 KC-00531: IDS should be ⿰口歃
+04768 KC-04468: IDS should be ⿰革⿱艹戌 -- CHECK for CORRUPTION (missing 罒)
+03025 KC-03112: IDS should be ⿰禾瞿
+03121 KC-03189: IDS should be ⿱竹音
+03181 KC-03264: IDS should be ⿰米背
+00247 KC-00226: IDS should be ⿰亻熹.
+00401 KC-00308: IDS should be ⿰⿱免⿰免免刂
+00676 G_Z4292102: IDS should be ⿰口⿱龍下
+00762 KC-00720: IDS should be ⿰土𦰩.
+
+
+# Unorthodox Simplified Forms
+04771 UTC-02738: Simp form is 兰? 𬞕?
+04778 UTC-02330: Correct form is 末, not 未. Withdraw.
+04792 UTC-02329: Correct form is 韵. Withdraw. << Don't withdraw, EISO says there are names using this character.
+04476 UTC-02214: Correct form is 钩.
+04570 UTC-02263: Correct form is 镌 or 𫔔.
+04571 UTC-02264: Correct form is 钻.
+
+# Authority of Evidence?
+01868 GHZR42324.02: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+01871 GHZR42325.09: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+00431 GHZR10098.04: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+00406 GHZR10403.01: withdraw. no source is quoted by HYDZD, no other sources can prove the authenticness of this character.
+
+# Should not postpone:
+04597 G_Z4322205: Confirm: the phonetic is 彔(=六); normalize to 录 for PRC.
+
+
+# Others
+00020 UTC-02779: characters of ⿱不X should use X as radical?
+
+00142 UTC-01677: Error in evidence, it is simplified form of 傱, not 從.
+
+00125 UTC-01633: Radical 止?
+
+03497 USAT06448: change radical to 皮 107, SC: 6, FS: 1
+
+01595 KC-01630: old glyph ⿰日留 should be unifable with current glyph. Either revert glyph change or change IDS.
+03146 KC-03245: old glyph ⿱竹釋 is more etymologically correct. Either revert glyph change or change IDS & SC.
+
+02713 UTC-01593: Phonetic is 采? 釆? POSTPONE OR WITHDRAW
+
+01646 USAT09486: Variant of meat; semantic variant of 腒 from context; a type of small poultry
+
+00221 GHZR10258.02: Right hand side should be normalized to 𣥿
+00249 KC-00229: Consider normalizing to ⿰亻頴. SC = 16
+03190 KC-03272: Consider normalize right hand side to 舂 or change IDS to 𣇃. // UNIFY TO U+2E1FA
+
+03450 USAT07093: Right Hand side may be normalized to 㖾 or 咢; UNIFY to 𦠍 (IVD meat ~ 2ebc)
+01659 USAT07094: Right Hand side may be normalized to 㖾 or 咢; UNIFY to 𦠍
+
+01685 UTC-02755: Radical 厂 27, SC = 8 OR adjust the glyph shape.
+
+05241 G_Z3092101: POSTPONED; normalize to 冒 or 冐 for PRC Convention.
+
+05264 KC-04718: Keep original glyph, they should be unifiable, or change SC to 12, IDS = ⿰鳥嵗.
+
+02776 GHZR52684.18 UNIFY WITH 02778 T13-2F35
+
+01020 GHZR10435.13 = 𡴝 (夲 ~ 𠦍) (http://www.zdic.net/z/17/sw/594F.htm)
+
+01145 KC-01124: Glyph does not match IDS nor evidence; should be 失 instead of 矢.
+
+04798 USAT90221: Wrong character, correct character should be 頓. NOT SYNONYM to 𩒊. Suggest Pending/Withdraw.
+
+02443 G_Z3021104: Don't change R/S to 200.8, keep at 94.15.  Phonetic = 麻; Semantic = 狗. Change RS = 16.
+
+01789 GHZR31409.11: Radical 36, SC = 16 (variant of 無)
+01793 GHZR31417.05: Radical 30, SC = 18 (variant of 無)
+
+00307 GHZR10117.09: severe corruption of 晶
+
+04290 UTC-01478: Commonly transcribed as 這. IVD.
+
+04035 UTC-01167: more evidence? (賔=賓) no ⿰貝賓 exists yet.
+
+03371 USAT09980: font-design, bottom left should be larger, reference USAT09981.
+
+03408 T13-304B: Top part should be normalized to 亓, classical form of 其
+
+03022 KC-03110: unclear evidence; 憲 with dot or without dot?
+
+00005 USAT05803: Is Geometric decomposition of character elligible for encoding?
+
+00544 USAT05033: single case calligraphic simplification of 咎, IVD.
+
+00666 KC-00569: IDS / character structure is ⿰口薄? ⿰口⿰氵蒪?
+
+00682 UTC-01451 UNIFY TO 圉 (幸 ~ 㚔)
+
+00698 UTC-01204 UNIFY TO 坺
+
+00761 KC-00729: right hand side is 喜?
+
+00739 G_Z1191201 normalize right hand side to 忝; UNIFY WITH 𡍞.
+
+00741 KC-00688: evidence shows ⿰氵垕?
+
+05192 UTC-02553: the evidence supplied is for a different character.
+
+05250 GHZR84958.01 UNIFY U+2A122.
+
+00766 KC-00723: normalize glyph to 卨 & IDS should be ⿰土卨? (original glyph) or normalize to 𥜽?
+
+00765 UTC-01217 UNIFY WITH 00777 UTC-01219 (keep 00777).
+
+00801 GHZR10534.11 alternative transcription of 𡓙.
+
+00817 UTC-02921 UNIFY TO 𠣸.
+
+00941 KC-00905: bottom part is 爯?
+
+01034 USAT08754 IVD 前
+
+05120 KC-05947: ⿰魚襄 is not yet encoded.  Would Korea consider normalization to 襄?
+00539 KC-00392: Glyph Design: two dots at the top can be closer.
+
+01648 USAT06769 = 胯 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+05026 USAT09817 = 骻 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+00375 USAT09219 = 刳 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+
+03045 USAT04472 UNIFY U+41A9 (具 ~ ⿱目大)
+
+00481 USAT05639 = 厀 (𣷚 ~ 桼: 𣾰~漆 // 𦡀~膝 // 𨞢~䣛, extra dot)
+
+01139 USAT05879 = 唐 (庚 ~ 唐 top)
+01179 USAT08918 = 弶 (亰 ~ 京)
+01184 USAT08484 = 彗 (alternate transcription of seal script. 隸定)
+
+00717 USAT06688 consider normalize right hand component to 乕.
+
+00208 USAT09305 IVD 偄 (耎 ~ 䎡)
+
+00209 USAT10245 IVD 僫 (惡 ~ 𢙣)
+
+04063 USAT09122 IVD 趄 (走 ~ 𧺆)
+04072 USAT07049 IVD 𧽍 (走 ~ 𧺆)
+04075 USAT09807 IVD 趫 (走 ~ 𧺆)
+00839 USAT09815 IVD U+479A (走 ~ 𡗱; context right hand side should be 支 not 攴)
+00848 USAT09573 IVD U+27F32 (走 ~ 𡗱)
+
+03645 USAT09183 IVD 萼 (㖾 ~ 咢, 隸定)
+01070 USAT08983 IVD 㟧 (㖾 ~ 咢, 隸定)
+00641 USAT07095 IVD 㗁 (㖾 ~ 咢, 隸定)
+
+00511 USAT09010 = 支 (alternate transcription of seal script (隸定), according to 說文, 支 is composed by ⿱个又)
+
+00684 USAT08864 = 嗇 (𠻮 ~ 嗇, from context, the dictionary intend to mean 嗇)
+
+03640 USAT08414 = 蓿 (㝛 ~ 宿)
+
+01777 USAT09255 IVD 橑 (𤊽 ~ 尞)
+
+00558 USAT09874 = 𠴏 (亾 ~ 亡)
+
+00606 USAT09534 IVD 唬 (虎 ~ 𧆞)
+
+00144 USAT08529 UNIFY 矢 (Similar shape)
+
+00132 USAT06168 = 亢 (Frequent Variation)
+
+00706 USAT06991 = 𪢽 (alternative transcription)
+
+00165 USAT06442 = 㐭 (隸定)
+
+01600 USAT10178 = 暪 (Obvious from context, 瞞 is used below)
+
+00301 USAT06181 IVD 㡀 (extra two strokes, very common)
+
+00195 USAT09927 = 倖 (Extra stroke with 羍, should be 㚔 according to context. 幸 ~ 羍 ~ 㚔).
+00882 USAT09928 = 婞 (Extra stroke with 羍, should be 㚔 according to context. 幸 ~ 羍 ~ 㚔).
+
+01633 USAT09518 = 臾 / 㬰 (𥒏 ~ 𥑷 ~ 𥔢 // http://dict2.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QjAxNDkwLTAwMg "凡同此偏旁，文獻多見類似變化，可視為異體演變之例。")
+
+03474 USAT10234 IVD 臏 (賔 ~ 賓)
+
+01642 USAT05873 = 卵 (obvious from context, typographical variation, http://dict2.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwNDUzLTAwMg)
+01869 USAT10202 = 𣫘 (obvious from context, typographical variation)
+
+00474 USAT09908 UNIFY 印 (addition of minor dot)
+
+00262 USAT09421 = 尰 (difference in stroke initiation direction)
+
+05266 USAT09827 = 𪇑 (𡼡 ~ 熏)
+
+00010 USAT05822 = 甹 (𦕊/𨉂 ~ 聘 // http://www.guoxuedashi.com/zidian/ytz_2939p.html, http://www.guoxuedashi.com/zidian/ytz_4745z.html)
+
+02783 USAT10106 = 𥈃 (𡨼 ~ 叜: 𢠡 ~ 𢜶 // 𢻟 ~ 𢾐 // 𤡗 ~ 𤟫 // 𪷅 ~ 𣸈)
+
+00991 USAT10469 = corruption of 尗. Apparent from context.
+
+00994 USAT06451 = alternate transcription of 𡯪/𡯭/尫.
+
+01011 USAT10585 = 㞚 (𠚏 ~ 臿)
+
+00438 USAT08779 = 匱 (貴 ~ 䝿 // 𡃪 ~ 嘳 // 𡓤 ~ 墤 // 𢤳 ~ 憒 // 𣟨 ~ 樻 etc.)
+
+03096 USAT05469 = 笑 (refer to ROK Normalization)
+
+00392 USAT09308 = 𠞮 (𠁊 ~ 爽 // 𥡠 ~ 𥢡 // 塽 ~ 𡑽) (Refer to 04963 GHZR84874.02)
+
+00861 USAT90292 unify to 妭
+
+00889 USAT07214 corrupted form of 媲 (U+5AB2). unify to 𡠴 (U+21834).  according to context, pronounce as pi4, cannot possibly be 恖 (cong1)
+
+00897 USAT05213 UNIFY 嫯; 𢾕 is alternate transcription of 敖 (𢶗=摮 // 𣿗=滶 // 𨗯=遨 etc.)
+
+00949 USAT08922 normalize/UNIFY TO 弿, handwriting transcription
+
+00196 USAT10443 IVD 俞 (月 ~ 舟)
+00579 USAT09301 IVD 唈 (Different structure of components; Consider IVD)
+
+00746 USAT08504 = 𡍩; 𡱞 is common error form of 㡿.
+
+00136 USAT07028 = 伊 (ommitted stroke, taboo?)
+
+01195 USAT06632 = 保 (corrupted character, "誤謬之甚" in quoted text, glyph image does not match evidence (口丶不))
+
+00447 USAT10599 = 𠦒 (protrusion of strokes)
+
+00995 USAT08396 = 㞂 (corrupted character, the 反切 indicates it should be 妥 phonetic. Ref:http://web.archive.org/web/20170204210233/http://pic.guoxuedashi.com/dzd1/554.png)
+
+01003 USAT09017 = 屐 (corrupted character, shoe is related to ㄔ walk, not 扌)
+
+01014 USAT07065 = 𡱤/𣭼 (corrupted character, from context, very clear it should be 水)
+
+02295 USAT90366 = 譙 (component rearranged. (ref: 蘸))
+
+00440 USAT09040 = 午 (IVD), inaccurate transcription of http://www.zdic.net/z/16/sw/5348.htm
+
+04109 USAT08867 = 踏 (IVD), corrupted character, according to context, phonetic is 沓 (ta1) instead of 畓 (duo1). 畓 is korean in origin.
+
+03223 USAT08401 IVD to 綱 (𡶩 ~ 岡, top/bottom vs wrap around)
+
+# There are a large number of characters where the U+2EBC has been replaced with the full 肉 radical.  IRG should consider to allow encoding these characters as IVD as there are 500+ characters with U+2EBC; variants using 肉 are sufficiently rare in modern usage.
+00282 USAT08988 IVD 䏌: 肉 vs U+2EBC
+03390 USAT06462 IVD 肊: text indicates 乙 as phonetic; 肉 vs U+2EBC
+03392 USAT09914 IVD 肋: 肉 vs U+2EBC
+03393 USAT06266 IVD 肙: 肉 vs U+2EBC
+03395 USAT08303 IVD 𦘺: 肉 vs U+2EBC
+03397 USAT10232 IVD 肧: 肉 vs U+2EBC
+03403 USAT05646 IVD 肴: 肉 vs U+2EBC, top 爻 (ref: 希~𢁫 // 04335)
+03405 USAT90295 IVD 股/肢: 肉 vs U+2EBC
+03407 USAT08919 IVD 育: 肉 vs U+2EBC
+03411 USAT06030 IVD 背: 肉 vs U+2EBC
+03414 USAT08746 IVD 䏣: 肉 vs U+2EBC
+03416 USAT90297 IVD 胜: 肉 vs U+2EBC
+03419 USAT06375 IVD 肺: 肉 vs U+2EBC; IDS: ⿰肉巿
+03420 USAT10231 IVD 胎: 肉 vs U+2EBC
+03422 USAT06361 IVD 胷: 肉 vs U+2EBC
+03423 USAT08968 IVD 脃: 肉 vs U+2EBC
+03426 USAT06768 IVD 胯: 肉 vs U+2EBC; (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+03437 USAT07202 IVD 腴: 肉 vs U+2EBC; SC = 9
+
+# WRONG CHARACTERS; Possibly Withdraw:
+03142 USAT04512 - ERROR FORM OF 籀; can unify/ivd to 籕/籀 (?)
+03206 USAT06879 - ERROR FORM OF 紓; see context
+01857 USAT06080 - text says it is a wrong character.
+04114 USAT09253 - dubious - text says "字書無此字"
+03370 USAT06512 - dubious - text says "不成字古文", seems like 屬 with the second component joined to become 土, and the bottom-most component corrupted into 而.
+03378 USAT06426 - dubious, corrupted form of 眄. According to context, should be 目.
+03385 USAT08305 - dubious, corrupted form of 𥋃.  According to context, must be 目.
+03014 USAT08751 - character is designed wrongly by the evidence, according to the context, it should be 鐫. UCV or withdraw.
+03138 USAT07241 - dubious - text says 從草從勝 which should be 蕂 (sheng4) but the pronunciation given in context is teng2 (籐).
+02745 USAT04667 - horrible corruption of 映.  Incorrect transcription of Seal Script character - not Regular Script. Withdraw. Ref: http://www.zdic.net/z/1b/sw/6620.htm
+00310 USAT03880 - evidence on left shows it being used as 伞, evidence on right is an obvious design error of 夲 according to context. Withdraw.
+00578 USAT05586: Error of 㖾. Other modern texts use 噩, which is synomous with 㖾/咢
+00127 USAT10021: Obvious printing error. In context it should be 眔, i.e. 眔 + 衣 --> 褱.
+00057 USAT06522: Error form of 丿. The original text in 說文 is one stroke only (丿).
+00644 USAT09596: Error.  In context it is explaining the pronunciation of the previous "噍", but the second character has been printed as ⿰口𤊙 instead of 噍.
+00294 USAT05839: According to context, the geometric decomposition should be 宀.
+00655 USAT04678: Error form of 𪔓; missing component.
+02761 USAT06596: corrupted form of 聡. 目 is similar to 耳 in ancient texts.
+04840 USAT10047: corrupted form of 𩘌. 秋 is qiu1 (qiou1), 𩘌 is sou1, 狄 is di2.  There is no possibilty of 狄 being the phonetic.
+00126 USAT90058: Error form of 朚 (corruption of bottom component from 明 to 朋)
+00257 USAT06965: 及 from context, no such 「古文」 attests such source.  More Evidence?
+
+# Really SYNONOMOUS?
+03095 USAT05025 REALLY SYNONYMOUS TO 筩 U+7B69?
+03431 USAT08709 Normalize top to 𣏟; NOT SYNONOMOUS WITH U+2C0D5
+03158 USAT04879 NOT SYNONOMOUS WITH 䉼 U+427C but 料 U+6599.
+00448 USAT10620 REALLy SYNONYMOUS TO 𢆎? Should have 㪅.
+01025 USAT02486 really synonymous to 岲 (U+5CB2)/𡵚 (U+21D5A)/㟋 (U+37CB)/𡷋 (U+21DCB)?
+
+
+# TCA:
+02031 T13-2C78 UNIFY 溥 (U+6EA5) (UCV rule #68)
+
+02532 T13-2E37 UNIFY 甬 (Super common variation; see Hong Kong road signage. FS = 5.)
+
+02989 T13-2F6E UNIFY/IVD 移 (多 ~ 𢑑)
+
+02770 T13-2F33 UNIFY/IVD 瞑 (minor joining of stroke, 𠖇 ~ 冥, 第一批异体字整理表)
+
+02787 T13-2F37 UNIFY/IVD 瞽 (protrusion of stroke 鼔 ~ 鼓)
+
+02789 T13-2F38 UNIFY/IVD 矇 (similar shape 䝉 ~ 蒙 // 𪷟 ~ 濛 // 𬂔 ~ 朦)
+
+02023 T13-2C68 UNIFY/IVD 渃 (common variation of grass radical.  its use as 洛 in the evidence should be regarded as 近音假借)
+
+02027 T13-2C6F UNIFY/IVD 㳽 (common variation, 𢏏 ~ 弥, 尔 ~ 尒 ~ 尓)
+02980 T13-2F6A UNIFY/IVD 称 (common variation, 𢏏 ~ 弥, 尔 ~ 尒 ~ 尓)
+
+02400 T13-2D6B UNIFY/IVD 㹤 (common variation, 去 ~ 厺 // 法 ~ 㳒 // 胠 ~ 𦚁)
+
+02404 T13-2D6E UNIFY/IVD 狭 (common variation, minor difference 㚐 ~ 夹)
+
+03356 T13-3041 UNIFY/IVD 𦏧 (alternative transcription, 丮 ~ 𠃨 // 𠱨 ~ 𠯎 // 	𡖕 ~ 𡖊 // 𢝭 ~ 𢙷 // 𢦻 ~ 𤜾 etc)
+
+03089 T13-302F UNIFY/IVD 笑 (refer to ROK Normalization)
+
+02020 T13-2C6C IVD 溪 (common 省寫, 雞 ~ 鶏. IVD example: u8e4a-ue0101)
+
+02826 T13-2F43 IVD 砥 (common variation popular in Tang dynasty)
+
+02722 T13-2F23 IVD 盲 (misc 亾 ~ 亡, alternative common seal-script transcription)
+
+04924 T13-314F IVD 馳 (也 ~ 𠃟)
+
+04947 T13-3151 IVD 𩣺 (奔 ~ 𢍃)
+
+03039 T13-2F7C IVD 窕 (𡉵 ~ 兆)
+
+03036 T13-2F79 UNIFY U+2E0FB (JMJ-058242).
+
+02723 T13-2F24 IVD 直 (similar abstract shape, IVD)
+02724 T13-2F27 IVD 直 (similar abstract shape, IVD)
+02728 T13-2F26 IVD 直 (similar abstract shape, IVD)
+
+02736 T13-2F2C IVD 真 (similar abstract shape, IVD)
+02743 T13-2F2E IVD 真 (similar abstract shape, IVD)
+
+02726 T13-2F25 IVD 易 (additional single-stroke corruption, IVD. 碑別字新編)
+02731 T13-2F28 IVD 春 (additional single-stroke corruption, IVD. 偏類碑別字)
+
+02735 T13-2F2A IVD 相 (accidential additional of intiating stroke, IVD. 碑別字新編)
+
+02440 T13-2D75 IVD 𤡒 (corrupted form of 𤡒)
+
+02433 T13-2D74 IVD 獄 (corrupted form of 獄)
+02435 T13-2D73 IVD 獄 (corrupted form of 獄)
+
+02431 T13-2D72 IVD 獨 (corrupted form of 獨)
+
+02003 T13-2C65 IVD 游 (alternative transcript form of 㫃 as 方)
+
+02004 T13-2C66 IVD 滿 (corrupted form of 滿)
+
+02005 T13-2C67 IVD 淀 (refer to ROK Normalization)
+
+02011 T13-2C69 IVD 浙 (corrupted form)
+
+02019 T13-2C6A IVD 𣶚 (alternative transcription of seal script, ref: http://www.zdic.net/z/1d/sw/6D8E.htm)
+
+02026 T13-2C6B IVD 涵 (joining of strokes, direction of strokes)
+
+02407 T13-2D6D IVD 奔 (addition of minor dot)
+
+04261 T13-3130 IVD 匹 (calligraphic simplification, 辶 ~ 乚)
+04268 T13-3132 IVD 延 (calligraphic simplification, 乚 ~ 廴)
+04277 T13-3135 IVD 建 (calligraphic simplification, 乚 ~ 廴)
+04304 T13-313E IVD 奩 (calligraphic simplification, 乚 ~ 廴)
+
+03366 T13-3043 IVD 光 (corrupted form, joining of strokes)
+
+03391 T13-304A IVD 有 (alternative transcription of meat)
+03427 T13-304D IVD 䏸 (alternative transcription of meat; 偏類碑別字, context says 別字)
+
+02973 T13-2F6B IVD 稱 (calligraphic simplification, 冄 ~ 冉)
+
+02981 T13-2F67 IVD 祠 (corrupted form, NUCV, 碑別字新編)
+02998 T13-2F72 IVD 祿 (corrupted form, NUCV, 碑別字新編)
+
+03386 T13-3046 IVD 晝 (calligraphic simplification, joining of components)
+03387 T13-3047 IVD 畫 (calligraphic simplification, joining of components)
+03388 T13-3049 IVD 畫 (calligraphic simplification, joining of components)
+03389 T13-3048 IVD 書 (alternative transcription of seal script)
+
+03043 T13-2F7E IVD 寮 (corruption - multiple mix-and-match variation: 寮 (u5bee) / 竂 (u7ac2) / 𡨵 (u21a35) / 𥨤 (u25a24))
+03060 T13-3026 IVD 竂 (corruption - multiple mix-and-match variation: 寮 (u5bee) / 竂 (u7ac2) / 𡨵 (u21a35) / 𥨤 (u25a24))
+
+03062 T13-3027 IVD 竅 (corruption)
+
+03067 T13-3028 IVD 彥 (corruption, seal script)
+
+03073 T13-302B IVD 竭 (corruption)
+
+03075 GHZR52905.02|T13-302A IVD 童
+
+05547 T13-3159 IVD 𪛋 (missing of component)
+
+02497 T13-2E2F IVD 琅 (𥭷 ~ 良, alternative transcription)
+
+03149 T13-3035 IVD 料 (joined strokes, protrusion of strokes)
+03159 T13-3037|USAT04879 IVD 料 (升 ~ 斗) (direction of strokes, protrusion of strokes)
+
+03151 T13-3036 IVD 氣 (missing stroke, initiation direction of strokes, Lishu transcription)
+03156 T13-3038 IVD 氣 (missing stroke, initiation direction of strokes, Lishu transcription)
+03160 T13-3039 IVD 氣 (difference in bent strokes, differences of stroke or dot)
+
+02525 T13-2E35 IVD 物 (additional stroke, not minor)
+
+02531 T13-2E36 IVD 用 (protusion of stroke, 金石文)
+
+05084 T13-3156 UNIFY 曾 / 曽 (additional stroke)
+
+# UK:
+01872 UTC-02847 = 㲀 (error form.  phonetic element clearly 辰)
+
+02836 UTC-02656 = 𥒎 (UCV)
+
+00056 UTC-01557: alternative transcription 隸定 of 幵?
+
+00069 UTC-02765 = 𠘧 (variant, protrousion of strokes.)
+
+00147 UTC-01678 = 𠈙 (UCV)
+
+00183 UTC-01681: need more evidence? The proper form in China is likely 閑(闲), (or  間(间)). (e.g. 癇 --> 痫)
+02752 UTC-01879: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+05045 UTC-02339: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+05046 UTC-02340: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+
+00198 UTC-01573 = 𠈇/𠉦, corrupted form of 𠈇/𠉦
+
+04830 UTC-02289 unifyable to UTC-02286? (恖 ~ 思)
+
+04871 UTC-02328: need more evidence? The proper form in China should be 飙?
+
+04914 UTC-02316: need more evidence? The proper form on right should be 急?
+
+01822 UTC-02647 = 𣥒, alternative 隸定.
+
+00002 UTC-01671: IVD unify to 串
+
+04934 UTC-01646: WITHDRAW, IRGN2155CommentsToIRGN2107
+01832 UTC-01315: WITHDRAW, IRGN2155CommentsToIRGN2107
+00063 UTC-01316: WITHDRAW, IRGN2155CommentsToIRGN2107 OR unify to U+2B85C
+00989 UTC-01439: WITHDRAW, IRGN2155CommentsToIRGN2107
+01110 UTC-01458: WITHDRAW, IRGN2155CommentsToIRGN2107
+00288 UTC-01320: Unify to U+2B92E, IRGN2155CommentsToIRGN2107
+00892 UTC-01470: Unify to U+21827, IRGN2155CommentsToIRGN2107
+01824 UTC-01538: Change lower part to U+2123C or WITHDRAW, IRGN2155CommentsToIRGN2107
+02393 UTC-01584: Unify to U+80B0 肰
+00569 UTC-01651: WITHDRAW, IRGN2155CommentsToIRGN2107
+00852 UTC-01652: WITHDRAW, IRGN2155CommentsToIRGN2107
+00552 UTC-01658: WITHDRAW, IRGN2155CommentsToIRGN2107; or IVD to 𠱾. (Reference: http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%F0%A0%B1%BE)
+01202 UTC-01657: 𨒥 is the more popular transcription used; consider withdrawal or IVD. (similar case with 復 --> 04295) (Reference: http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%BE%8C)
+
+00553 UTC-02957: Evidence supplied is swapped with 02837 UTC-02956
+02837 UTC-02956: Evidence supplied is swapped with 00553 UTC-02957
+04503 UTC-02228: Evidence supplied is swapped with 04504 UTC-02761
+04504 UTC-02761: Evidence supplied is partly swapped with 04503 UTC-02228
+
+
+03023 UTC-02913: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+01450 UTC-02916: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+03136 UTC-02942: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+
+
+04052 UTC-02105: Withdraw? A Simplified form of 䞉, which is error form for 賸.
+
+02016 UTC-01516: (overly) literal transcription of the Chu-script character 㳏. (⿳⺊日又 ~ 史)
+
+03399 UTC-02930: duplicate of U+2668D.
+
+03424 UTC-01490: unify to 朕.
+
+03444 UTC-01164: 膍 (IVD).
+
+05541 UTC-02614: IVD to U+2B733 (冉 ~ 冄)? PRC Conventions prefer 冉 > 冄.
+
+03123 UTC-01161: IVD to 築 (恐 = 𢙢 // 𠌖 = 𠋸 // 䅃 = 𥞣)
+
+00083 UTC-01506: 迺 is a more common transcription. IVD?

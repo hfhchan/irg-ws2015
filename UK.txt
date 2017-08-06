@@ -1,0 +1,68 @@
+01872 UTC-02847 = 㲀 (error form.  phonetic element clearly 辰)
+
+02836 UTC-02656 = 𥒎 (UCV)
+
+00056 UTC-01557: alternative transcription 隸定 of 幵?
+
+00069 UTC-02765 = 𠘧 (variant, protrousion of strokes.)
+
+00147 UTC-01678 = 𠈙 (UCV)
+
+00183 UTC-01681: need more evidence? The proper form in China is likely 閑(闲), (or  間(间)). (e.g. 癇 --> 痫)
+02752 UTC-01879: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+05045 UTC-02339: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+05046 UTC-02340: need more evidence? The proper form in China is likely 閑(闲). (e.g. 癇 --> 痫)
+
+00198 UTC-01573 = 𠈇/𠉦, corrupted form of 𠈇/𠉦
+
+04830 UTC-02289 unifyable to UTC-02286? (恖 ~ 思)
+
+04871 UTC-02328: need more evidence? The proper form in China should be 飙?
+
+04914 UTC-02316: need more evidence? The proper form on right should be 急?
+
+01822 UTC-02647 = 𣥒, alternative 隸定.
+
+00002 UTC-01671: IVD unify to 串
+
+04934 UTC-01646: WITHDRAW, IRGN2155CommentsToIRGN2107
+01832 UTC-01315: WITHDRAW, IRGN2155CommentsToIRGN2107
+00063 UTC-01316: WITHDRAW, IRGN2155CommentsToIRGN2107 OR unify to U+2B85C
+00989 UTC-01439: WITHDRAW, IRGN2155CommentsToIRGN2107
+01110 UTC-01458: WITHDRAW, IRGN2155CommentsToIRGN2107
+00288 UTC-01320: Unify to U+2B92E, IRGN2155CommentsToIRGN2107
+00892 UTC-01470: Unify to U+21827, IRGN2155CommentsToIRGN2107
+01824 UTC-01538: Change lower part to U+2123C or WITHDRAW, IRGN2155CommentsToIRGN2107
+02393 UTC-01584: Unify to U+80B0 肰
+00569 UTC-01651: WITHDRAW, IRGN2155CommentsToIRGN2107
+00852 UTC-01652: WITHDRAW, IRGN2155CommentsToIRGN2107
+00552 UTC-01658: WITHDRAW, IRGN2155CommentsToIRGN2107; or IVD to 𠱾. (Reference: http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%F0%A0%B1%BE)
+01202 UTC-01657: 𨒥 is the more popular transcription used; consider withdrawal or IVD. (similar case with 復 --> 04295) (Reference: http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%BE%8C)
+
+00553 UTC-02957: Evidence supplied is swapped with 02837 UTC-02956
+02837 UTC-02956: Evidence supplied is swapped with 00553 UTC-02957
+04503 UTC-02228: Evidence supplied is swapped with 04504 UTC-02761
+04504 UTC-02761: Evidence supplied is partly swapped with 04503 UTC-02228
+
+
+03023 UTC-02913: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+01450 UTC-02916: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+03136 UTC-02942: Suprious Character - WITHDRAW, IRGN2155CommentsToIRGN2107
+
+
+04052 UTC-02105: Withdraw? A Simplified form of 䞉, which is error form for 賸.
+
+02016 UTC-01516: (overly) literal transcription of the Chu-script character 㳏. (⿳⺊日又 ~ 史)
+
+03399 UTC-02930: duplicate of U+2668D.
+
+03424 UTC-01490: unify to 朕.
+
+03444 UTC-01164: 膍 (IVD).
+
+05541 UTC-02614: IVD to U+2B733 (冉 ~ 冄)? PRC Conventions prefer 冉 > 冄.
+
+03123 UTC-01161: IVD to 築 (恐 = 𢙢 // 𠌖 = 𠋸 // 䅃 = 𥞣)
+
+00083 UTC-01506: 迺 is a more common transcription. IVD?
+

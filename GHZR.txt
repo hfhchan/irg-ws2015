@@ -1,0 +1,436 @@
+#Systematic Variations
+00182 GHZR10204.03 = 俊 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04096 GHZR73955.06 = 踆 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04365 GHZR63822.16 = 酸 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04651 GHZR74447.02 = 陖 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04679 GHZR74469.04 = 𨻅 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04942 GHZR84853.09 = 駿 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+05401 GHZR85047.13 = 𪊴 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+05502 GHZR85111.21 = 𪘑 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+04172 GHZR63782.02 = 𨍈 (夋 ~ ⿱厼又: 晙 ~ 𣇚 // 𩰺 ~ 𩰼)
+
+04946 GHZR84861.11 = 騣 (⿳凶𡭔又 ~ 㚇)
+
+
+04713 GHZR74415.10 = 𨿫 (奇 ~ 竒)
+05079 GHZR84724.12 = 𩳣 (奇 ~ 竒)
+05505 GHZR85115.01 = 齮 (奇 ~ 竒)
+04173 GHZR63783.04 = 輢 (奇 ~ 竒)
+
+00213 GHZR10242.05 = 傂 (虎 ~ ⿸虍人)
+04676 GHZR74467.11 = 𨻆 (虎 ~ ⿸虍人)
+05486 GHZR85092.09 = 鼶 (虎 ~ ⿸虍人)
+04037 GHZR73903.13 = 贙 (虎 ~ ⿸虍人)
+05252 GHZR84958.25 = 鷈 (should confirm 虎 ~ ⿸虍人; see also 00213, 04676, 05486, 04037)
+
+05121 GHZR85035.08 = 鱣 (⿱面旦 ~ 亶, 𣞀 ~ 檀 // 𨭖 ~ 𨮮)
+05511 GHZR85118.25 = 𪙵 (⿱面旦 ~ 亶, 𣞀 ~ 檀 // 𨭖 ~ 𨮮)
+
+04691 GHZR74476.01 = 隒 (兼 ~ 𠔥)
+05487 GHZR85093.15 = 鼸 (兼 ~ 𠔥)
+04036 GHZR73903.08 = 𧸖 (廉 ~ 㢘)
+03021 GHZR52825.05 = 䆂 (廉 ~ 㢘)
+04186 GHZR63799.04 = 𨎷 (廉 ~ 㢘)
+
+04725 GHZR74329.01 = 雿 (𡉵 ~ 兆)
+00173 GHZR10191.14 = 佻 (𡉵 ~ 兆)
+04938 GHZR84850.09 = 駣 (𡉵 ~ 兆)
+01647 GHZR42225.08 = 脁 (U+8101) (𡉵 ~ 兆). Radical = 肉 130.
+02990 GHZR52789.20 = 䄻 (𡉵 ~ 兆)
+
+04791 GHZR84789.10 = 韶 (召 = 𠮦)
+05501 GHZR85107.10 = 齠 (召 = 𠮦)
+04158 GHZR63758.07 = 軺 (召 = 𠮦)
+
+04852 GHZR84785.12 = 飂 (⿱羽尒 ~ 翏, see also http://pic.guoxuedashi.com/longkan/166.jpg)
+04716 GHZR74422.04 = 雡 (⿱羽尒 ~ 翏)
+05255 GHZR84967.18 = 鷚 (⿱羽尒 ~ 翏)
+
+04850 GHZR84784.04 = 飀 (㽜 ~ 留, Restricted Case - 𩺜~鰡, 𥰷~𥰣)
+04953 GHZR84867.10 = 騮 (㽜 ~ 留, Restricted Case - 𩺜~鰡, 𥰷~𥰣)
+04073 GHZR63729.10 = 𧽖 (㽜 ~ 留, Restricted Case - 𩺜~鰡, 𥰷~𥰣)
+05257 GHZR84968.12 = 𪇄 (𡖉 ~ 卵)
+04929 GHZR84841.14 = 駠 (夘 ~ 卯 (error form of)) (𩤃 is error form of 駵 which is variant of 駠.  駠 is variant of 騮)
+04837 GHZR84775.15 = 𩖴 (夘 ~ 卯 (error form of))
+03033 GHZR52917.08|USAT07062 = 窌 (夘 ~ 卯 (error form of))
+00432 GHZR10098.10 = 𠥰 (夘 ~ 卯 (error form of))
+04157 GHZR63758.03 = 𨋖 (夘 ~ 卯 (error form of))
+04180 GHZR63792.06 = 𨍸 (留 ~ 畱)
+
+04927 GHZR84840.02 = 駰 (因 ~ 囙 -- 第一批异体字整理表)
+01801 GHZR42290.16 = 欭 (因 ~ 囙 -- 第一批异体字整理表)
+
+04930 GHZR84842.10 = 馾 (冘 ~ 宂 ~ 冗)
+05224 GHZR84924.02 = 鴆 / 𫚲 (冘 ~ 宂 ~ 冗)
+03406 GHZR42201.06 = 䏙 (冘 ~ 宂 ~ 冗)
+
+05258 GHZR84970.03 = 鶚 (㖾 ~ 咢, 隸定)
+
+05260 GHZR84969.08 = 𪄭 (𣷚 ~ 桼: 𣾰~漆 // 𦡀~膝 // 𨞢~䣛)
+05117 GHZR85029.13 = 𩺲 (𣷚 ~ 桼: 𣾰~漆 // 𦡀~膝 // 𨞢~䣛)
+
+03454 GHZR42259.08 = 𦡀 (桼 ~ ⿱夾⺗)
+
+04968 GHZR84879.11 = ??? (⿱曰恭~ 暴: 𪹼 (U+2AE7C) ~ 爆)
+04969 GHZR84879.12 = 𩧋 (黎 ~ 𥠖)
+
+05248 GHZR84957.16 = 𪅴 (𢙣~惡)
+05263 GHZR84968.22 = 𪅴 (𢙣~惡)
+04951 GHZR84865.17 = 04962 GHZR84873.03 (𢙣~惡)
+
+01814 GHZR42302.03 = 歇 (⿱日𠣏 ~ 曷)
+02773 GHZR52683.13 = 𥈎 (⿱日𠣏 ~ 曷)
+03005 GHZR52808.04 = 䅥 (⿱日𠣏 ~ 曷)
+03019 GHZR52820.02 = 𥢸 (⿱日𠣏 ~ 曷)
+
+01592 GHZR31640.06 = 㬉 (耎 ~ 䎡)
+03004 GHZR52807.16 = 稬 (耎 ~ 䎡)
+03447 GHZR42254.03 = 腝 (耎 ~ 䎡)
+
+00220 GHZR10252.06 = 僧 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+03459 GHZR42261.01 = 𦠇 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+04347 GHZR74044.09 = 鄫 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+04960 GHZR84872.01 = 驓 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+05463 GHZR85070.14 = 𪒟 (點撇 ~ 撇折, 曾 ~ 曽 ~ koseki-157320)
+00231 GHZR10269.03 = 像 (點撇 ~ 撇折, ~ http://web.archive.org/save/_embed/http://pic.guoxuedashi.com/hydzd/278.gif)
+
+04961 GHZR84872.04 = 騼 (𢉖 ~ 鹿)
+04973 GHZR84880.14 = 䮽 (𢉖 ~ 鹿)
+02665 GHZR52839.15 = 皫 (𢉖 ~ 鹿)
+04179 GHZR63791.09 = 轆 (𢉖 ~ 鹿)
+
+04681 GHZR74469.18 = 𨼋 (虛 ~ 虗)
+04932 GHZR84846.02 = 駈 / 𩢩 (丘 ~ 丠 ~ 㐀)
+04704 GHZR74481.06 = 04703 GHZR74481.05 (虛 ~ 虗)
+
+04717 GHZR74423.03 = 𩁋 (虍 ~ &cdp-88bc;)
+04702 GHZR74481.04 = 04703 GHZR74481.05 (WS2015-01816 ~ U+6B54)
+
+04074 GHZR63731.12 IVD 䟊 (虍 ~ &cdp-88bc;, bottom shape similar, 噱 ~ 𠻔 // 據 ~ 𢴃 // 䆽 ~ 𥧻 // 鐻 ~ 𨬀)
+03456 GHZR42259.12 IVD 臄 (虍 ~ &cdp-88bc;, bottom shape similar, 噱 ~ 𠻔 // 據 ~ 𢴃 // 䆽 ~ 𥧻 // 鐻 ~ 𨬀)
+
+04071 GHZR63728.14 = 趫 (𠳮 = 喬: 槗~橋 // 𢱪~撟 // 𤠬~獢// 𦃣~繑)
+04952 GHZR84866.02 = 驕 (𠳮 = 喬: 槗~橋 // 𢱪~撟 // 𤠬~獢// 𦃣~繑)
+03003 GHZR52807.15 = 穚 (𠳮 = 喬: 槗~橋 // 𢱪~撟 // 𤠬~獢// 𦃣~繑)
+
+05246 GHZR84955.04 = 鶟 (REFER to ROK Normalization)
+02691 GHZR52741.02 = 盋 (REFER to ROK Normalization)
+
+01813 GHZR42301.08 = 㱇 (joined strokes)
+03002 GHZR52806.18 = 穑 (joined strokes)
+01819 GHZR42307.11 = 㱇 (split strokes)
+
+04720 GHZR74424.02 = 䨈 (賔 ~ 賓)
+05054 GHZR84892.15 = 𩰝 (賓 ~ 賔)
+05081 GHZR84728.06 = 𩴱 (賓 ~ 賔)
+
+04715 GHZR74417.02 = 雛 (𠣧 ~ 芻 // 𤛃~犓)
+03006 GHZR52810.05 = 䅳 (𠣧 ~ 芻 // 𤛃~犓)
+01696 GHZR31301.09 = 㮲 (⿱口丑 ~ 芻)
+04936 GHZR84850.03 = 𩣿 / 騶 (⿱又丑 ~ 芻)
+04333 KC-04141 = 鄒 (⿱工丑 ~ 芻)
+
+04719 GHZR74423.21 = 𪈍 (含 ~ ⿱人否 ~ ⿳亼⺍口) (China may normalize their glyph for 	𪈍 (U+2A20D) to ⿰⿱含酉鳥)
+04795 GHZR84790.21 = 𩐧 (含 ~ ⿱人否 ~ ⿳亼⺍口)
+
+04753 GHZR74314.01 = 靛 (定 ~ 㝎: reference ROK Normalization)
+
+04793 GHZR84790.10 = 䪫 (巠 ~ ⿱爫工)
+
+05072 GHZR84720.02 = 𩲪 (very common variation, 尒 ~ 尔)
+
+05096 GHZR84996.07|USAT10123 = 鮮 (芉 ~ 羊. Error in HYD's analysis. Should be =鮮. 𩺵 is not even in the original source quoted by HYD.) See also original source for 05093.
+
+05105 GHZR85013.18 = 䱮 (契 ~ 𢍆)
+
+02769 GHZR52680.10|T13-2F32 = 瞎 (𡧱 ~ 害)
+03960 GHZR74161.02 = 豁 (𡧱 ~ 害)
+
+02780 GHZR52686.14 = 䁆 (𦌌 ~ 𦌌 // 𦹕 ~ 菴 // 𩈯 ~ 𩈿 // 𤲅 ~ 菴) -- Not unifyable or IVD?
+
+05256 GHZR84968.04 = 𪅽 (IRGN2176#14)
+
+01805 GHZR42297.03 = 𣣧/𣣸 (𠧪 ~ u2ff1-u2e8a-u76ee)
+
+02792 GHZR52697.09 = 𥌆 (UCV)
+
+04728 GHZR74330.04 = 虜 (雨 ~ 虍)
+
+00106 GHZR10067.08 = 亂 (𤔬 ~ 𤔔)
+
+05225 GHZR84924.04 = 𩿦 (Joined strokes, possibly a normalization error.)
+
+04160 GHZR63765.05: 𨌁 (𣅀 ~ 旨)
+
+04168 GHZR63776.08: 𨌨 (⿹勹㱏 ~ 匋)
+04944 GHZR84857.10: 騊 (⿹勹㱏 ~ 匋)
+
+03375 GHZR52968.20 = 𦔥 (𥇡 = 睪 // 𤀎 = 澤 // 𤏵 = 燡 // 𥋭 = 䁺)
+
+02993 GHZR52793.08 = 稲 (common variant ⿱⺈旧 ~ ⿱爫旧)
+
+00261 GHZR52835.08 = 𤾇 (兒 ~ 児)
+
+00028 GHZR10029.06 = 丽 (麗 ~ 𪋘)
+
+04714 GHZR74416.08 = 𩀨 (從 ~ 従)
+
+04945 GHZR84860.17 = 騬 (乘 ~ 乗)
+04171 GHZR63780.10 = 𨍱 (乘 ~ 乗)
+
+03457 GHZR42253.04 = 䐑 (𨅈 ~ 蹀)
+
+04690 GHZR74474.03 = 𨽠/隤 (貴 ~ ⿱央貝 ~ 䝿) (U+22D5F ~ U+648C)
+
+00019 GHZR10115.08 = 𠄗
+
+00458 GHZR10030.11 = 斟 (⿻廾⿱丶丶 ~ 斗)
+
+00048 GHZR10061.08 = 扶 (corruption; writing 扌 similar to 丩 is common in ancient text, it should be normalized to 扌)
+
+00050 GHZR10035.09 = 幻 (horrible corruption of 幻, which is upturned 予 in seal script.)
+
+00058 GHZR10061.01 = 夃 (corruption of 夃, used as 省寫 for 盈)
+
+00080 GHZR10061.21 = 乨
+
+00089 GHZR10064.01 IVD 𤭀 (severe corruption)
+
+00116 GHZR10015.03 = 亓 (corruption, additional stroke)
+
+00117 GHZR10019.13 IVD 𠧛 (上 ~ 𠄞)
+
+00118 GHZR10027.13 IVD 坻 (zihai-010025 ~ 氐; zihai-007406 ~ 低)
+00171 GHZR10189.05 IVD 低 (zihai-010025 ~ 氐; zihai-007406 ~ 低)
+
+04705 GHZR74481.10 = 隬 (𤕨 ~ 爾)
+00120 GHZR10030.05 = 爾
+
+00163 GHZR10184.01 = 佸 / 𠈲 (省筆字 of 𠈲 or corruption of 佸. withdraw or unify to 佸/𠈲)
+
+00169 GHZR10188.08 = 低 - ERROR Normalization - http://pic.guoxuedashi.com/longkan/18.jpg - http://en.glyphwiki.org/glyph/hkcs_ws2015-00169-src.svg ~ http://en.glyphwiki.org/glyph/hkcs_ws2015-00169-src2.svg; http://pic.guoxuedashi.com/longkan/96.jpg;
+
+00181 GHZR10202.09 = 侈 - ERROR Normalization - http://pic.guoxuedashi.com/longkan/22.jpg, also refer to T13-2F6E
+
+00190 GHZR10205.17 = 脊?
+
+01804 GHZR42297.02 = 欵
+
+00256 GHZR10290.05 = 兆 (corruption)
+
+00276 GHZR10176.08 = 夹 (alternative transcription)
+
+01668 GHZR42274.03 = horrible corruption of 饒
+
+04956 GHZR84871.08 = 𩥉 (⿱止豆 ~ 豈: 𦪍 ~ 𦩴)
+
+04957 GHZR84871.12 = 𩦧 (⿳曰罒力 ~ 㬅 ~ 曼, 澷 ~ 漫, 𩮺 ~ 鬘)
+04181 GHZR63793.06 = 䡬 (⿳曰罒力 ~ 㬅 ~ 曼, 澷 ~ 漫, 𩮺 ~ 鬘)
+
+04963 GHZR84874.02 = 騻 (𠁊 ~ 爽 // 𥡠 ~ 𥢡 // 塽 ~ 𡑽) (Refer to 00392 USAT09308)
+
+01841 GHZR31547.01 = 越
+
+01809 GHZR42299.08 IVD 款 (Single Case)
+01810 GHZR42300.08 IVD 𣣽 (Single Case)
+01811 GHZR42300.12 IVD 歌 (Single Case)
+05122 GHZR85036.09 IVD 𩽞 (corrupted form, 氺 ~ 土 joined strokes; Single Case)
+05392 GHZR84911.07 IVD 鹶 (corrupted form, 仐 ~ 今 Single Case)
+05394 GHZR84912.13 IVD 鹶 (Corrupted form, ⿱八今 ~ 今 Single Case)
+
+04933 GHZR84846.05 IVD 𩢷 (Single Case?)
+04684 GHZR74471.01 IVD 隈 (shape similar; 畏 ~ 𠂽 ~ ⿱亠畏)
+00176 GHZR10198.04 IVD 侜 (Single Case) http://pic.guoxuedashi.com/longkan/18.jpg
+
+04847 GHZR84782.22 IVD 䬒 (shape similar; Single Case? 叜 ~ ⿱穴㕛)
+00568 GHZR10116.03 IVD 商 (already 8 variants of 商 encoded, IVD)
+
+04923 GHZR84834.08 = ERROR FORM OF 䭼 (IVD); Phonetic is 亓.
+05032 GHZR84895.03 = 商 (already 8 variants of 商 encoded, IVD?)
+04967 GHZR84878.04 = 𩧊 (⿱⺈𧠓 ~ 敻 single case?)
+05238 GHZR84942.14 = 鶉 (single case)
+05037 GHZR84895.20 = 毃 (single case, right hand side corrupted of 殳)
+
+01798 GHZR52737.15 = ERROR FORM OF 𣡺, OBJECT RS Change RS from 75.27 to 102.26: ref 𣡺, 𪉀, 𦉩
+05270 GHZR52738.02 = 𤴒, Corrected form of 𪉀
+
+01199 GHZR20893.09 = 𢔦 (corruption)
+
+01870 GHZR42324.20 = 𣫞 (similar shape.  obvious from context. joined strokes for 臼, split strokes for 干)
+
+02785 GHZR52690.08 = 瞽 (horrible corruption)
+
+05115 GHZR85025.15 = 鱡 (corrupted form of 鱡 -- the phonetic is 賊. 戝 is corrupted form of 賊)
+
+05116 GHZR85026.05 = 鰥 (corrupted form on right bottom)
+
+01154 GHZR10441.07 = 01155 GHZR10441.09 (corrupted form of 臿 on the left)
+
+01167 GHZR10606.03 = ERROR FORM of 𢨈, sematic component is hit (攴), not 弋, IVD?
+
+01164 GHZR10605.17 = ERROR FORM of 㦷, IVD?
+
+02751 GHZR52668.02 = 𥅪 (stroke intiation difference, minor)
+
+02760 GHZR52674.01 = 睺 (top right hand corner: different interpretation of same stroke.  bottom component, 夫 ~ 矢)
+
+05070 GHZR84717.06 = 魁 (corruption, similar shape)
+05082 GHZR84728.20 = 䰱 (single case corruption of ⿰大王 ~ 巫)
+
+05088 GHZR84990.11 = 𩵸 / 魧 (single case corruption)
+
+05042 GHZR84896.13 = 𩫧 (Incorrect form.  the etymology of 垣 is 𩫏 and cannot be 𦎫(享). withdraw)
+
+01148 GHZR20967.02 = corrupted form of 廧
+
+05265 GHZR84976.08 = 𪅢 / 鸋 (???? Single case?)
+
+05269 GHZR84980.09 = 𪈫/鸔 (㬥 ~= 暴, in between shape)
+
+04740 GHZR74337.09 = 𩄦 (corrupted form: 丰 ~ 㐄 [夅 <--> 夆] // 𨦟 = 鋒: http://pic.guoxuedashi.com/longkan/9.jpg // 蜂 = 𧊵 // 烽 = 𤇺)
+
+04733 GHZR74332.02 = 𩂻 (corruption, similar form)
+04734 GHZR74332.03 = 𩂻 (corruption, similar form)
+
+00422 GHZR10045.10 = 曶 U+66F6 (corruption, similar shape)
+
+00427 GHZR10301.03 = 卮 (similar shape)
+
+00430 GHZR10097.10 = 亘 (extra stroke)
+
+00428 GHZR10301.09 = 光 (heavy corruption, inaccurate transcription of grass script)
+
+00439 GHZR10068.08 = 孕 (corruption)
+
+00441 GHZR10069.03 = 𠥾 (乆 = 久)
+
+00443 GHZR10069.13 = 卋 (addition of minor stroke; alternative transcript of 世)
+
+00272 GHZR10148.03 = 矢 (alternative transcription of 矢)
+
+04806 GHZR84685.02 = 䫵 (alternative transcription of 邊 // 邉 ~ 邊)
+
+05461 GHZR85064.05 = 𪑝 (𢦙 = 或)
+
+05462 GHZR85064.13 = 𪐿 (corruption, similar stroke)
+
+05466 GHZR85085.04 = 𪓟, horrible corruption, extra two strokes, the phonetic is 句.
+05467 GHZR85085.17 = 𪚶, horrible corruption, extra two strokes, the phonetic is 句.
+
+04062 GHZR63713.07 = 𧺢 (⿱口又 ~ 殳)
+
+04085 GHZR73944.08 = 跨 (于 ~ 亏)
+04104 GHZR73966.12 = 𨃖 (joining of components. both are used as variants of 跨)
+
+00350 GHZR10065.04 = 歰 (IVD, corruption, should be four 止)
+
+05482 GHZR10540.10 = 鼘 (IVD, corruption, bottom part is ~ 𣶒 (u23d92-07-itaiji-002), top part = 鼓)
+
+04693 GHZR74472.02|T13-3148 = 隫 (IVD, 𨸏 on left is always transcripted as 阝)
+
+05512 GHZR85119.08 = 𪚄 (聮 = 聯)
+
+04276 G_Z0942302 = 逓 (omission of minor stroke)
+
+04117 GHZR73972.11: corrupted form of 𨀧
+04118 GHZR73973.10: corrupted form of 蹀; IDS should use 龷 (U+9FB7) instead of U+E82C
+04156 GHZR63756.03: corrupted form of 軜
+
+03376 G_Z3392501: Need confirmation: Does not match PRC conventions. Phonetic 幺 (yiu1). Unify to 𦔷.
+
+03402 GHZR42200.02 IVD 胷 (phonetic is 匈)
+
+04336 GHZR74029.06 UNIFY 郩 (ref: 希~𢁫 // 03403)
+
+04341 GHZR74032.10 UNIFY 𨝇 -- 04341 is the etymologically-correct form instead of U+28747
+
+03425 GHZR42225.03 = 䏼 corrupted form
+
+03433 GHZR42238.11 = 脞 similar shape
+
+03013 GHZR52817.01 = 䅾 (潛 ~ 潜)
+
+03445 GHZR42251.13 IVD 膄
+
+03000 GHZR52804.04 IVD 穆 (corruption)
+
+05108 GHZR85018.04 IVD 鰟 (corruption)
+03446 GHZR42252.05 IVD 𦜆 (corruption, 凾 = 函 // 㴠 = 涵)
+03455 GHZR42259.11 IVD 𦡕 (ommission of component)
+
+04177 GHZR63788.04 IVD 輮 (corruption; changed to similar shape component; ⿱矛示 ~ 柔)
+03452 GHZR42258.08 IVD 腬 (corruption; changed to similar shape component; ⿱矛示 ~ 柔)
+
+02498 GHZR21220.10 IVD 𤫅 (joining of strokes)
+
+02499 GHZR21225.14 IVD 𤩰 (corruption, should be 𠧪, not 鹵)
+
+03091 GHZR53147.03 IVD 𥬕 (冉 ~ 冄).
+
+03200 GHZR42279.08 IVD 䊨 (common corruption ⿱亡罒 ~ 吂)
+
+04576 GHZR74317.14 IVD 䦇 U+4987 (common deformity)
+04580 GHZR74319.18 IVD 髻 U+9AFB (relative position of components; joined strokes)
+
+04581 GHZR74320.09 = U+28CA2, see HYDZD 64054.220
+
+04175 GHZR63785.12 IVD 輜 U+8F1C (common variation, 𥀒 ~ 㿳 // 𦃠 ~ 緇 // 𦵰 ~ 葘 // 𩺅 ~ 鯔 // 𫁁 ~ 䅔)
+
+00008 GHZR10014.09 IVD 巜 (see context; seal-script transcription variation)
+
+00013 GHZR10021.05 IVD 天 (split strokes)
+
+00042 GHZR10036.03 IVD 贔 (see context.)
+
+00101 GHZR10066.07 IVD 䰲 (left side is fish.)
+
+00200 GHZR10223.08 IVD 傘 (corruption, similar contour)
+
+00275 GHZR10175.05 IVD 食 (corruption)
+
+00285 GHZR10053.13 IVD 羞 (additional stroke, protrusion of strokes)
+
+00295 GHZR10111.05 IVD 冊 (missing stroke, taboo?)
+
+00300 GHZR10115.06 IVD 罔 (匕 ~ 亡) // according to pronunciation it should be 岡; however 岡 通假 罔.
+00303 GHZR10116.12 IVD 岡 (additional dot at top; 止 ~ 山)
+
+00446 GHZR10070.03 UNIFY / IVD 𠦒 (protrusion of strokes)
+
+00459 GHZR10077.04 IVD 棗 (corruption)
+
+00463 GHZR10109.02 IVD 西. A bunch of variants of 西 are already encoded.
+00485 GHZR10080.14 IVD 所. A bunch of variants of 所 are already encoded.
+
+00490 GHZR10084.15 IVD 厚. (similar shape)
+00492 GHZR10085.03 IVD 𠩫. (similar shape)
+
+00498 GHZR10087.24 IVD, corrupted form of 廏
+
+00502 GHZR10089.06 UNIFY / IVD U+200C3 (𠂬 = 卮)
+
+00503 GHZR10089.13 UNIFY 𠪜, addition of minor stroke, both variants of 庶.
+
+00526 GHZR10433.02 IVD 𥬖, many variants of 皮 already encoded.
+
+00530 GHZR10435.03 IVD 曼 (?)
+
+00556 GHZR10074.03 IVD 𠅔 (protrusion of stroke)
+
+05416 GHZR84903.22 IVD 𪍑 (ommission of component)
+
+05425 GHZR84904.27 UNIFY TO 𫜓 (䏍 = 肙)
+
+00649 GHZR10117.10 IVD 矯 (rearragement of component, contour of component)
+
+04966 GHZR84879.02 UNIFY 驟
+
+05114 GHZR85024.20 UNIFY 𩺴, turning of strokes
+
+04925 GHZR84835.13: ERROR FORM OF 䭷 (IVD)
+00026 GHZR10029.02: ERROR FORM OF 軌 (IVD)
+
+
+
+
+// U+24568 = 爾 (http://pic.guoxuedashi.com/longkan/390.jpg)

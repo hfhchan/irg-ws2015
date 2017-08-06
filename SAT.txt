@@ -1,0 +1,167 @@
+01648 USAT06769 = 胯 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+05026 USAT09817 = 骻 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+00375 USAT09219 = 刳 (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+
+03045 USAT04472 UNIFY U+41A9 (具 ~ ⿱目大)
+
+00481 USAT05639 = 厀 (𣷚 ~ 桼: 𣾰~漆 // 𦡀~膝 // 𨞢~䣛, extra dot)
+
+01139 USAT05879 = 唐 (庚 ~ 唐 top)
+01179 USAT08918 = 弶 (亰 ~ 京)
+01184 USAT08484 = 彗 (alternate transcription of seal script. 隸定)
+
+00717 USAT06688 consider normalize right hand component to 乕.
+
+00208 USAT09305 IVD 偄 (耎 ~ 䎡)
+
+00209 USAT10245 IVD 僫 (惡 ~ 𢙣)
+
+04063 USAT09122 IVD 趄 (走 ~ 𧺆)
+04072 USAT07049 IVD 𧽍 (走 ~ 𧺆)
+04075 USAT09807 IVD 趫 (走 ~ 𧺆)
+00839 USAT09815 IVD U+479A (走 ~ 𡗱; context right hand side should be 支 not 攴)
+00848 USAT09573 IVD U+27F32 (走 ~ 𡗱)
+
+03645 USAT09183 IVD 萼 (㖾 ~ 咢, 隸定)
+01070 USAT08983 IVD 㟧 (㖾 ~ 咢, 隸定)
+00641 USAT07095 IVD 㗁 (㖾 ~ 咢, 隸定)
+
+00511 USAT09010 = 支 (alternate transcription of seal script (隸定), according to 說文, 支 is composed by ⿱个又)
+
+00684 USAT08864 = 嗇 (𠻮 ~ 嗇, from context, the dictionary intend to mean 嗇)
+
+03640 USAT08414 = 蓿 (㝛 ~ 宿)
+
+01777 USAT09255 IVD 橑 (𤊽 ~ 尞)
+
+00558 USAT09874 = 𠴏 (亾 ~ 亡)
+
+00606 USAT09534 IVD 唬 (虎 ~ 𧆞)
+
+00144 USAT08529 UNIFY 矢 (Similar shape)
+
+00132 USAT06168 = 亢 (Frequent Variation)
+
+00706 USAT06991 = 𪢽 (alternative transcription)
+
+00165 USAT06442 = 㐭 (隸定)
+
+01600 USAT10178 = 暪 (Obvious from context, 瞞 is used below)
+
+00301 USAT06181 IVD 㡀 (extra two strokes, very common)
+
+00195 USAT09927 = 倖 (Extra stroke with 羍, should be 㚔 according to context. 幸 ~ 羍 ~ 㚔).
+00882 USAT09928 = 婞 (Extra stroke with 羍, should be 㚔 according to context. 幸 ~ 羍 ~ 㚔).
+
+01633 USAT09518 = 臾 / 㬰 (𥒏 ~ 𥑷 ~ 𥔢 // http://dict2.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QjAxNDkwLTAwMg "凡同此偏旁，文獻多見類似變化，可視為異體演變之例。")
+
+03474 USAT10234 IVD 臏 (賔 ~ 賓)
+
+01642 USAT05873 = 卵 (obvious from context, typographical variation, http://dict2.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTAwNDUzLTAwMg)
+01869 USAT10202 = 𣫘 (obvious from context, typographical variation)
+
+00474 USAT09908 UNIFY 印 (addition of minor dot)
+
+00262 USAT09421 = 尰 (difference in stroke initiation direction)
+
+05266 USAT09827 = 𪇑 (𡼡 ~ 熏)
+
+00010 USAT05822 = 甹 (𦕊/𨉂 ~ 聘 // http://www.guoxuedashi.com/zidian/ytz_2939p.html, http://www.guoxuedashi.com/zidian/ytz_4745z.html)
+
+02783 USAT10106 = 𥈃 (𡨼 ~ 叜: 𢠡 ~ 𢜶 // 𢻟 ~ 𢾐 // 𤡗 ~ 𤟫 // 𪷅 ~ 𣸈)
+
+00991 USAT10469 = corruption of 尗. Apparent from context.
+
+00994 USAT06451 = alternate transcription of 𡯪/𡯭/尫.
+
+01011 USAT10585 = 㞚 (𠚏 ~ 臿)
+
+00438 USAT08779 = 匱 (貴 ~ 䝿 // 𡃪 ~ 嘳 // 𡓤 ~ 墤 // 𢤳 ~ 憒 // 𣟨 ~ 樻 etc.)
+
+03096 USAT05469 = 笑 (refer to ROK Normalization)
+
+00392 USAT09308 = 𠞮 (𠁊 ~ 爽 // 𥡠 ~ 𥢡 // 塽 ~ 𡑽) (Refer to 04963 GHZR84874.02)
+
+00861 USAT90292 unify to 妭
+
+00889 USAT07214 corrupted form of 媲 (U+5AB2). unify to 𡠴 (U+21834).  according to context, pronounce as pi4, cannot possibly be 恖 (cong1)
+
+00897 USAT05213 UNIFY 嫯; 𢾕 is alternate transcription of 敖 (𢶗=摮 // 𣿗=滶 // 𨗯=遨 etc.)
+
+00949 USAT08922 normalize/UNIFY TO 弿, handwriting transcription
+
+*** Potentially Controversial ***
+00196 USAT10443 IVD 俞 (月 ~ 舟)
+00579 USAT09301 IVD 唈 (Different structure of components; Consider IVD)
+
+00746 USAT08504 = 𡍩; 𡱞 is common error form of 㡿.
+
+00136 USAT07028 = 伊 (ommitted stroke, taboo?)
+
+01195 USAT06632 = 保 (corrupted character, "誤謬之甚" in quoted text, glyph image does not match evidence (口丶不))
+
+00447 USAT10599 = 𠦒 (protrusion of strokes)
+
+00995 USAT08396 = 㞂 (corrupted character, the 反切 indicates it should be 妥 phonetic. Ref:http://web.archive.org/web/20170204210233/http://pic.guoxuedashi.com/dzd1/554.png)
+
+01003 USAT09017 = 屐 (corrupted character, shoe is related to ㄔ walk, not 扌)
+
+01014 USAT07065 = 𡱤/𣭼 (corrupted character, from context, very clear it should be 水)
+
+02295 USAT90366 = 譙 (component rearranged. (ref: 蘸))
+
+00440 USAT09040 = 午 (IVD), inaccurate transcription of http://www.zdic.net/z/16/sw/5348.htm
+
+04109 USAT08867 = 踏 (IVD), corrupted character, according to context, phonetic is 沓 (ta1) instead of 畓 (duo1). 畓 is korean in origin.
+
+03223 USAT08401 IVD to 綱 (𡶩 ~ 岡, top/bottom vs wrap around)
+
+# There are a large number of characters where the U+2EBC has been replaced with the full 肉 radical.  IRG should consider to allow encoding these characters as IVD as there are 500+ characters with U+2EBC; variants using 肉 are sufficiently rare in modern usage.
+00282 USAT08988 IVD 䏌: 肉 vs U+2EBC
+03390 USAT06462 IVD 肊: text indicates 乙 as phonetic; 肉 vs U+2EBC
+03392 USAT09914 IVD 肋: 肉 vs U+2EBC
+03393 USAT06266 IVD 肙: 肉 vs U+2EBC
+03395 USAT08303 IVD 𦘺: 肉 vs U+2EBC
+03397 USAT10232 IVD 肧: 肉 vs U+2EBC
+03403 USAT05646 IVD 肴: 肉 vs U+2EBC, top 爻 (ref: 希~𢁫 // 04335)
+03405 USAT90295 IVD 股/肢: 肉 vs U+2EBC
+03407 USAT08919 IVD 育: 肉 vs U+2EBC
+03411 USAT06030 IVD 背: 肉 vs U+2EBC
+03414 USAT08746 IVD 䏣: 肉 vs U+2EBC
+03416 USAT90297 IVD 胜: 肉 vs U+2EBC
+03419 USAT06375 IVD 肺: 肉 vs U+2EBC; IDS: ⿰肉巿
+03420 USAT10231 IVD 胎: 肉 vs U+2EBC
+03422 USAT06361 IVD 胷: 肉 vs U+2EBC
+03423 USAT08968 IVD 脃: 肉 vs U+2EBC
+03426 USAT06768 IVD 胯: 肉 vs U+2EBC; (𡗢 ~ 夸 // 誇 ~ 𧧳 // 跨 ~ 𨀗 // 䠸 ~ 𨉀 // 鮬 ~ 𩶮 // 洿 ~ 𣴰);SC - 6
+03437 USAT07202 IVD 腴: 肉 vs U+2EBC; SC = 9
+
+# WRONG CHARACTERS; Possibly Withdraw:
+03142 USAT04512 - ERROR FORM OF 籀; can unify/ivd to 籕/籀 (?)
+03206 USAT06879 - ERROR FORM OF 紓; see context
+01857 USAT06080 - text says it is a wrong character.
+04114 USAT09253 - dubious - text says "字書無此字"
+03370 USAT06512 - dubious - text says "不成字古文", seems like 屬 with the second component joined to become 土, and the bottom-most component corrupted into 而.
+03378 USAT06426 - dubious, corrupted form of 眄. According to context, should be 目.
+03385 USAT08305 - dubious, corrupted form of 𥋃.  According to context, must be 目.
+03014 USAT08751 - character is designed wrongly by the evidence, according to the context, it should be 鐫. UCV or withdraw.
+03138 USAT07241 - dubious - text says 從草從勝 which should be 蕂 (sheng4) but the pronunciation given in context is teng2 (籐).
+02745 USAT04667 - horrible corruption of 映.  Incorrect transcription of Seal Script character - not Regular Script. Withdraw. Ref: http://www.zdic.net/z/1b/sw/6620.htm
+00310 USAT03880 - evidence on left shows it being used as 伞, evidence on right is an obvious design error of 夲 according to context. Withdraw.
+00578 USAT05586: Error of 㖾. Other modern texts use 噩, which is synomous with 㖾/咢
+00127 USAT10021: Obvious printing error. In context it should be 眔, i.e. 眔 + 衣 --> 褱.
+00057 USAT06522: Error form of 丿. The original text in 說文 is one stroke only (丿).
+00644 USAT09596: Error.  In context it is explaining the pronunciation of the previous "噍", but the second character has been printed as ⿰口𤊙 instead of 噍.
+00294 USAT05839: According to context, the geometric decomposition should be 宀.
+00655 USAT04678: Error form of 𪔓; missing component.
+02761 USAT06596: corrupted form of 聡. 目 is similar to 耳 in ancient texts.
+04840 USAT10047: corrupted form of 𩘌. 秋 is qiu1 (qiou1), 𩘌 is sou1, 狄 is di2.  There is no possibilty of 狄 being the phonetic.
+00126 USAT90058: Error form of 朚 (corruption of bottom component from 明 to 朋)
+00257 USAT06965: 及 from context, no such 「古文」 attests such source.  More Evidence?
+
+# Really SYNONOMOUS?
+03095 USAT05025 REALLY SYNONYMOUS TO 筩 U+7B69?
+03431 USAT08709 Normalize top to 𣏟; NOT SYNONOMOUS WITH U+2C0D5
+03158 USAT04879 NOT SYNONOMOUS WITH 䉼 U+427C but 料 U+6599.
+00448 USAT10620 REALLy SYNONYMOUS TO 𢆎? Should have 㪅.
+01025 USAT02486 really synonymous to 岲 (U+5CB2)/𡵚 (U+21D5A)/㟋 (U+37CB)/𡷋 (U+21DCB)?

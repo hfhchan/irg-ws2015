@@ -1,0 +1,2 @@
+05120 KC-05947: ⿰魚襄 is not yet encoded.  Would Korea consider normalization to 襄?
+00539 KC-00392: Glyph Design: two dots at the top can be closer.

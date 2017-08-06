@@ -1,0 +1,29 @@
+speedy unification process
+
+- the bulk of PRC's (GHZR) and TCA (plane 19?) submissions are variants of existing characters.  They are sourced from authoritative dictionaries, i.e. their semantic variant relationship and glyph shape can be reasonably trusted.
+- owing to the nature of the Kai script, many variant forms have existed.
+- currently there are thousands of unencoded characters in 龍龕 alone, and hundreds of variants in 集韻 that can arguably be encoded as separate characters depending on the discretion of IRG.
+
+The encoding of such variants are mainly for two purposes - one for government registration systems, and one is for text digitation. Both purposes share similar goals: (1) the glyph shape should be preserved as much as possible during information exchange, and (2) normal text search may often expect that these variants are treated as the same character.
+
+These two goals make encoding via IVD a perfect fit as the exact glyph shape is both "purpose-specific" and "publicily exchangable": the font glyph is not supposed to change over regions in correctly designed fonts, unlike in unification where the glyph for a given character will morph according to locale.
+
+However, encoding variants via IVD now is restricted by the characters being unifiable.  This severely limits the number of variants that can be encoded with the same base character. Many of these variant desired to be encoded may be highly irregular at a glance. Many times only the basic outline is recognizable, or even barely recognizable only in context.  Some may be systematic over the same component.  However, these systematic differences are often quite major compared to existing UCV rules.
+
+Waiting for IRG to adopt more progressive UCV rules results in a dilemma -- there needs to be a "published example" for it to be added to the UCV. Many of the unified variants are from the same region, i.e. unification to itself, therefore the glyph will never appear in the glyph chart, and thus a rule will never exist in the UCV.  Therefore the same systematic difference may be discussed many times.  In past history, one IRG meeting has decided a particular systematic variation were unifyable.  However, in the next meeting, some more characters are discovered to be left out and all the changes are reverted out of safety.  This is wasting expert's effort.  Many IRG expects have said that, providing 20+ UCVs before the fact, is very hard to digest by other IRG experts.  The preparation of such UCV rules is also very time-consuming for the individual contributers.
+
+My proposal is that we remove the restriction of unifable via UCV for encoding in the IVD, and introduce an efficient and speedy two-tier IVD encoding process (speedy unification process).
+
+First-tier, submitters may submit highly deformed shapes ("B") of existing variant characters ("A") that are attested in IRG authoratative dictionaries.  Since IRG believe the authoratative dictionary to be of high quality, we will assume that they are correct.  These shapes would be deformed enough to an extent they are reasonably not expected to be variant of any other character.
+
+In the case in the future it is identified that "B" is not a variant of "A", no harm occurs -- simply the system that submitted "B" in the first place will not use "B" encoded as variant of "A", but use a new codepoint that IRG may assign.  In another perspective, in that particular text or system, since the textual source indicates that "B" is recognized as variant of "A", then inside that text, searching for "A" should yield "B" anyway.  The only problem that may surface is that a certain glyph may be a variant of multiple characters.  In that case, it should be up to the implementation that utilizes multiple encodings to automatically treat the different encodings as equivalent. This may be a problem that occurs with the current IVD, where a variant glyph is encoded both as a variant of a base character, and encoded as another Unified Ideograph; in practice there is no problem if the system encodes glyphs consistently.
+
+Second-tier, we allow submitters to submit systematic variations similar to those at the end of IRGN 2176.  Submitters must show evidence that the submitted variants are systematic in deviation.  In the current WS2015, there are many historical systematic variations with only a few examples because the character set is limited to only 5000.  Many previous Extension D and F candidates are also containing such systematic variations (which can be found on glyphwiki), but are very time consuming to sort.  The submitter must convince the IRG that they are systematic and historically 'popular' forms, in part by showing authoratative proof or general proof.  In case of doubt, individual characters or the whole proposal can be rejected.
+
+In case any characters are rejected from the speedy Unification process, they can be resubmitted again via the traditional process.
+
+Benefits:
+The aim is by shifting the burden of "proof of unification" back to submitter instead of reviewer, the information collection effort need not be duplicated.  Using IVD also means that no radical-stroke information is necessary and IDS need not be provided (it can be optional), greatly simplifying the review process.  The only thing that reviewer need to check is if the glyph forms match the submitted evidence, and for any existing variant glyph already encoded at that character -- it is much easier to look at ~100 glyphs than to 80,000 glyphs to determine duplicates.  Especially for highly deformed glyphs, where the IDS decomposition cannot be checked via machine.
+
+In the current WS2015, many systematic variations are spread over 500 pages which make them extremely hard to generalize, and hard to review.  By providing incentive for submitters to group the systematic variations, the approval process can be extremely speedy and consistent.
+
