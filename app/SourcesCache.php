@@ -10,6 +10,15 @@ class SourcesCache {
 		}
 	}
 
+	public function getAll() {
+		$this->load();
+		$sn = [];
+		foreach ($this->sources as $source) {
+			array_push($sn, ...$source);
+		}
+		return $sn;
+	}
+
 	public function getFirst() {
 		$this->load();
 		foreach ($this->sources as $source => $value) {

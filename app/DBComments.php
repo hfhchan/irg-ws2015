@@ -1,20 +1,86 @@
 <?php
 
 class DBComments {
-	const COMMENT_TYPE_UNIFICATION;
-	const COMMENT_TYPE_ATTRIBUTES_RADICAL;
-	const COMMENT_TYPE_ATTRIBUTES_SC;
-	const COMMENT_TYPE_ATTRIBUTES_TC;
-	const COMMENT_TYPE_ATTRIBUTES_IDS;
-	const COMMENT_TYPE_ATTRIBUTES_TRAD_SIMP;
-	const COMMENT_TYPE_MISDESIGNED_GLYPH;
-	const COMMENT_TYPE_ATTRIBUTES_REJECTION;
-	const COMMENT_TYPE_UNCLEAR_EVIDENCE;
-	const COMMENT_TYPE_EDITORIAL_ERROR;
-	const COMMENT_TYPE_OTHER;
-	
+	const COMMENT_TYPES = [
+		'UNIFICATION',
+		'UNIFICATION_LOOSE',
+		'UNIFICATION_COMPLEX',
+		'ATTRIBUTES_RADICAL',
+		'ATTRIBUTES_FS',
+		'ATTRIBUTES_SC',
+		'ATTRIBUTES_TC',
+		'ATTRIBUTES_IDS',
+		'ATTRIBUTES_TRAD_SIMP',
+		'MISDESIGNED_GLYPH',
+		'NORMALIZATION',
+		'COMMENT',
+		'DISUNIFICATION',
+		'UNCLEAR_EVIDENCE',
+		'EDITORIAL_ERROR',
+		'SEMANTIC_VARIANT',
+		'SIMP_VARIANT',
+		'TRAD_VARIANT',
+		'CODEPOINT_CHANGED',
+		'OTHER',
+		'KEYWORD'
+	];
+
 	public $db;
-	public function __construct() {
-		$this->db = Env::$db;
+	public function __construct($data) {
+		foreach ($data as $key => $val) {
+			$this->$key = $val;
+		}
+	}
+
+	public function getSN() {
+		return sprintf('%05d', $this->sn);
+	}
+
+	public function getTypeIndex() {
+		return array_search($this->type, self::COMMENT_TYPES);
+	}
+
+	public static function getList() {
+		$q = Env::$db->query('SELECT * FROM "comments"');
+		$results = [];
+		while ($data = $q->fetch()) {
+			$results[] = new self($data);
+		}
+		return $results;
+	}
+
+	public static function getAll($sq_number) {
+		$q = Env::$db->prepare('SELECT * FROM "comments" WHERE "sn" = ?');
+		$q->execute([$sq_number]);
+		$results = [];
+		while ($data = $q->fetch()) {
+			$results[] = new self($data);
+		}
+		return $results;
+	}
+
+	public static function getByKeyword($keyword) {
+		$q = Env::$db->prepare('SELECT "sn" FROM "comments" WHERE "type" = ? AND "comment" = ?');
+		$q->execute(['KEYWORD', $keyword]);
+		$results = [];
+		while ($data = $q->fetch()) {
+			$results[] = str_pad(intval(ltrim($data->sn, '0')), 5, '0', STR_PAD_LEFT);
+		}
+		return $results;
+	}
+
+	public static function getAllKeywords() {
+		$q = Env::$db->prepare('SELECT DISTINCT "comment" as "keyword" FROM "comments" WHERE "type" = ?');
+		$q->execute(['KEYWORD']);
+		$results = [];
+		while ($data = $q->fetch()) {
+			$results[] = $data->keyword;
+		}
+		return $results;
+	}
+
+	public static function save($sq_number, $type, $comment) {
+		$q = Env::$db->prepare('INSERT INTO "comments" ("sn", "type", "comment") VALUES (?, ?, ?)');
+		$q->execute([$sq_number, $type, $comment]);
 	}
 }
