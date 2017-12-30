@@ -68,6 +68,7 @@ $override = [
 	'03345' => 'unified by U+2E28C (JMJ-058343), irg46.',
 	'02218' => 'unified to U+24261, irg47.',
 	'03863' => 'U+279FF, add to ivd, irg48.',
+	'03531' => 'postponed for IVS research, irg47. unified by U+2E39B (JMJ-058438), irg46.',
 	
 ];
 

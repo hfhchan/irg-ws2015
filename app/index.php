@@ -343,9 +343,11 @@ a.review_all{font-size:16px;border:1px solid #ccc;padding:4px 12px;display:block
 	.ws2015_chart_table_sources td{white-space:nowrap;width:20%}
 	.ws2015_cutting{margin-left:0}
 	.ws2015_cutting canvas{width:100%;height:auto}
+	.ws2015_cutting img{width:100%;height:auto}
 	.ws2015_content{display:block}
 	.ws2015_evidence img{max-width:calc(100% - 2px)}
 	.footer{width:auto;padding:0 20px}
+	.ws2015_similar_char>img{width:100%;display:block}
 }
 @media (max-width:620px) {
 	.ws2015_char_nav{font-size:12px;line-height:24px}
@@ -424,8 +426,10 @@ foreach ($data as $char) {
 			if (!empty(trim($component))) {
 				if ($component[0] === 'U') {
 					if (!env::$readonly) echo '<a href="../../../fonts/gen-m.php?name=u'.substr($component, 2).'" target=_blank class=ids_component>';
+					else echo '<span>';
 					echo codepointToChar($component);
 					if (!env::$readonly) echo '</a>';
+					else echo '</span>';
 				} else {
 					echo html_safe($component);
 				}
@@ -511,7 +515,11 @@ foreach ($data as $char) {
 
 	$similar = html_safe($rowData[18]);
 	if (!empty($rowData[44])) {
-		$similar .= ' // Simplified Form of '.$rowData[44];
+		if ($rowData[16]) {
+			$similar .= ' // Simplified Form of '.$rowData[44];
+		} else {
+			$similar .= ' // Traditional Form of '.$rowData[44];
+		}
 	}
 
 	// Convert Codepoint + Char to Char only
@@ -556,8 +564,10 @@ foreach ($data as $char) {
 		foreach ($codepoints as $codepoint) {
 			echo '<div class=ws2015_similar_char>';
 			if (!env::$readonly) echo '<a href="../../../fonts/gen-m.php?name=u'.strtolower(substr($codepoint, 2)).'" target=_blank style="margin-right:10px">';
+			else echo '<span>';
 			echo '<img src="https://glyphwiki.org/glyph/hkcs_m'.strtolower(substr($codepoint, 2)).'.svg" alt="'.$codepoint.'" height=72 width=72 style="vertical-align:top">';
 			if (!env::$readonly) echo '</a>';
+			else echo '</span>';
 			echo '<img src="../../../Code Charts/UCSv9/Excerpt/'.substr($codepoint, 2, -2).'/'.$codepoint.'.png" alt="'.$codepoint.'">';
 			echo '</div>';
 		}
@@ -640,7 +650,7 @@ if (str_startswith($rowData[40], 'Fig. ')) {
 	foreach (explode(';',$rowData[40]) as $fig) {
 		$page = trim(str_replace('Fig.', '', $fig));
 ?>
-	<img src="<?=EVIDENCE_PATH?>/uk-evidence/IRGN2107_evidence-<?=html_safe(str_pad($page, 4, '0', STR_PAD_LEFT))?>.png" width=800 class=full>
+	<img src="<?=EVIDENCE_PATH?>/uk-evidence/IRGN2107_evidence-<?=html_safe(str_pad($page, 4, '0', STR_PAD_LEFT))?>.png" width=800 class=full style="max-height:400px;object-fit:cover;object-position:top">
 <?php
 	}
 }
@@ -861,6 +871,11 @@ foreach ($ids as $ids_char) {
 			echo 'SC ' . $ts2 . ' FS ' . $fs2 . ' - <a href="'.$char->base_path.'&id='.$sq_number.'&amp;add_strokes='.urlencode($ids_char . " " . $ts2 . '|' . $fs2).'">Confirm</a>';
 			echo '<br>';
 			echo '<br>';
+		} else {
+			echo codepointToChar($ids_char) . ' ('.$ids_char . '): <div style="color:red">Stroke Count Not Found</div>';
+			echo '<a href="'.$char->base_path.'&id='.$sq_number.'&amp;add_strokes='.urlencode($ids_char . " " . '0|0').'">Confirm</a>';
+			echo '<br>';
+			echo '<br>';
 		}
 	}
 }
@@ -942,21 +957,30 @@ Log::add('Comments End');
 			}
 
 			if ($cm->type !== 'KEYWORD') {
-				$pos1 = strpos($cm->comment, "\n");
-				if ($pos1 === false) {
-					$str = $cm->comment;
-				} else {
-					$str = substr($cm->comment, 0, $pos1);
-				}
-				$pos2 = strpos($str, ';');
-				if ($pos2) {
-					$str = substr($str, 0, $pos2);
-				}
-				$str = ' ' . trim($str);
-				preg_match_all("/ ([\x{3000}-\x{9FFF}\x{20000}-\x{2FFFF}])/u", $str, $matches);
-				foreach ($matches[1] as $match) {
-					$codepoint = charToCodepoint($match);
-					echo '<img src="../../../Code Charts/UCSv9/Excerpt/'.substr($codepoint, 2, -2).'/'.$codepoint.'.png" alt="'.$codepoint.'" style="max-width:100%"><br>';
+				if ($cm->type === 'UNIFICATION' || $cm->type === 'UNIFICATION_LOOSE' || $cm->type === 'CODEPOINT_CHANGED') {
+					$pos1 = strpos($cm->comment, "\n");
+					if ($pos1 === false) {
+						$str = $cm->comment;
+					} else {
+						$str = substr($cm->comment, 0, $pos1);
+					}
+					$pos2 = strpos($str, ';');
+					if ($pos2) {
+						$str = substr($str, 0, $pos2);
+					}
+					$str = ' ' . trim($str);
+					preg_match_all("/ ([\x{3000}-\x{9FFF}\x{20000}-\x{2FFFF}])/u", $str, $matches);
+					if ($cm->type === 'CODEPOINT_CHANGED' && preg_match('@^U\\+[0-9A-F]{4,5}$@', $cm->comment)) {
+						$matches = [null, [codepointToChar($cm->comment)]];
+					}
+					foreach ($matches[1] as $match) {
+						$codepoint = charToCodepoint($match);
+						if ($codepoint[2] === 'F' || ($codepoint[2] === '2' && $codepoint[3] === 'F')) {
+							echo '<img src="../../../Code Charts/UCSv9/Compat/'.substr($codepoint, 2, -2).'/'.$codepoint.'.png" alt="'.$codepoint.'" style="max-width:100%"><br>';
+						} else {
+							echo '<img src="../../../Code Charts/UCSv9/Excerpt/'.substr($codepoint, 2, -2).'/'.$codepoint.'.png" alt="'.$codepoint.'" style="max-width:100%"><br>';
+						}
+					}
 				}
 
 				$text = nl2br(htmlspecialchars($cm->comment));
@@ -964,7 +988,7 @@ Log::add('Comments End');
 				$text = preg_replace_callback('@{{(U\\+[A-F0-9a-f]{4,5})}}@', function ($m) {
 					$codepoint = $m[1];
 					if (!env::$readonly) {
-						if ($codepoint[2] === '2' && $codepoint[3] === 'F') {
+						if ($codepoint[2] === 'F' || ($codepoint[2] === '2' && $codepoint[3] === 'F')) {
 							return '<img src="../../../Code Charts/UCSv9/Compat/'.substr($codepoint, 2, -2).'/'.$codepoint.'.png" alt="'.$codepoint.'" style="max-width:100%">';
 						}
 						return '<img src="../../../Code Charts/UCSv9/Excerpt/'.substr($codepoint, 2, -2).'/'.$codepoint.'.png" alt="'.$codepoint.'">';
@@ -1040,8 +1064,7 @@ if (!env::$readonly) { ?>
 		$(toggleCommentKeywords);
 		parent.find('.comment_keywords').css({
 			'display': 'grid',
-			gridAutoColumns: 'max-content',
-			gridAutoFlow: 'column',
+			gridTemplateColumns: 'repeat(auto-fill, minmax(64px, 1fr))',
 			gridGap: '10px',
 			'margin': '10px 0'
 		});
@@ -1049,7 +1072,9 @@ if (!env::$readonly) { ?>
 			parent.find('.comment_content').val($(this).text());
 		}).css({
 			'border': '1px solid #999',
-			'padding': '8px 20px'
+			'padding': '8px 4px',
+			textAlign: 'center',
+			cursor: 'pointer'
 		});
 	})();
 	</script>

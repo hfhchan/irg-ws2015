@@ -52,19 +52,23 @@ form{margin:0}
 .comment_block{font-size:24px}
 .comment_block select {font-size:20px;display:block;border:1px solid #999;padding:4px;margin:10px 0;font-family:inherit}
 .comment_block textarea{display:block;width:-webkit-fill-available;width:-moz-available;min-height:200px;border:1px solid #999;padding:4px;font-family:inherit}
+
+.sheet-1{background:#ccc}
+.sheet-2{background:#ff0}
 </style>
 <script src="jquery.js"></script>
 <body>
 <section class=ws2015_comments>
-	<h2>IRGN2223 IRG Working Set 2015 Version 4.0 (Part 1 &amp; 2)</h2>
+	<h2>IRGN2223 IRG Working Set 2015 Version 4.0</h2>
 	<p>
-		Source: Henry Chan and Gienwen CHAU (趙瑾昀).<br>
+		Source: Henry Chan, Gienwen CHAU (趙瑾昀)**.<br>
 		Author: Henry Chan<br>
 		Type: Individual Contribution to IRG<br>
 		Date: Generated on <?=date("Y-m-d")?>
 	</p>
+	<p>The majority of this list is not endorsed by Mr. Chau.</p>
 <?
-$list = DBComments::getList();
+$list = DBComments::getList(true);
 $type = array_map(function($cm) {
 	if ($cm->type === 'UNIFICATION_LOOSE') {
 		return 1000;
@@ -95,17 +99,72 @@ array_multisort($type, $source1, $source2, $source3, $source4, $source5, $list);
 
 
 $chunks = [];
+$keywords = [];
+$chunks_keyword = [];
 foreach ($list as $item) {
 	if (!isset($chunks[$item->type])) {
 		$chunks[$item->type] = [];
 	}
+	if ($item->type === 'KEYWORD') {
+		if (!isset($keywords[$item->sn])) {
+			$keywords[$item->sn] = [];
+		}
+		$keywords[$item->sn][] = $item->comment;
+		$chunks_keyword['UNIFICATION (' . $item->comment . ')'] = [];
+	}
 	$chunks[$item->type][] = $item;
 }
 
-foreach ($chunks as $chunk) {
-	$type = $chunk[0]->type;
-	$type = strtr($type, '_', ' ');
-	if (strpos($type, 'ATTRIBUTES') === 0) {
+$chunks_added = [];
+$chunks['UNIFICATION'] = array_filter($chunks['UNIFICATION'], function($cm) use ($keywords, &$chunks_added, &$chunks_keyword) {
+	if (isset($keywords[ $cm->sn ])) {
+		foreach ($keywords[ $cm->sn ] as $keyword) {
+			$chunks_keyword['UNIFICATION (' .  $keyword . ')'][] = $cm;
+			$chunks_added[$keyword . '|' . $cm->sn] = true;
+		}
+		return false;
+	}
+	return true;
+});
+$chunks['UNIFICATION_LOOSE'] = array_filter($chunks['UNIFICATION_LOOSE'], function($cm) use ($keywords, &$chunks_added, &$chunks_keyword) {
+	if (isset($keywords[ $cm->sn ])) {
+		foreach ($keywords[ $cm->sn ] as $keyword) {
+			$chunks_keyword['UNIFICATION (' .  $keyword . ')'][] = $cm;
+			$chunks_added[$keyword . '|' . $cm->sn] = true;
+		}
+		return false;
+	}
+	return true;
+});
+$chunks['NORMALIZATION'] = array_filter($chunks['NORMALIZATION'], function($cm) use ($keywords, &$chunks_added, &$chunks_keyword) {
+	if (isset($keywords[ $cm->sn ])) {
+		foreach ($keywords[ $cm->sn ] as $keyword) {
+			$chunks_keyword['UNIFICATION (' .  $keyword . ')'][] = $cm;
+			$chunks_added[$keyword . '|' . $cm->sn] = true;
+		}
+		return false;
+	}
+	return true;
+});
+
+foreach ($chunks['KEYWORD'] as $cm) {
+	if (!isset($chunks_added[$cm->comment . '|' . $cm->sn])) {
+		$chunks_keyword['UNIFICATION (' . $cm->comment . ')'][] = $cm;
+	}
+}
+unset($chunks['KEYWORD']);
+
+$chunks = array_merge($chunks_keyword, $chunks);
+
+foreach ($chunks as $type => $chunk) {
+	if ($type === 'KEYWORD') {
+		$keyword = array_map(function($cm) {
+			return $cm->comment;
+		}, $chunk);
+		array_multisort($keyword, $chunk);
+	}
+
+	if (strpos($type, 'ATTRIBUTES_') === 0) {
 		$shorttype = substr($type, 11);
 		if ($shorttype === 'RADICAL') {
 			$shorttype = 'Radical';
@@ -114,10 +173,15 @@ foreach ($chunks as $chunk) {
 			$shorttype = 'T/S Flag';
 		}
 		$type = 'Attributes (' . $shorttype . ')';
-	} else if ($type === 'UNIFICATION LOOSE') {
+	} else if ($type === 'UNIFICATION_LOOSE') {
 		$type = 'Unification (Additional References)';
 		$shorttype = 'Unification (Reference only)';
+	} else if (strpos($type, 'UNIFICATION') === 0) {
+		$type = strtr($type, '_', ' ');
+		$type = ucfirst(strtolower($type));
+		$shorttype = 'Unification';
 	} else {
+		$type = strtr($type, '_', ' ');
 		$type = ucfirst(strtolower($type));
 		$shorttype = $type;
 	}
@@ -162,14 +226,31 @@ foreach ($chunks as $chunk) {
 			}
 		}
 
-		echo '<tr>';
+		$sheet = $character_cache->get(sprintf('%05d', $cm->sn))->sheet;
+
+		echo '<tr class=sheet-'.$sheet.'>';
 		echo '<td><b>'.htmlspecialchars($cm->getSN()).'</b></td>';
 		echo '<td>';
 		$char = $character_cache->get($cm->getSN());
 		$char->renderCodeChartCutting();
 		echo '</td>';
-		echo '<td><b>'.htmlspecialchars($shorttype).'</b></td>';
+		echo '<td><b>';
+		if ($cm->type === 'KEYWORD') {
+			echo 'Related Character';
+		} else if ($cm->type === 'UNIFICATION_LOOSE') {
+			echo 'Unification (Reference only)';
+		} else if ($cm->type === 'NORMALIZATION') {
+			echo 'Normalization';
+		} else {
+			echo htmlspecialchars($shorttype);
+		}
+		echo '</b></td>';
 		echo '<td>';
+
+		
+		if ($shorttype === 'Unification' && $cm->type === 'KEYWORD') {
+			$cm->comment = '{{' . sprintf('%05d', $cm->sn) . "}}\r\n";
+		}
 
 		if ($cm->type === 'UNIFICATION' || $cm->type === 'UNIFICATION_LOOSE') {
 			$pos1 = strpos($cm->comment, "\n");

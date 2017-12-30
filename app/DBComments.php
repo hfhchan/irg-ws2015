@@ -2,6 +2,7 @@
 
 class DBComments {
 	const COMMENT_TYPES = [
+		'KEYWORD',
 		'UNIFICATION',
 		'UNIFICATION_LOOSE',
 		'UNIFICATION_COMPLEX',
@@ -21,8 +22,7 @@ class DBComments {
 		'SIMP_VARIANT',
 		'TRAD_VARIANT',
 		'CODEPOINT_CHANGED',
-		'OTHER',
-		'KEYWORD'
+		'OTHER'
 	];
 
 	public $db;
@@ -40,8 +40,12 @@ class DBComments {
 		return array_search($this->type, self::COMMENT_TYPES);
 	}
 
-	public static function getList() {
-		$q = Env::$db->query('SELECT * FROM "comments"');
+	public static function getList($filter = false) {
+		if ($filter) {
+			$q = Env::$db->query('SELECT * FROM "comments" WHERE "exported" IS NULL or "exported" != 2');
+		} else {
+			$q = Env::$db->query('SELECT * FROM "comments"');
+		}
 		$results = [];
 		while ($data = $q->fetch()) {
 			$results[] = new self($data);

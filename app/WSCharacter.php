@@ -156,6 +156,11 @@ class WSCharacter {
 	}
 
 	public function renderCodeChartCutting($class = 'ws2015_cutting', $start=400, $end = 1400, $width=577) {
+		list($pg_page, $pg_row) = $this->getCodeChartCutting();
+		if ($pg_page === '394') {
+			$start = 600;
+			$end = 1700;
+		}
 		$filename = 'cache/' . 'canvas' . $this->data[0] . $class . '.png';
 		if (file_exists($filename)) {
 ?>
