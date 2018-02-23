@@ -65,8 +65,8 @@ class IDSCache {
 			$rowData = $worksheet->rangeToArray('A' . $row . ':' . $highestColumn . $row, null, false, false)[0];
 			$sq_number = trim($rowData[0]);
 
-			if (!empty($rowData[17] )) { 
-				$this->add($sq_number, $rowData[17]);
+			if (!empty($rowData[Workbook::IDS] )) { 
+				$this->add($sq_number, $rowData[Workbook::IDS]);
 			}
 		}
 		Log::add('Loop Data End');

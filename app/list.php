@@ -17,6 +17,7 @@ if (!env::$readonly) {
 		$data = substr($_POST['data'], strlen('data:image/png;base64,'));
 		$data = base64_decode($data);
 		file_put_contents('cache/' . $_POST['store'], $data);
+		exit;
 	}
 }
 
@@ -288,9 +289,9 @@ foreach ($chunks as $type => $chunk) {
 			$char = $character_cache->get($m[1]);
 			ob_start();
 			echo '<a href="?id=' . $m[1] . '" target=_blank>';
-			$char->renderCodeChartCutting('comment_cutting1', 20, 1400, 2000);
+			$char->renderCodeChartCutting('comment_cutting1', 20, 1400 + 185, 2000);
 			if ($char->data[1]) {
-				$char->renderCodeChartCutting('comment_cutting2', 1260, 2300, 2000);
+				$char->renderCodeChartCutting('comment_cutting2', 1260 + 185, 2330, 2000);
 			}
 			echo '</a>';
 			return ob_get_clean();

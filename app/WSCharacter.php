@@ -10,40 +10,40 @@ class WSCharacter {
 		$this->data  = $result->data;
 		
 		// Clear Variants field set to "No"
-		if ($this->data[18] === 'No') {
-			$this->data[18] = null;
+		if ($this->data[Workbook::SIMILAR] === 'No') {
+			$this->data[Workbook::SIMILAR] = null;
 		}
 
 		// Remove PUA
-		$this->data[17] = strtr($this->data[17], [
+		$this->data[Workbook::IDS] = strtr($this->data[Workbook::IDS], [
 			codepointToChar('U+E832') => codepointToChar('U+9FB8')
 		]);
 	}
 	
 	public function getRadicalStroke() {
-		if (strpos($this->data[13], '.1') !== false) {
-			$rad = substr($this->data[13], 0, -2);
+		if (strpos($this->data[Workbook::RADICAL], '.1') !== false) {
+			$rad = substr($this->data[Workbook::RADICAL], 0, -2);
 			$simpRad = 1;
 		} else {
-			$rad = $this->data[13];
+			$rad = $this->data[Workbook::RADICAL];
 			$simpRad = 0;
 		}
 
-		return getIdeographForRadical($rad)[0] . ($simpRad ? "'" : '') . ' ' . $rad . ($simpRad ? "'" : '') . '.' . $this->data[14];
+		return getIdeographForRadical($rad)[0] . ($simpRad ? "'" : '') . ' ' . $rad . ($simpRad ? "'" : '') . '.' . $this->data[Workbook::STROKE];
 	}
 
 	public function getFirstStroke() {
-		if ($this->data[15] == '1') return '橫';
-		if ($this->data[15] == '2') return '豎';
-		if ($this->data[15] == '3') return '撇';
-		if ($this->data[15] == '4') return '點';
-		if ($this->data[15] == '5') return '折';
+		if ($this->data[Workbook::FS] == '1') return '橫';
+		if ($this->data[Workbook::FS] == '2') return '豎';
+		if ($this->data[Workbook::FS] == '3') return '撇';
+		if ($this->data[Workbook::FS] == '4') return '點';
+		if ($this->data[Workbook::FS] == '5') return '折';
 		return 'N/A';
 	}
 	
 	public function getTotalStrokes() {
 		$strokes = [];
-		foreach ([22,27,30,36,38,45] as $col) {
+		foreach (Workbook::TOTAL_STROKES as $col) {
 			if (!empty($this->data[$col])) {
 				$s = explode(',', $this->data[$col]);
 				$s = array_map("trim", $s);
@@ -73,7 +73,7 @@ class WSCharacter {
 			$page = trim(array_pop($section), " #\r");
 			$section = array_map("trim", $section);
 			$row = array_search($find, $section) + 1;
-			return [$page, $row];
+			return [0, $page, $row];
 		}
 		/*
 		$file0 = file(__DIR__ . '/../data/charts/map.sheet0.txt');
@@ -105,7 +105,7 @@ class WSCharacter {
 			}
 			if ($row[4] === '#') {
 				if ($found) {
-					return [ltrim($row, '# ') + 507, $found];
+					return [1, ltrim($row, '# '), $found];
 				}
 				$index = 0;
 			}
@@ -122,7 +122,7 @@ class WSCharacter {
 			}
 			if ($row[4] === '#') {
 				if ($found) {
-					return [ltrim($row, '# ') + 518, $found];
+					return [2, ltrim($row, '# '), $found];
 				}
 				$index = 0;
 			}
@@ -155,11 +155,15 @@ class WSCharacter {
 		return $instance->setReviewedAttributes($this->data[0]);
 	}
 
-	public function renderCodeChartCutting($class = 'ws2015_cutting', $start=400, $end = 1400, $width=577) {
-		list($pg_page, $pg_row) = $this->getCodeChartCutting();
-		if ($pg_page === '394') {
+	public function renderCodeChartCutting($class = 'ws2015_cutting', $start=280, $end = 1540, $width=577) {
+		list($pg_sheet, $pg_page, $pg_row) = $this->getCodeChartCutting();
+		if ($class == 'ws2015_cutting' && $pg_sheet == 0 && $pg_page == 387) {
 			$start = 600;
 			$end = 1700;
+		}
+		if ($class == 'ws2015_cutting' && $pg_sheet == 0 && $pg_page == 24) {
+			$start += 80;
+			$end += 80;
 		}
 		$filename = 'cache/' . 'canvas' . $this->data[0] . $class . '.png';
 		if (file_exists($filename)) {
@@ -172,8 +176,16 @@ class WSCharacter {
 
 		Log::add('Render Char Cutting Start ' . $this->data[0]);
 
-		list($pg_page, $pg_row) = $this->getCodeChartCutting();
-		$pg_src = 'IRGN2223IRG_Working_Set2015v4.0-' . sprintf('%03d', $pg_page) . '.png';
+		list($pg_sheet, $pg_page, $pg_row) = $this->getCodeChartCutting();
+		if ($pg_sheet === 0) {
+			$pg_src = 'sheet0/charts-000' . sprintf('%03d', $pg_page) . '.png';
+		}
+		if ($pg_sheet === 1) {
+			$pg_src = 'sheet1/chart2--000' . sprintf('%03d', $pg_page) . '.png';
+		}
+		if ($pg_sheet === 2) {
+			$pg_src = 'sheet2/chart1--000' . sprintf('%03d', $pg_page) . '.png';
+		}
 ?>
 <div class="<?=htmlspecialchars($class)?>"><canvas id=canvas<?=$this->data[0]?>-<?=$suffix?> width=577 height=93></canvas></div>
 <script>
@@ -186,7 +198,7 @@ window.delay = window.delay || 0;
 	var canvas2 = document.getElementById('canvas<?=$this->data[0]?>-<?=$suffix?>');
 	var ctx2    = canvas2.getContext('2d');
 
-	window.delay += 300;
+	window.delay += 50;
 	window.setTimeout(function() {
 
 		var image   = new Image();
@@ -204,12 +216,20 @@ window.delay = window.delay || 0;
 			var pix = imgd.data;
 			
 			var offsets = [];
+			var offsets2 = [];
 			var x = 112;
 			for (var y = 30; y < 1620; y++) {
 				var rgb = imagecolorat(pix, x, y, width);
 				if (rgb[0] < 16 && rgb[1] < 16 && rgb[2] < 16) {
 					offsets.push(y);
 					y += 10;
+				}
+			}
+			for (var y = 1620; y > 30; y--) {
+				var rgb = imagecolorat(pix, x, y, width);
+				if (rgb[0] < 16 && rgb[1] < 16 && rgb[2] < 16) {
+					offsets2.unshift(y);
+					y -= 10;
 				}
 			}
 			
@@ -232,12 +252,15 @@ window.delay = window.delay || 0;
 			}
 
 			right += 2;
+			console.log(left, right);
 
 			var top = offsets[<?=$pg_row?>];
-			var btm = offsets[<?=($pg_row + 1)?>] + 2;
-			
+			var btm = offsets2[<?=($pg_row + 1)?>];
+			console.log(offsets[<?=($pg_row + 1)?>]);
+			console.log(offsets2[<?=($pg_row + 1)?>]);
+
 			var new_width = <?=$width?>;
-			var new_height = (btm - top) * new_width / (right - left);
+			var new_height = Math.ceil((btm - top) * new_width / (right - left));
 
 			canvas2.width = new_width;
 			canvas2.height = new_height;
@@ -251,7 +274,7 @@ window.delay = window.delay || 0;
 				});
 			}, 300);
 
-			image.src = null;
+			image.src = 'about:blank';
 			canvas = null;
 		}
 	}, delay);
@@ -262,7 +285,7 @@ window.delay = window.delay || 0;
 	}
 
 	public function getMatchedCharacter() {
-		$ids = parseStringIntoCodepointArray(str_replace(' ', '', $this->data[17]));
+		$ids = parseStringIntoCodepointArray(str_replace(' ', '', $this->data[Workbook::IDS]));
 		$ids = array_values(array_map(function($d) {
 			if ($d[0] === 'U') {
 				return codepointToChar($d);
@@ -270,7 +293,7 @@ window.delay = window.delay || 0;
 			return $d;
 		}, $ids));
 		
-		if (!env::$readonly && !empty($this->data[17])) {
+		if (!env::$readonly && !empty($this->data[Workbook::SIMILAR])) {
 			$matched = \IDS\getCharByIDS($ids);
 		} else {
 			$matched = false;

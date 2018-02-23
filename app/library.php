@@ -19,6 +19,7 @@ class Env {
 
 Log::add('DB End');
 
+require_once 'Workbook.php';
 require_once 'SourcesCache.php';
 require_once 'CharacterCache.php';
 require_once 'IDSCache.php';
@@ -26,16 +27,9 @@ require_once 'WSCharacter.php';
 require_once 'DBProcessedInstance.php';
 require_once 'DBComments.php';
 
-
 function loadWorkbook() {
-	Log::add('Load File Start');
-	$objReader = PHPExcel_IOFactory::createReader('Excel2007');
-	$objReader->setReadDataOnly(true);
-	$workbook = $objReader->load("../data/IRGN2223IRG_Working_Set2015v4.0_Attributes.xlsx");
-	Log::add('Load File End');
-	return $workbook;
+	return Workbook::loadWorkbook();
 }
-
 
 function html_safe($str) {
 	return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');

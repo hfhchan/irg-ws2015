@@ -16,9 +16,14 @@ $ids_cache = new IDSCache();
 if (!env::$readonly) {
 	// Run once to generate the attribute cache!
 	if (isset($_GET['generate_cache'])) {
+		mkdir('../data/attributes-cache/');
 		$character_cache->generate();
 		$sources_cache->generate();
 		$ids_cache->generate();
+	}
+
+	if (!file_exists('../data/attributes-cache/')) {
+		throw new Exception('Run ?generate_cache first to populate the cache.');
 	}
 
 	// New Comment
@@ -212,6 +217,21 @@ if (isset($_GET['ids'])) {
 		}
 		$result = $sources_cache->find($_GET['find']);
 		if (empty($result)) {
+			echo '<div><h1>List of prefixes:</h1>';
+			$keys = $sources_cache->getKeys();
+			$prefix = 'XXXX';
+			foreach ($keys as $key) {
+				if (strncmp($key, $prefix, strlen($prefix)) === 0) {
+					continue;
+				}
+				if (strpos($key, '-')) {
+					list($prefix, $junk) = explode('-', $key);
+				}
+				preg_match('@([A-Z_]+)@', $key, $matches);
+				$prefix = $matches[1];
+				echo '<div><a href="?find=' . htmlspecialchars($key) . '">' . htmlspecialchars($key) . '</a></div>';
+			}
+			echo '</div>';
 			throw new NotFoundException('Not Found');
 		}
 		foreach ($result as $sq_number) {
@@ -261,9 +281,9 @@ Log::add('Fetch Char End');
 	} else if (isset($_GET['find'])) {
 		echo htmlspecialchars(trim($_GET['find']));
 	} else {
-		echo $data[0]->data[0] . ' | ' . $data[0]->data[17];
+		echo $data[0]->data[0] . ' | ' . $data[0]->data[Workbook::IDS];
 	}
-?> | WS2015v4.0</title>
+?> | WS2015v5.0</title>
 <style>
 [hidden]{display:none}
 body{font-family:Arial, "Microsoft Jhenghei",sans-serif;background:#eee;margin:0;-webkit-text-size-adjust:none;-moz-text-size-adjust: none;}
@@ -284,8 +304,8 @@ form{margin:0}
 .ws2015_chart_attributes{padding:0!important}
 .ws2015_chart_attributes>div:first-child{border-top:none}
 .ws2015_chart_attributes>div{border-top:1px solid #333}
-.ws2015_chart_table_sources{width:100%;table-layout:fixed;border-collapse:collapse;border:hidden}
-.ws2015_chart_table_sources td{border:1px solid #333;padding:10px 5px;text-align:center}
+.ws2015_chart_table_sources{width:100%;table-layout:auto;border-collapse:collapse;border:hidden}
+.ws2015_chart_table_sources td{border:1px solid #333;padding:10px 5px;text-align:center;min-width:60px}
 .ws2016_chart_table_discussion{display:grid;align-content:center;text-align:left!important;padding:10px;overflow:auto}
 .ids_component{margin:0 2px}
 .sheet-1{background:#999;opacity:.6}
@@ -340,7 +360,7 @@ a.review_all{font-size:16px;border:1px solid #ccc;padding:4px 12px;display:block
 	.ws2015_chart_table{grid-template-columns:1fr 2fr;grid-template-rows:minmax(60pt, auto) auto auto}
 	.ws2016_chart_table_discussion{grid-row:2;grid-column:1 / 3;border-top:1px solid #333;border-left:none!important}
 	.ws2015_chart_table_sources{grid-row:3;grid-column:1 / 3;border-top:1px solid #333;table-layout:auto}
-	.ws2015_chart_table_sources td{white-space:nowrap;width:20%}
+	.ws2015_chart_table_sources td{white-space:nowrap;width:20%;min-width:0;font-size:13px}
 	.ws2015_cutting{margin-left:0}
 	.ws2015_cutting canvas{width:100%;height:auto}
 	.ws2015_cutting img{width:100%;height:auto}
@@ -415,13 +435,13 @@ foreach ($data as $char) {
 
 	<h2 hidden>Character Info</h2>
 	<div class="ws2015_chart_table sheet-<?=$char->sheet?>">
-		<div class=ws2015_chart_sn style="padding:10px;display:grid;align-items:center"><?=$rowData[0]?><br><?=$rowData[16] ? '簡' : '繁';?></div>
+		<div class=ws2015_chart_sn style="padding:10px;display:grid;align-items:center"><?=$rowData[0]?><br><?=$rowData[Workbook::TS_FLAG] ? '簡' : '繁';?></div>
 		<div class=ws2015_chart_attributes style="display:grid;grid-template-rows:1fr 1fr 1fr">
 			<div style="display:grid;align-items:center"><?=$char->getRadicalStroke()?></div>
 			<div style="display:grid;align-items:center">
 				<div>
 <?
-		$ids = parseStringIntoCodepointArray($rowData[17]);
+		$ids = parseStringIntoCodepointArray($rowData[Workbook::IDS]);
 		foreach ($ids as $component) {
 			if (!empty(trim($component))) {
 				if ($component[0] === 'U') {
@@ -435,7 +455,7 @@ foreach ($data as $char) {
 				}
 			}
 		}
-		if (empty($rowData[17])) {
+		if (empty($rowData[Workbook::IDS])) {
 			echo '<span style="color:#999;font-family:sans-serif">(Empty)</span>';
 		}
 ?>
@@ -449,46 +469,47 @@ foreach ($data as $char) {
 		<table class=ws2015_chart_table_sources>
 			<tr>
 			<td rowspan="3">
-				<?php if (isset($rowData[10]) || isset($rowData[11])) {?>
-					<img src="<?=EVIDENCE_PATH?>/g-bitmap/<?=substr($rowData[11], 0, -4)?>.png" width="32" height="32"><br>
-					<?=$rowData[10]?>
+				<?php if (isset($rowData[Workbook::G_SOURCE]) || isset($rowData[Workbook::G_SOURCE+1])) {?>
+					<img src="<?=EVIDENCE_PATH?>/g-bitmap/<?=substr($rowData[Workbook::G_SOURCE+1], 0, -4)?>.png" width="32" height="32"><br>
+					<?=$rowData[Workbook::G_SOURCE]?>
 				<?php } ?>
 			</td>
 			<td rowspan="3">
-				<?php if (isset($rowData[4]) || isset($rowData[5])) {?>
-					<img src="<?=EVIDENCE_PATH?>/t-bitmap/<?=substr($rowData[5], 0, -4)?>.bmp" width="32" height="32"><br>
-					<?=$rowData[4]?>
+				<?php if (isset($rowData[Workbook::T_SOURCE]) || isset($rowData[Workbook::T_SOURCE + 1])) {?>
+					<img src="<?=EVIDENCE_PATH?>/t-bitmap/<?=substr($rowData[Workbook::T_SOURCE + 1], 0, -4)?>.bmp" width="32" height="32"><br>
+					<?=$rowData[Workbook::T_SOURCE]?>
 				<?php } ?>
 			</td>
 			<td rowspan="3">
-				<?php if (isset($rowData[6]) || isset($rowData[7])) {?>
-					<img src="<?=EVIDENCE_PATH?>/k-bitmap/<?=substr($rowData[7], 0, -4)?>.png" width="32" height="32"><br>
-					<?=$rowData[6]?><?php } ?>
+				<?php if (isset($rowData[Workbook::K_SOURCE]) || isset($rowData[Workbook::K_SOURCE+1])) {?>
+					<img src="<?=EVIDENCE_PATH?>/k-bitmap/<?=substr($rowData[Workbook::K_SOURCE+1], 0, -4)?>.png" width="32" height="32"><br>
+					<?=$rowData[Workbook::K_SOURCE]?><?php } ?>
 			</td>
 			<td rowspan="3">
-				<?php if (isset($rowData[8]) || isset($rowData[9])) {?>
-					<img src="https://glyphwiki.org/glyph/sat_g9<?=substr($rowData[9], 4, -4)?>.svg" width="32" height="32"><br>
-					<?=$rowData[8]?>
+				<?php if (isset($rowData[Workbook::SAT_SOURCE]) || isset($rowData[Workbook::SAT_SOURCE+1])) {?>
+					<img src="https://glyphwiki.org/glyph/sat_g9<?=substr($rowData[Workbook::SAT_SOURCE+1], 4, -4)?>.svg" width="32" height="32"><br>
+					<?=$rowData[Workbook::SAT_SOURCE]?>
 				<?php } ?>
 			</td>
 			<td rowspan="3">
-				<?php if (isset($rowData[2]) || isset($rowData[3])) {?>
-					<?php if (empty($rowData[39])) {?>
-						<img src="<?=EVIDENCE_PATH?>/utc-bitmap/<?=substr($rowData[3], 0, -4)?>.png" width="32" height="32"><br><?=$rowData[2]?>
-					<?php } else { ?>
-						<img src="<?=EVIDENCE_PATH?>/uk-bitmap/<?=substr($rowData[3], 0, -4)?>.png" width="32" height="32"><br><?=$rowData[2]?> (UK)
-					<?php } ?>
+				<?php if (isset($rowData[Workbook::UK_SOURCE])) {?>
+					<img src="<?=EVIDENCE_PATH?>/uk-bitmap/<?=substr($rowData[Workbook::UTC_SOURCE+1], 0, -4)?>.png" width="32" height="32"><br><?=$rowData[Workbook::UK_SOURCE]?>
 				<?php } ?>
+			</td>
+			<td rowspan="3">
+				<?php if (isset($rowData[Workbook::UTC_SOURCE])) {?>
+					<img src="<?=EVIDENCE_PATH?>/utc-bitmap/<?=substr($rowData[Workbook::UTC_SOURCE+1], 0, -4)?>.png" width="32" height="32"><br><?=$rowData[Workbook::UTC_SOURCE]?>
+				<? } ?>
 			</td>
 			</tr>
 		</table>
 		<div class=ws2016_chart_table_discussion>
 			<div>
 				<? if ($char->sheet) echo '<b>'.CharacterCache::SHEETS[$char->sheet] . '</b><br>'; ?>
-				<?=$rowData[1]?>
+				<?=$rowData[Workbook::DISCUSSION_RECORD]?>
 <?
-		if ((isset($rowData[6]) || isset($rowData[7])) && file_exists('../data/k-bitmap/' . substr($rowData[7], 0, -4) . '-updated.png')) {
-			echo '<br>Glyph Updated: <img src="' . EVIDENCE_PATH . '/k-bitmap/' . substr($rowData[7], 0, -4) . '-updated.png" width="32" height="32">';
+		if ((isset($rowData[Workbook::K_SOURCE])) && file_exists('../data/k-bitmap/' . substr($rowData[Workbook::K_SOURCE+1], 0, -4) . '-updated.png')) {
+			echo '<br>Glyph Updated: <img src="' . EVIDENCE_PATH . '/k-bitmap/' . substr($rowData[Workbook::K_SOURCE+1], 0, -4) . '-updated.png" width="32" height="32">';
 		}
 ?>
 			</div>
@@ -513,12 +534,12 @@ foreach ($data as $char) {
 		$codepoints[] = $codepoint;
 	}, $rowData[1]);
 
-	$similar = html_safe($rowData[18]);
-	if (!empty($rowData[44])) {
-		if ($rowData[16]) {
-			$similar .= ' // Simplified Form of '.$rowData[44];
+	$similar = html_safe($rowData[Workbook::SIMILAR]);
+	if (!empty($rowData[Workbook::UK_TRAD_SIMP])) {
+		if ($rowData[Workbook::TS_FLAG]) {
+			$similar .= ' // Simplified Form of '.$rowData[Workbook::UK_TRAD_SIMP];
 		} else {
-			$similar .= ' // Traditional Form of '.$rowData[44];
+			$similar .= ' // Traditional Form of '.$rowData[Workbook::UK_TRAD_SIMP];
 		}
 	}
 
@@ -574,33 +595,32 @@ foreach ($data as $char) {
 	}
 ?>
 <div class=ws2015_evidence>
-<?php if (str_startswith($rowData[10], 'GHZR')) { ?>
-<?php if($rowData[35]) {?>
-	<img src="<?=EVIDENCE_PATH?>/g-evidence/<?=html_safe($rowData[35])?>">
+<?php if (str_startswith($rowData[Workbook::G_SOURCE], 'GHZR')) { ?>
+<?php if ($rowData[Workbook::G_EVIDENCE]) {?>
+	<img src="<?=EVIDENCE_PATH?>/g-evidence/<?=html_safe($rowData[Workbook::G_EVIDENCE])?>">
 <?php } else { ?>
-	<img src="<?=EVIDENCE_PATH?>/g-evidence/<?=html_safe(substr($rowData[11], 0, -4))?>.jpg">
-	<!--img src="<?=('http://pic.guoxuedashi.com/hydzd/' . ltrim(substr($rowData[10], 5, -3), '0') . '.gif')?>"-->
+	<img src="<?=EVIDENCE_PATH?>/g-evidence/<?=html_safe(substr($rowData[Workbook::G_SOURCE+1], 0, -4))?>.jpg">
 <?php } ?>
 <?php } ?>
-<?php if (str_startswith($rowData[10], 'G_')) { ?>
-	<? if (!empty($rowData[35])) { ?>
-	<a href="<?=EVIDENCE_PATH?>/g-evidence/IRGN2115_Appendix7_1268_Zhuang_Evidences_page1268_image<?=substr($rowData[35], 23)?>.jpg" target=_blank><img src="<?=EVIDENCE_PATH?>/g-evidence/IRGN2115_Appendix7_1268_Zhuang_Evidences_page1268_image<?=substr($rowData[35], 23)?>.jpg"></a>
+<?php if (str_startswith($rowData[Workbook::G_SOURCE], 'G_')) { ?>
+	<? if (!empty($rowData[Workbook::G_EVIDENCE])) { ?>
+	<a href="<?=EVIDENCE_PATH?>/g-evidence/IRGN2115_Appendix7_1268_Zhuang_Evidences_page1268_image<?=substr($rowData[Workbook::G_EVIDENCE], 23)?>.jpg" target=_blank><img src="<?=EVIDENCE_PATH?>/g-evidence/IRGN2115_Appendix7_1268_Zhuang_Evidences_page1268_image<?=substr($rowData[Workbook::G_EVIDENCE], 23)?>.jpg"></a>
 	<? } ?>
 <?php } ?>
-<?php if (!empty($rowData[4])) { ?>
-	<div><a href="http://cns11643.gov.tw/AIDB/query_general_view.do?page=<?=substr($rowData[4],1,-5)?>&amp;code=<?=substr($rowData[4],-4)?>" target=_blank>Info on CNS11643.gov.tw</a></div>
+<?php if (!empty($rowData[Workbook::T_SOURCE])) { ?>
+	<div><a href="http://cns11643.gov.tw/AIDB/query_general_view.do?page=<?=substr($rowData[Workbook::T_SOURCE],1,-5)?>&amp;code=<?=substr($rowData[Workbook::T_SOURCE],-4)?>" target=_blank>Info on CNS11643.gov.tw</a></div>
 <?php } ?>
-<?php if (str_startswith($rowData[26], 'TCA_CJK_2015_Evidences.pdf page')) { ?>
-	<a href="<?=EVIDENCE_PATH?>/t-evidence/IRGN2128A4Evidences-<?=html_safe(str_pad(trim(substr($rowData[26],31)), 3, '0', STR_PAD_LEFT))?>.png" target=_blank><img src="<?=EVIDENCE_PATH?>/t-evidence/IRGN2128A4Evidences-<?=html_safe(str_pad(trim(substr($rowData[26],31)), 3, '0', STR_PAD_LEFT))?>.png" width=800></a>
+<?php if (str_startswith($rowData[Workbook::T_EVIDENCE], 'TCA_CJK_2015_Evidences.pdf page')) { ?>
+	<a href="<?=EVIDENCE_PATH?>/t-evidence/IRGN2128A4Evidences-<?=html_safe(str_pad(trim(substr($rowData[Workbook::T_EVIDENCE],31)), 3, '0', STR_PAD_LEFT))?>.png" target=_blank><img src="<?=EVIDENCE_PATH?>/t-evidence/IRGN2128A4Evidences-<?=html_safe(str_pad(trim(substr($rowData[Workbook::T_EVIDENCE],31)), 3, '0', STR_PAD_LEFT))?>.png" width=800></a>
 <?php } ?>
-<?php if (!empty($rowData[29])) { ?>
-	<a target=_blank href="<?=EVIDENCE_PATH?>/k-evidence/<?=substr($rowData[29], 0, -4)?>.JPG"><img src="<?=EVIDENCE_PATH?>/k-evidence/<?=substr($rowData[29], 0, -4)?>.min.jpg" width=800></a>
+<?php if (!empty($rowData[Workbook::K_EVIDENCE])) { ?>
+	<a target=_blank href="<?=EVIDENCE_PATH?>/k-evidence/<?=substr($rowData[Workbook::K_EVIDENCE], 0, -4)?>.JPG"><img src="<?=EVIDENCE_PATH?>/k-evidence/<?=substr($rowData[Workbook::K_EVIDENCE], 0, -4)?>.min.jpg" width=800></a>
 <?php } ?>
-<?php if (!empty($rowData[37])) {
+<?php if (!empty($rowData[Workbook::SAT_EVIDENCE])) {
 
 	$sat = file_get_contents('../data/sat-evidence/part1-mapping.txt');
 	foreach (explode("\n", $sat) as $line) {
-		if (str_startswith($line, $rowData[8])) {
+		if (str_startswith($line, $rowData[Workbook::SAT_SOURCE])) {
 			list($a, $page) = explode("\t", $line);
 			$page = trim($page);
 			echo '<a href="'.EVIDENCE_PATH.'/sat-evidence/IRGN2127_E_part1-'.str_pad($page + 1, 3, '0', STR_PAD_LEFT).'.png" target=_blank><img src="'.EVIDENCE_PATH.'/sat-evidence/IRGN2127_E_part1-'.str_pad($page + 1, 3, '0', STR_PAD_LEFT).'.png" width=800></a>';
@@ -608,18 +628,18 @@ foreach ($data as $char) {
 	}
 	$sat = file_get_contents('../data/sat-evidence/part2-mapping.txt');
 	foreach (explode("\n", $sat) as $line) {
-		if (str_startswith($line, $rowData[8])) {
+		if (str_startswith($line, $rowData[Workbook::SAT_SOURCE])) {
 			list($a, $page) = explode("\t", $line);
 			$page = trim($page);
 			echo '<a href="'.EVIDENCE_PATH.'/sat-evidence/IRGN2127_E_part2-'.str_pad($page, 2, '0', STR_PAD_LEFT).'.png" target=_blank><img src="'.EVIDENCE_PATH.'/sat-evidence/IRGN2127_E_part2-'.str_pad($page, 2, '0', STR_PAD_LEFT).'.png" width=800></a>';
 		}
 	}
 } ?>
-<?php if (!empty($rowData[21])) {
+<?php if (!empty($rowData[Workbook::UTC_EVIDENCE])) {
 	
 	$utc = file_get_contents('../data/utc-evidence/page-mapping.txt');
 	foreach (explode("\n", $utc) as $line) {
-		if (str_startswith($line, $rowData[2])) {
+		if (str_startswith($line, $rowData[Workbook::UTC_SOURCE])) {
 			list($a, $page) = explode("\t", $line);
 			$page = trim($page) + 0;
 			if ($page > 67 && $page < 92) {
@@ -638,7 +658,7 @@ foreach ($data as $char) {
 	}
 	$utc = file_get_contents('../data/utc-evidence/page-mapping-additional.txt');
 	foreach (explode("\n", $utc) as $line) {
-		if (str_startswith($line, $rowData[0] .' (' . $rowData[2] . ')')) {
+		if (str_startswith($line, $rowData[0] .' (' . $rowData[Workbook::UTC_SOURCE] . ')')) {
 			list($a, $page) = explode(")", $line);
 			$page = trim($page);
 			echo '<img src="'.EVIDENCE_PATH.'/utc-evidence/Additional Evidences-'.str_pad($page, 2, '0', STR_PAD_LEFT).'.png" width=800>';
@@ -646,8 +666,8 @@ foreach ($data as $char) {
 	}
 } ?>
 <?php
-if (str_startswith($rowData[40], 'Fig. ')) {
-	foreach (explode(';',$rowData[40]) as $fig) {
+if (str_startswith($rowData[Workbook::UK_EVIDENCE], 'Fig. ')) {
+	foreach (explode(';',$rowData[Workbook::UK_EVIDENCE]) as $fig) {
 		$page = trim(str_replace('Fig.', '', $fig));
 ?>
 	<img src="<?=EVIDENCE_PATH?>/uk-evidence/IRGN2107_evidence-<?=html_safe(str_pad($page, 4, '0', STR_PAD_LEFT))?>.png" width=800 class=full style="max-height:400px;object-fit:cover;object-position:top">
@@ -706,11 +726,11 @@ foreach ($review_path as $path) {
 		<b>Attributes</b>: <br>
 <?php
 
-$ids = parseStringIntoCodepointArray($rowData[17]);
-if ($rowData[16]) {
-	$rad = getIdeographForSimpRadical(intval($rowData[13]));
+$ids = parseStringIntoCodepointArray($rowData[Workbook::IDS]);
+if ($rowData[Workbook::TS_FLAG]) {
+	$rad = getIdeographForSimpRadical(intval($rowData[Workbook::RADICAL]));
 } else {
-	$rad = getIdeographForRadical($rowData[13]);
+	$rad = getIdeographForRadical($rowData[Workbook::RADICAL]);
 }
 
 if (count($ids) === 3) {
@@ -718,16 +738,16 @@ if (count($ids) === 3) {
 		list($totalstrokes, $fs) = getTotalStrokes($ids[2]);
 		if ($totalstrokes) {
 			if (!$fs) {
-				echo '<div style="color:red">First Stroke not found. Suggested: '.$rowData[15].'</div>';
+				echo '<div style="color:red">First Stroke not found. Suggested: '.$rowData[Workbook::FS].'</div>';
 			}
 			echo codepointToChar($ids[2]) . ' ('.$ids[2] . '): SC - ' . $totalstrokes . ' FS - ' . $fs;
-			if ($totalstrokes != $rowData[14]) {
+			if ($totalstrokes != $rowData[Workbook::STROKE]) {
 				echo '<div style="color:red">Stroke Count doesn\'t match.</div>';
 			}
-			if ($fs != $rowData[15]) {
+			if ($fs != $rowData[Workbook::FS]) {
 				echo '<div style="color:red">First Stroke doesn\'t match.</div>';
 			}
-			if ($totalstrokes == $rowData[14] && $fs == $rowData[15]) {
+			if ($totalstrokes == $rowData[Workbook::STROKE] && $fs == $rowData[Workbook::FS]) {
 				echo '<div style="color:green">Matched.</div>';
 			}
 		} else {
@@ -758,13 +778,13 @@ if (count($ids) === 3) {
 				}
 			}
 			echo '<br>';
-			echo codepointToChar($ids[2]) . " SC " . $rowData[14] . ' FS ' . $rowData[15];
+			echo codepointToChar($ids[2]) . " SC " . $rowData[Workbook::STROKE] . ' FS ' . $rowData[Workbook::FS];
 			
-			if (!$poisoned && $ts2 == $rowData[14] && $fs2 == $rowData[15]) {
+			if (!$poisoned && $ts2 == $rowData[Workbook::STROKE] && $fs2 == $rowData[Workbook::FS]) {
 				echo ' <span style="color:green">OK</span>';
 			} else {
 				echo ' <div style="color:red">Stroke Count Not Found</div>';
-				echo ' - <a href="'.$char->base_path.'&id='.$sq_number.'&amp;add_strokes='.urlencode($ids[2] . " " . $rowData[14] . '|' . $rowData[15]).'">Confirm</a>';
+				echo ' - <a href="'.$char->base_path.'&id='.$sq_number.'&amp;add_strokes='.urlencode($ids[2] . " " . $rowData[Workbook::STROKE] . '|' . $rowData[Workbook::FS]).'">Confirm</a>';
 			}
 			echo '<br>';
 			echo '<br>';
@@ -776,16 +796,16 @@ if (count($ids) === 3) {
 		list($totalstrokes, $fs) = getTotalStrokes($ids[1]);
 		if ($totalstrokes) {
 			if (!$fs) {
-				echo '<div style="color:red">First Stroke not found. Suggested: '.$rowData[15].'</div>';
+				echo '<div style="color:red">First Stroke not found. Suggested: '.$rowData[Workbook::FS].'</div>';
 			}
 			echo codepointToChar($ids[1]) . ' ('.$ids[1] . '): SC - ' . $totalstrokes . ' FS - ' . $fs;
-			if ($totalstrokes != $rowData[14]) {
+			if ($totalstrokes != $rowData[Workbook::STROKE]) {
 				echo '<div style="color:red">Stroke Count doesn\'t match.</div>';
 			}
-			if ($fs != $rowData[15]) {
+			if ($fs != $rowData[Workbook::FS]) {
 				echo '<div style="color:red">First Stroke doesn\'t match.</div>';
 			}
-			if ($totalstrokes == $rowData[14] && $fs == $rowData[15]) {
+			if ($totalstrokes == $rowData[Workbook::STROKE] && $fs == $rowData[Workbook::FS]) {
 				echo '<div style="color:green">Matched.</div>';
 			}
 		} else {
@@ -817,8 +837,8 @@ if (count($ids) === 3) {
 				}
 			}
 			echo '<br>';
-			echo codepointToChar($ids[1]) . " SC " . $rowData[14] . ' FS ' . $rowData[15];
-			echo ' - <a href="'.$char->base_path.'&id='.$sq_number.'&amp;add_strokes='.urlencode($ids[1] . " " . $rowData[14] . '|' . $rowData[15]).'">Confirm</a>';
+			echo codepointToChar($ids[1]) . " SC " . $rowData[Workbook::STROKE] . ' FS ' . $rowData[Workbook::FS];
+			echo ' - <a href="'.$char->base_path.'&id='.$sq_number.'&amp;add_strokes='.urlencode($ids[1] . " " . $rowData[Workbook::STROKE] . '|' . $rowData[Workbook::FS]).'">Confirm</a>';
 			echo '<br>';
 			echo '<br>';
 		}
@@ -916,7 +936,7 @@ foreach ([/*'GHZR', 'K', 'SAT', 'TW', 'UK', 'UTC',*/ 'IRGN2179 Henry Review', 'I
 			echo '<div><b>'.$cm_n.'.txt</b></div>';
 			echo trim($c);
 		}
-		if (str_startswith($c, $rowData[10]) || str_startswith($c, $rowData[4]) || str_startswith($c, $rowData[6]) || str_startswith($c, $rowData[8]) || str_startswith($c, $rowData[2])) {
+		if (str_startswith($c, $rowData[Workbook::G_SOURCE]) || str_startswith($c, $rowData[Workbook::T_SOURCE]) || str_startswith($c, $rowData[Workbook::K_SOURCE]) || str_startswith($c, $rowData[Workbook::SAT_SOURCE]) || str_startswith($c, $rowData[Workbook::UTC_SOURCE]) || str_startswith($c, $rowData[Workbook::UK_SOURCE])) {
 			$has_cm = true;
 			echo '<h2>Comments</h2>';
 			echo '<div><b>'.$cm_n.'.txt</b></div>';
@@ -1000,9 +1020,9 @@ Log::add('Comments End');
 					$char = $character_cache->get($m[1]);
 					ob_start();
 					echo '<a href="?id=' . $m[1] . '" target=_blank>';
-					$char->renderCodeChartCutting('comment_cutting1', 20, 1400, 2000);
+					$char->renderCodeChartCutting('comment_cutting1', 20, 1400 + 185, 2000);
 					if ($char->data[1]) {
-						$char->renderCodeChartCutting('comment_cutting2', 1260, 2300, 2000);
+						$char->renderCodeChartCutting('comment_cutting2', 1260 + 185, 2330, 2000);
 					}
 					echo '</a>';
 					return ob_get_clean();
@@ -1023,7 +1043,7 @@ if (!env::$readonly) { ?>
 		<div><input type=hidden name=sq_number value="<?=$sq_number;?>"></div>
 		<div>
 			<?=$sq_number;?>
-			<?=implode('|',array_filter(array_map("trim",[$rowData[10], $rowData[4], $rowData[6], $rowData[8], $rowData[2]]), function($e) { return $e !== ''; }));?>
+			<?=implode('|',array_filter(array_map("trim",[$rowData[Workbook::G_SOURCE], $rowData[Workbook::T_SOURCE], $rowData[Workbook::K_SOURCE], $rowData[Workbook::SAT_SOURCE], $rowData[Workbook::UTC_SOURCE], $rowData[Workbook::UK_SOURCE]]), function($e) { return $e !== ''; }));?>
 		</div>
 		<div>
 			<select name=type class=comment_type>
@@ -1101,6 +1121,7 @@ if (!env::$readonly) { ?>
 
 <script>
 (function() {
+	return;
 	$(window).on('popstate', function() { window.location.reload(); })
 	function attach() {
 		var n = $('#nav_next').each(function() {		

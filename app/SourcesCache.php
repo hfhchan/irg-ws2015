@@ -10,6 +10,10 @@ class SourcesCache {
 		}
 	}
 
+	public function getKeys() {
+		return array_keys($this->sources);
+	}
+
 	public function getAll() {
 		$this->load();
 		$sn = [];
@@ -95,11 +99,11 @@ class SourcesCache {
 			$rowData = $worksheet->rangeToArray('A' . $row . ':' . $highestColumn . $row, null, false, false)[0];
 			$sq_number = trim($rowData[0]);
 
-			if (!empty($rowData[2] )) { $this->add($sq_number, $rowData[2] ); }
-			if (!empty($rowData[4] )) { $this->add($sq_number, $rowData[4] ); }
-			if (!empty($rowData[6] )) { $this->add($sq_number, $rowData[6] ); }
-			if (!empty($rowData[8] )) { $this->add($sq_number, $rowData[8] ); }
-			if (!empty($rowData[10])) { $this->add($sq_number, $rowData[10]); }
+			foreach (Workbook::SOURCE as $cols) {
+				if (!empty($rowData[$col] )) {
+					$this->add($sq_number, $rowData[$col] );
+				}
+			}
 		}
 		Log::add('Loop Data End');
 		return null;

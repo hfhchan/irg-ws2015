@@ -3,9 +3,9 @@
 class CharacterCache {
 
 	const SHEETS = [
-		'IRGN2223IRG_Working_Set2015v4.0',
-		'IRGN2223Unified&WithdrawnV4.0',
-		'IRGN2223PostponedV4.0'
+		'IRGN2269IRG_Working_Set2015v5.0',
+		'IRGN2269Unified&WithdrawnV5.0',
+		'IRGN2269PostponedV5.0'
 	];
 
 	public function generate() {
@@ -50,7 +50,8 @@ class CharacterCache {
 	}
 
 	public function getColumns() {
-		return json_decode(file_get_contents('../data/attributes-cache/sheet.0.firstRow.json'));
+		$json = file_get_contents('../data/attributes-cache/sheet.0.firstRow.json');
+		return json_decode($json);
 	}
 }
 
