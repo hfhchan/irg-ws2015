@@ -16,10 +16,20 @@ class WSCharacter {
 
 		// Remove PUA
 		$this->data[Workbook::IDS] = strtr($this->data[Workbook::IDS], [
-			codepointToChar('U+E832') => codepointToChar('U+9FB8')
+			codepointToChar('U+E832') => codepointToChar('U+9FB8'),
+			'_xD876_' => ''
 		]);
 	}
 	
+	public function getSources() {
+		foreach (Workbook::SOURCE as $source) {
+			if (!empty($this->data[$source])) {
+				return $this->data[$source];
+			}
+		}
+		return '';
+	}
+
 	public function getRadicalStroke() {
 		if (strpos($this->data[Workbook::RADICAL], '.1') !== false) {
 			$rad = substr($this->data[Workbook::RADICAL], 0, -2);
@@ -153,6 +163,109 @@ class WSCharacter {
 		if (!$instance)
 			$instance = new DBProcessedInstance();
 		return $instance->setReviewedAttributes($this->data[0]);
+	}
+
+	public function renderPDAM2_2() {
+		$class = 'pdam2_2';
+		$pdam22 = file_get_contents('../data/charts/pdam2.2/map.txt');
+		$pdam22_map = explode("\n", $pdam22);
+		$source = $this->getSources();
+		foreach ($pdam22_map as $row) {
+			if (strpos($row, $source) !== false) {
+				$codepoint = substr($row, 0, 5);
+				break;
+			}
+		}
+		
+		if (!isset($codepoint)) {
+			if ($this->sheet == 0) {
+				echo '<span style="color:red">No pic in PDAM2.2</div>';
+			}
+			return;
+		}
+
+		$filename = 'cache/' . 'canvas' . $this->data[0] . $class . '.png';
+		if (file_exists($filename)) {
+?>
+<div class="<?=htmlspecialchars($class)?>"><img src="<?=html_safe($filename)?>"></div>
+<?
+			return;
+		}
+		$suffix = rand(10000,99999);
+
+		Log::add('Render PDAM2.2 Cutting Start ' . $this->data[0]);
+
+		$decimal = hexdec($codepoint) - hexdec('30000');
+		$span = 1;
+		if ($decimal > hexdec('867')) {
+			$decimal++;
+			$span = 2;
+		}
+		$page = 116 + floor($decimal / 80);
+		$col = floor($decimal / 20) % 4;
+		$row = $decimal % 20;
+
+		$offset_left = 193 + 310 * $col;
+		if (($page % 2) === 1) {
+			$offset_left += 90;
+		}
+		$offset_top = 222 + 88.5 * $row;
+		$width = 300;
+		$height = ($decimal === hexdec('867') ? '180' : '90');
+		$pg_src = 'pdam2.2/-000' . $page . '.png';
+
+?>
+<div class="<?=htmlspecialchars($class)?>"><canvas id=canvas<?=$this->data[0]?>-<?=$suffix?> width=577 height=93></canvas></div>
+<script>
+window.delay = window.delay || 0;
+(function(delay) {
+	var imagecolorat = function(pix, x, y, width) {
+		var offset = y * width + x;
+		return [pix[offset * 4], pix[offset * 4 + 1], pix[offset * 4 + 2]];
+	}
+	var canvas2 = document.getElementById('canvas<?=$this->data[0]?>-<?=$suffix?>');
+	var ctx2    = canvas2.getContext('2d');
+
+	window.delay += 50;
+	window.setTimeout(function() {
+
+		var image   = new Image();
+		image.src = '../data/charts/' + <?=json_encode($pg_src)?>;
+		image.onload = function() {
+			var canvas = document.createElement('canvas'),
+				ctx = canvas.getContext('2d');
+
+			var width = image.naturalWidth;
+			var height = image.naturalHeight;
+			canvas.width = width;
+			canvas.height = height;
+			ctx.drawImage(image, 0, 0);
+
+			var left = <?=$offset_left?>;
+			var top = <?=$offset_top?>;
+			var new_width = <?=$width?>;
+			var new_height = <?=$height?>;
+
+			canvas2.width = new_width;
+			canvas2.height = new_height;
+			ctx2.drawImage(image, left, top, new_width, new_height, 0, 0, new_width, new_height);
+
+			window.setTimeout(function() {
+				var imgAsDataURL = canvas2.toDataURL("image/png");
+				$.post('list.php', {
+					'store': "canvas<?=$this->data[0]?><?=$class?>.png",
+					"data": imgAsDataURL
+				});
+			}, 300);
+
+			image.src = 'about:blank';
+			canvas = null;
+		}
+	}, delay);
+})(window.delay);
+</script>
+<?
+		Log::add('Render PDAM2.2 Cutting End ' . $this->data[0]);
 	}
 
 	public function renderCodeChartCutting($class = 'ws2015_cutting', $start=280, $end = 1540, $width=577) {

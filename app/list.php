@@ -29,7 +29,7 @@ $ids_cache = new IDSCache();
 <!doctype html>
 <meta charset=utf-8>
 <meta name=viewport content="width=initial-width,initial-scale=1">
-<title>Henry Chan Comments | WS2015v4.0</title>
+<title>Henry Chan Comments | WS2015v5.0</title>
 <style>
 [hidden]{display:none}
 body{font-family:Arial, "Microsoft Jhenghei",sans-serif;margin:0;-webkit-text-size-adjust:none;-moz-text-size-adjust: none;}
@@ -56,18 +56,19 @@ form{margin:0}
 
 .sheet-1{background:#ccc}
 .sheet-2{background:#ff0}
+
+.pdam2_2 img{max-width:100%}
 </style>
 <script src="jquery.js"></script>
 <body>
 <section class=ws2015_comments>
-	<h2>IRGN2223 IRG Working Set 2015 Version 4.0</h2>
+	<h2>IRGN2223 IRG Working Set 2015 Version 5.0</h2>
 	<p>
-		Source: Henry Chan, Gienwen CHAU (趙瑾昀)**.<br>
+		Source: Henry Chan<br>
 		Author: Henry Chan<br>
 		Type: Individual Contribution to IRG<br>
 		Date: Generated on <?=date("Y-m-d")?>
 	</p>
-	<p>The majority of this list is not endorsed by Mr. Chau.</p>
 <?
 $list = DBComments::getList(true);
 $type = array_map(function($cm) {
@@ -127,16 +128,19 @@ $chunks['UNIFICATION'] = array_filter($chunks['UNIFICATION'], function($cm) use 
 	}
 	return true;
 });
-$chunks['UNIFICATION_LOOSE'] = array_filter($chunks['UNIFICATION_LOOSE'], function($cm) use ($keywords, &$chunks_added, &$chunks_keyword) {
-	if (isset($keywords[ $cm->sn ])) {
-		foreach ($keywords[ $cm->sn ] as $keyword) {
-			$chunks_keyword['UNIFICATION (' .  $keyword . ')'][] = $cm;
-			$chunks_added[$keyword . '|' . $cm->sn] = true;
+
+if (isset($chunks['UNIFICATION_LOOSE'])) {
+	$chunks['UNIFICATION_LOOSE'] = array_filter($chunks['UNIFICATION_LOOSE'], function($cm) use ($keywords, &$chunks_added, &$chunks_keyword) {
+		if (isset($keywords[ $cm->sn ])) {
+			foreach ($keywords[ $cm->sn ] as $keyword) {
+				$chunks_keyword['UNIFICATION (' .  $keyword . ')'][] = $cm;
+				$chunks_added[$keyword . '|' . $cm->sn] = true;
+			}
+			return false;
 		}
-		return false;
-	}
-	return true;
-});
+		return true;
+	});
+}
 $chunks['NORMALIZATION'] = array_filter($chunks['NORMALIZATION'], function($cm) use ($keywords, &$chunks_added, &$chunks_keyword) {
 	if (isset($keywords[ $cm->sn ])) {
 		foreach ($keywords[ $cm->sn ] as $keyword) {
@@ -148,12 +152,14 @@ $chunks['NORMALIZATION'] = array_filter($chunks['NORMALIZATION'], function($cm) 
 	return true;
 });
 
-foreach ($chunks['KEYWORD'] as $cm) {
-	if (!isset($chunks_added[$cm->comment . '|' . $cm->sn])) {
-		$chunks_keyword['UNIFICATION (' . $cm->comment . ')'][] = $cm;
+if (isset($chunks['KEYWORD'])) {
+	foreach ($chunks['KEYWORD'] as $cm) {
+		if (!isset($chunks_added[$cm->comment . '|' . $cm->sn])) {
+			$chunks_keyword['UNIFICATION (' . $cm->comment . ')'][] = $cm;
+		}
 	}
+	unset($chunks['KEYWORD']);
 }
-unset($chunks['KEYWORD']);
 
 $chunks = array_merge($chunks_keyword, $chunks);
 
@@ -217,6 +223,9 @@ foreach ($chunks as $type => $chunk) {
 	echo '<col width=420>';
 	echo '<thead><tr><th>Sn</th><th>Image/Source</th><th>Comment Type</th><th>Description</th></tr></thead>';
 	foreach ($chunk as $cm) {
+		if ($cm->getSN() == '01416') {
+			continue;
+		}
 
 		if ($cm->type === 'OTHER') {
 			if (strpos(strtolower($cm->comment), '** note') !== false) {
@@ -234,6 +243,7 @@ foreach ($chunks as $type => $chunk) {
 		echo '<td>';
 		$char = $character_cache->get($cm->getSN());
 		$char->renderCodeChartCutting();
+		$char->renderPDAM2_2();
 		echo '</td>';
 		echo '<td><b>';
 		if ($cm->type === 'KEYWORD') {

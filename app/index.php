@@ -249,6 +249,7 @@ if (isset($_GET['ids'])) {
 		}
 	}
 } else if (isset($_GET['id'])) {
+	$_GET['id'] = trim($_GET['id']);
 	if (!preg_match('@^[0-9]{5}$@', $_GET['id'])) {
 		throw new Exception('Invalid ID');
 	}
@@ -425,9 +426,9 @@ foreach ($data as $char) {
 <? if ($char->prev2) { ?>
 		<div><a href="<?=$char->prev2?>" id=nav_prev>&laquo;</a></div>
 <? } ?>
-		<div align=left><a href="<?=$char->prev[1]?>"><?=$char->prev[0]?></a></div>
+		<div align=left><a href="<?=$char->prev[1]?>" accesskey=p><?=$char->prev[0]?></a></div>
 		<div align=center><b><?=$char->curr?></b></div>
-		<div align=right><a href="<?=$char->next[1]?>"><?=$char->next[0]?></a></div>
+		<div align=right><a href="<?=$char->next[1]?>" accesskey=n><?=$char->next[0]?></a></div>
 <? if ($char->next2) { ?>
 		<div><a href="<?=$char->next2?>" id=nav_next>&raquo;</a></div>
 <? } ?>
@@ -517,7 +518,8 @@ foreach ($data as $char) {
 	</div>
 	
 	<? $char->renderCodeChartCutting(); ?>
-	
+	<? $char->renderPDAM2_2(); ?>
+
 	<div class=ws2015_content>
 		<section class=ws2015_left>
 <?
@@ -963,7 +965,7 @@ Log::add('Comments End');
 		echo '<thead><tr><th>Type</th><th>Description</th></tr></thead>';
 		foreach (DBComments::getAll($char->data[0]) as $cm) {
 			echo '<tr>';
-			echo '<td><b>'.htmlspecialchars($cm->type).'</b></td>';
+			echo '<td><b>v'.$cm->version.'<br>'.htmlspecialchars($cm->type).'</b></td>';
 			echo '<td>';
 
 			if ($cm->type === 'SEMANTIC_VARIANT') {

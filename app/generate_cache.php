@@ -1,4 +1,5 @@
 <?php
+die;
 
 if (isset($_POST['store'])) {
 	$data = substr($_POST['data'], strlen('data:image/png;base64,'));

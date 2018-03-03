@@ -41,11 +41,7 @@ class DBComments {
 	}
 
 	public static function getList($filter = false) {
-		if ($filter) {
-			$q = Env::$db->query('SELECT * FROM "comments" WHERE "exported" IS NULL or "exported" != 2');
-		} else {
-			$q = Env::$db->query('SELECT * FROM "comments"');
-		}
+		$q = Env::$db->query('SELECT * FROM "comments" WHERE "version" = 5');
 		$results = [];
 		while ($data = $q->fetch()) {
 			$results[] = new self($data);
@@ -53,8 +49,23 @@ class DBComments {
 		return $results;
 	}
 
+	public static function getList2($filter = false) {
+		$q = Env::$db->query('SELECT * FROM "comments" WHERE "version" = 4 AND ("type" LIKE \'NORMALIZATION%\' AND "type" NOT LIKE \'%RADICAL\')');
+		$results = [];
+		while ($data = $q->fetch()) {
+			$results[] = new self($data);
+		}
+		return $results;
+	}
+
+	public static function find($type, $content) {
+		$q = Env::$db->prepare('SELECT COUNT(*) FROM "comments" WHERE "version" = 5 AND "type" = ? AND "comment" LIKE ?');
+		$q->execute([$type, '%'.trim($content).'%']);
+		return (bool) $q->fetchColumn();
+	}
+
 	public static function getAll($sq_number) {
-		$q = Env::$db->prepare('SELECT * FROM "comments" WHERE "sn" = ?');
+		$q = Env::$db->prepare('SELECT * FROM "comments" WHERE "sn" = ? ORDER BY "version" DESC');
 		$q->execute([$sq_number]);
 		$results = [];
 		while ($data = $q->fetch()) {
@@ -64,7 +75,7 @@ class DBComments {
 	}
 
 	public static function getByKeyword($keyword) {
-		$q = Env::$db->prepare('SELECT "sn" FROM "comments" WHERE "type" = ? AND "comment" = ?');
+		$q = Env::$db->prepare('SELECT "sn" FROM "comments" WHERE "type" = ? AND "comment" = ? ORDER BY "version" DESC');
 		$q->execute(['KEYWORD', $keyword]);
 		$results = [];
 		while ($data = $q->fetch()) {
@@ -84,7 +95,7 @@ class DBComments {
 	}
 
 	public static function save($sq_number, $type, $comment) {
-		$q = Env::$db->prepare('INSERT INTO "comments" ("sn", "type", "comment") VALUES (?, ?, ?)');
-		$q->execute([$sq_number, $type, $comment]);
+		$q = Env::$db->prepare('INSERT INTO "comments" ("sn", "type", "comment", "version") VALUES (?, ?, ?, ?)');
+		$q->execute([$sq_number, $type, $comment, Workbook::VERSION]);
 	}
 }
